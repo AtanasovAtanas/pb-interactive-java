@@ -37,10 +37,8 @@ Write a program to calculate a triangle area:
 ```
 import java.util.Scanner;
 
-public class Program
-{
+public class Program {
   public static void main(String[] args) {
-    {
       Scanner scanner = new Scanner(System.in);
       double a = Double.parseDouble(scanner.nextLine());
       double h = Double.parseDouble(scanner.nextLine());
@@ -74,8 +72,7 @@ Write a program to calculate a triangle area:
 ```
 import java.util.Scanner;
 
-public class Program
-{
+public class Program {
   public static void main(String[] args) {
       // Write code here
     }
@@ -143,6 +140,7 @@ Write a program, which:
 [code-editor language=java]
 ```
 import java.util.Scanner;
+
 public class Program {
   public static void main(String[] args) {
       // Write code here
