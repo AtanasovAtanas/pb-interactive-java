@@ -1,6 +1,6 @@
 [slide]
 # Problem: Print "Hello Java"
-[code-task title="Print "Hello Java" executionStrategy="java-code" requiresInput]
+[code-task title="Print Hello Java" executionStrategy="java-code"]
 [code-editor language=java]
 ```
 public class Main {
@@ -21,7 +21,7 @@ Prints "Hello Java" on the console
 
 [slide]
 # Solution: Print "Hello Java"
-[code-task title="Print "Hello Java" executionStrategy="java-code" requiresInput]
+[code-task title="Print Hello Java" executionStrategy="java-code"]
 [code-editor language=java]
 ```
 public class Main {
@@ -42,7 +42,7 @@ Prints "Hello Java" on the console
 
 [slide]
 # Problem: Calculate and Print 5 * 5
-[code-task title="Calculate and Print 5 * 5" executionStrategy="java-code" requiresInput]
+[code-task title="Calculate and Print 5 * 5" executionStrategy="java-code"]
 [code-editor language=java]
 ```
 public class Main {
@@ -65,7 +65,7 @@ Write a Java program, which:
 
 [slide]
 # Solution: Calculate and Print 5 * 5
-[code-task title="Calculate and Print 5 * 5" executionStrategy="java-code" requiresInput]
+[code-task title="Calculate and Print 5 * 5" executionStrategy="java-code"]
 [code-editor language=java]
 ```
 public class Main {
@@ -87,7 +87,7 @@ Write a Java program, which:
 
 [slide]
 # Problem: Name and Expression
-[code-task title="Name and Expression" executionStrategy="java-code" requiresInput]
+[code-task title="Name and Expression" executionStrategy="java-code"]
 [code-editor language=java]
 ```
 public class Main {
@@ -114,12 +114,12 @@ Write a program to print your name at the first line and calculate and print the
 
 [slide]
 # Solution: Name and Expression
-[code-task title="Name and Expression" executionStrategy="java-code" requiresInput]
+[code-task title="Name and Expression" executionStrategy="java-code"]
 [code-editor language=java]
 ```
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Maria");
+        System.out.println("Catlyn");
         System.out.println(5 + 3);
     }
 }
@@ -141,7 +141,7 @@ Write a program to print your name at the first line and calculate and print the
 
 [slide]
 # Problem: Calculations
-[code-task title="Calculations" executionStrategy="java-code" requiresInput]
+[code-task title="Calculations" executionStrategy="java-code"]
 [code-editor language=java]
 ```
 public class Main {
@@ -164,7 +164,7 @@ Write a program, which calculates and prints the value of the following express
 
 [slide]
 # Solution: Calculations
-[code-task title="Calculations" executionStrategy="java-code" requiresInput]
+[code-task title="Calculations" executionStrategy="java-code"]
 [code-editor language=java]
 ```
 public class Main {
@@ -189,7 +189,7 @@ Write a program, which calculates and prints the value of the following express
 
 [slide]
 # Problem: Square of 7 * 7 Stars
-[code-task title="Square of 7 * 7 Stars" executionStrategy="java-code" requiresInput]
+[code-task title="Square of 7 * 7 Stars" executionStrategy="java-code"]
 [code-editor language=java]
 ```
 public class Main {
@@ -217,7 +217,7 @@ Prints a square of 7 * 7 stars like this:
 
 [slide]
 # Solution: Square of 7 * 7 Stars
-[code-task title="Square of 7 * 7 Stars" executionStrategy="java-code" requiresInput]
+[code-task title="Square of 7 * 7 Stars" executionStrategy="java-code"]
 [code-editor language=java]
 ```
 public class Main {
