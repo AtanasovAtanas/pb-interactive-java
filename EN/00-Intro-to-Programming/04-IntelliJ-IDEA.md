@@ -17,3 +17,4 @@ https://www.jetbrains.com/idea/download/
 The project explorer holds the project files \[Alt + 1\]
 
 The project source code consists of .java files (Java classes)
+[/slide]
