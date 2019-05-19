@@ -1,7 +1,7 @@
 [slide]
 # Live Stream
-[live-stream id="t-LAiBAzmZA" /]
+[live-stream id="t-LAiBAzmZA"/]
 
-[slido id="u9ilfpv3" /]
+[slido id="u9ilfpv3"/]
 
 [/slide]
