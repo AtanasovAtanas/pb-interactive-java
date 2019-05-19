@@ -5,11 +5,11 @@ Create new Console Application in IntelliJ IDEA: [New Project] -> [Java] -> [Tem
 # Configuring JDK in IntelliJ IDEA
 If no JDK is still configured, you should configure it:
 
-[image src="https://github.com/AlenPaunov/pb-interactive-course/blob/00-java-intro-to-programming/assets/intro-to-programming-4.png"/]
+[image src="https://github.com/AlenPaunov/pb-interactive-java/assets/intro-to-programming-4.png"/]
 
 Click [New] and locate your JDK installation:
 
-[image src="https://github.com/AlenPaunov/pb-interactive-course/blob/00-java-intro-to-programming/assets/intro-to-programming-5.png"/]
+[image src="https://github.com/AlenPaunov/pb-interactive-java/assets/intro-to-programming-5.png"/]
 [/slide]
 
 [slide]

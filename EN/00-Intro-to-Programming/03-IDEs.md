@@ -48,6 +48,6 @@ Alternative IDE (online)
 # Online Coding Environments (IDEs)
 The "Compile Java" Online IDE: https://compilejava.net
 
-[image src="https://github.com/AlenPaunov/pb-interactive-course/blob/00-java-intro-to-programming/assets/intro-to-programming-2.png"/]
+[image src="https://github.com/AlenPaunov/pb-interactive-java/assets/intro-to-programming-2.png"/]
 
 [/slide]

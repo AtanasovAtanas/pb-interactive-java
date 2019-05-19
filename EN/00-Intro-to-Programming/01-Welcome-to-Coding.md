@@ -58,7 +58,7 @@ System.out.println("Size = " + size);
 System.out.println("Area = " + size * size);
 ```
 
-[image src="https://github.com/AlenPaunov/pb-interactive-course/blob/00-java-intro-to-programming/assets/intro-to-programming-1.png"/]
+[image src="https://github.com/AlenPaunov/pb-interactive-java/assets/intro-to-programming-1.png"/]
 [/slide]
 
 [slide]
