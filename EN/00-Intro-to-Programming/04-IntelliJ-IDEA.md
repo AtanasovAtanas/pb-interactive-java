@@ -5,7 +5,7 @@ IntelliJ IDEA is a powerful IDE for Java developers
 Runs in Windows, Linux and macOS
 
 
-[image src="https://github.com/AlenPaunov/pb-interactive-java/assets/intro-to-programming-3.png"/]
+[image src="https://github.com/AlenPaunov/pb-interactive-java/blob/master/assets/intro-to-programming-3.png"/]
 [/slide]
 
 [slide]
