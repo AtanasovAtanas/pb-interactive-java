@@ -1,4 +1,5 @@
 [slide]
+# IntelliJ IDEA
 # What is IntelliJ IDEA?
 IntelliJ IDEA is a powerful IDE for Java developers
 

@@ -1,4 +1,5 @@
 [slide]
+# Welcome to programming
 # What is Coding?
 **Coding** means to give **commands** to tell the computer what to do
 
