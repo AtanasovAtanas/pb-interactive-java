@@ -3,7 +3,6 @@
 [code-task title="Area of Triangle" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```
-import java.util.Scanner;
 
 public class Program
 {
@@ -35,11 +34,11 @@ Write a program to calculate a triangle area:
 [code-task title="Area of Triangle" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```
-import java.util.Scanner;
 
-public class Program {
+public class Program
+{
   public static void main(String[] args) {
-      Scanner scanner = new Scanner(System.in);
+    {
       double a = Double.parseDouble(scanner.nextLine());
       double h = Double.parseDouble(scanner.nextLine());
       double area = (a * h) / 2;
@@ -70,9 +69,9 @@ Write a program to calculate a triangle area:
 [code-task title="Four Operations" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```
-import java.util.Scanner;
 
-public class Program {
+public class Program
+{
   public static void main(String[] args) {
       // Write code here
     }
@@ -102,11 +101,10 @@ Write a program, which:
 [code-task title="Four Operations" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```
-import java.util.Scanner;
 
-public class Program {
+public class Program
+{
   public static void main(String[] args) {
-      Scanner scanner = new Scanner(System.in);
       double num1 = Double.parseDouble(scanner.nextLine());
       double num2 = Double.parseDouble(scanner.nextLine());
       System.out.printf("%f + %f = %f%n", num1, num2, num1 + num2);
@@ -139,9 +137,9 @@ Write a program, which:
 [code-task title="Days to Minutes" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```
-import java.util.Scanner;
 
-public class Program {
+public class Program
+{
   public static void main(String[] args) {
       // Write code here
     }
@@ -171,11 +169,10 @@ Write a program to convert from days to minutes:
 [code-task title="Days to Minutes" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```
-import java.util.Scanner;
 
-public class Program {
+public class Program
+{
   public static void main(String[] args) {
-      Scanner scanner = new Scanner(System.in);
       int days = Integer.parseInt(scanner.nextLine());
       int hours = days * 24;
       int minutes = hours * 60;
@@ -207,9 +204,9 @@ Write a program to convert from days to minutes:
 [code-task title="Currency Converter" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```
-import java.util.Scanner;
 
-public class Program {
+public class Program
+{
   public static void main(String[] args) {
       // Write code here
     }
@@ -239,10 +236,10 @@ Write a program to convert from USD to EUR:
 [code-task title="Currency Converter" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```
-import java.util.Scanner;
-public class Program {
+
+public class Program
+{
   public static void main(String[] args) {
-      Scanner scanner = new Scanner(System.in);
       double dollars = Double.parseDouble(scanner.nextLine());
       double euros = dollars * 0.88; 
       System.out.println(euros);
@@ -273,9 +270,9 @@ Write a program to calculate the speed by time and distance:
 [code-task title="Circle Area and Perimeter" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```
-import java.util.Scanner;
- 
-public class Program {
+
+public class Program
+{
   public static void main(String[] args) {
       // Write code here
     }
@@ -304,11 +301,10 @@ Write a program to calculate a circle area and perimeter:
 [code-task title="Circle Area and Perimeter" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```
-import java.util.Scanner;
 
-public class Program {
+public class Program
+{
   public static void main(String[] args) {
-      Scanner scanner = new Scanner(System.in);
       double radius = Double.parseDouble(scanner.nextLine());
       double area = radius * radius * Math.PI;
       double perimeter = 2 * Math.PI * radius;
@@ -340,7 +336,6 @@ Write a program to calculate a circle area and perimeter:
 [code-task title="Inches to Centimeters" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```
-import java.util.Scanner;
 
 public class Program
 {
@@ -373,11 +368,10 @@ Write a program to convert from inches to centimeters:
 [code-task title="Inches to Centimeters" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```
-import java.util.Scanner;
 
-public class Program {
+public class Program
+{
   public static void main(String[] args) {
-      Scanner scanner = new Scanner(System.in);
       double inches = Double.parseDouble(scanner.nextLine());
       double centimeters = inches * 2.54;
       System.out.println(centimeters);
@@ -408,9 +402,9 @@ Write a program to convert from inches to centimeters:
 [code-task title="Calculate Speed" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```
-import java.util.Scanner;
 
-public class Program {
+public class Program
+{
   public static void main(String[] args) {
     // Write code here
   }
@@ -439,10 +433,10 @@ Write a program to calculate the speed by time and distance:
 [code-task title="Calculate Speed" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```
-import java.util.Scanner;
-public class Program {
+
+public class Program
+{
   public static void main(String[] args) {
-      Scanner scanner = new Scanner(System.in);
       double distance = Double.parseDouble(scanner.nextLine());
       double time = Double.parseDouble(scanner.nextLine());
       double speed = distance / time;
@@ -474,9 +468,9 @@ Write a program to calculate the speed by time and distance:
 [code-task title="Person Info" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```
-import java.util.Scanner; 
 
-public class Program {
+public class Program
+{
   public static void main(String[] args) {
       // Write code here
     }
@@ -504,11 +498,10 @@ Write a program, which:
 [code-task title="Person Info" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```
-import java.util.Scanner;
 
-public class Program {
+public class Program
+{
   public static void main(String[] args) {
-      Scanner scanner = new Scanner(System.in);
       String firstName = scanner.nextLine();
       String lastName = scanner.nextLine();
       String country = scanner.nextLine();
@@ -539,9 +532,9 @@ Write a program, which:
 [code-task title="Town Info" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```
-import java.util.Scanner;
 
-public class Program {
+public class Program
+{
   public static void main(String[] args) {
       // Write code here
     }
@@ -569,11 +562,10 @@ Write a program, which:
 [code-task title="Town Info" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```
-import java.util.Scanner;
 
-public class Program {
+public class Program
+{
   public static void main(String[] args) {
-      Scanner scanner = new Scanner(System.in);
       String townName = scanner.nextLine();
       int population = Integer.parseInt(scanner.nextLine());
       int area = Integer.parseInt(scanner.nextLine()); 

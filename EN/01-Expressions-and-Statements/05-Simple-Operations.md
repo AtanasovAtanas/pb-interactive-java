@@ -3,11 +3,9 @@
 [code-task title="Greeting" executionStrategy="java-code" requiresInput]
 [code-editor language="java"]
 ```
-import java.util.Scanner;
-
-public class Program {
+public class Program
+{
   public static void main(String[] args) {
-      Scanner scanner = new Scanner(System.in);
       // Write code here
   }
 }
@@ -28,11 +26,9 @@ Write a **program**, which:
 [code-task title="Greeting" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```
-import java.util.Scanner;
-
-public class Program {
+public class Program
+{
   public static void main(String[] args) {
-    Scanner scanner = new Scanner(System.in);
     String name = scanner.nextLine();
     System.out.print("Hello, ");
     System.out.println(name);
