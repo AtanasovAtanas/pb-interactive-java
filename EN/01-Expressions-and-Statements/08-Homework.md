@@ -1,58 +1,31 @@
 [slide]
-# Problem: Area of Triangle
-[code-task title="Area of Triangle" executionStrategy="java-code" requiresInput]
-[code-editor language=java]
-```
+# Homework
+Now, it's your turn to practice what you have learned in the training session.
 
-public class Program
-{
-  public static void main(String[] args) {
-      // Write code here
-    }
-}
-```
-[/code-editor]
-[task-description]
-Write a program to calculate a triangle area:
-
-  * Read from input a side **a** and height for that side **ha**
-  * Calculate the area of a triangle by the side and height
-  * Print the **area**, formatted to the **2nd digit** after decimal point
-[/task-description]
-[code-io /]
-[/code-task]
-
-## Sample Input and Output
-
-|       Input       | Output |
-|-------------------|--------|
-|5<br>10|25,00 | 
+We have prepared some simple problems for you to solve. If you struggle you can see the solution after each problem. 
 [/slide]
 
 [slide]
-# Solution: Area of Triangle
-[code-task title="Area of Triangle" executionStrategy="java-code" requiresInput]
+# Problem: Calculate Speed
+[code-task title="Calculate Speed" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
-```
+```java
+import java.util.Scanner;
 
-public class Program
-{
+public class Program {
   public static void main(String[] args) {
-    {
-      double a = Double.parseDouble(scanner.nextLine());
-      double h = Double.parseDouble(scanner.nextLine());
-      double area = (a * h) / 2;
-      System.out.printf("%.2f", area);
-    }
+    // Write code here
+  }
 }
 ```
 [/code-editor]
 [task-description]
-Write a program to calculate a triangle area:
 
-  * Read from input a side **a** and height for that side **ha**
-  * Calculate the area of a triangle by the side and height
-  * Print the **area**, formatted to the **2nd digit** after decimal point
+Write a program to calculate the speed by time and distance:
+  * Read 2 floating-point numbers: distance and time
+  * Calculate the speed needed to travel a given distance for given time
+  * Print the calculated result
+
 [/task-description]
 [code-io /]
 [/code-task]
@@ -61,29 +34,34 @@ Write a program to calculate a triangle area:
 
 |       Input       | Output |
 |-------------------|--------|
-|5<br>10|25,00 | 
+|15|7.5| 
+|2|| 
 [/slide]
 
 [slide]
-# Problem: Four Operations
-[code-task title="Four Operations" executionStrategy="java-code" requiresInput]
+# Solution: Calculate Speed
+[code-task title="Calculate Speed" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
-```
+```java
+import java.util.Scanner;
 
-public class Program
-{
+public class Program {
   public static void main(String[] args) {
-      // Write code here
+      Scanner scanner = new Scanner(System.in);
+      double distance = Double.parseDouble(scanner.nextLine());
+      double time = Double.parseDouble(scanner.nextLine());
+      double speed = distance / time;
+      System.out.println(speed);
     }
 }
 ```
 [/code-editor]
 [task-description]
-Write a program, which:
 
-  * **Reads** 2 real numbers from the **console**
-  * Performs **4 arithmetic operations** on the obtained 2 numbers, in the following order: **+, -, *, /**
-  * **Formats** and **prints** the results like this example:
+Write a program to calculate the speed by time and distance:
+  * Read 2 floating-point numbers: distance and time
+  * Calculate the speed needed to travel a given distance for given time
+  * Print the calculated result
 
 [/task-description]
 [code-io /]
@@ -93,120 +71,18 @@ Write a program, which:
 
 |       Input       | Output |
 |-------------------|--------|
-|5<br>10|5 + 10 = 15<br>5 - 10 = -5<br>5 * 10 = 50<br>5 / 10 = 0.5| 
-[/slide]
-
-[slide]
-# Solution: Four Operations
-[code-task title="Four Operations" executionStrategy="java-code" requiresInput]
-[code-editor language=java]
-```
-
-public class Program
-{
-  public static void main(String[] args) {
-      double num1 = Double.parseDouble(scanner.nextLine());
-      double num2 = Double.parseDouble(scanner.nextLine());
-      System.out.printf("%f + %f = %f%n", num1, num2, num1 + num2);
-      System.out.printf("%f - %f = %f%n", num1, num2, num1 - num2);
-      System.out.printf("%f * %f = %f%n", num1, num2, num1 * num2);
-      System.out.printf("%f / %f = %f%n", num1, num2, num1 / num2);
-    }
-}
-```
-[/code-editor]
-[task-description]
-Write a program, which:
-
-  * **Reads** 2 real numbers from the **console**
-  * Performs **4 arithmetic operations** on the obtained 2 numbers, in the following order: **+, -, *, /**
-  * **Formats** and **prints** the results like this example:
-[/task-description]
-[code-io /]
-[/code-task]
-
-## Sample Input and Output
-
-|       Input       | Output |
-|-------------------|--------|
-|5<br>10|5 + 10 = 15<br>5 - 10 = -5<br>5 * 10 = 50<br>5 / 10 = 0.5| 
-[/slide]
-
-[slide]
-# Problem: Days to Minutes
-[code-task title="Days to Minutes" executionStrategy="java-code" requiresInput]
-[code-editor language=java]
-```
-
-public class Program
-{
-  public static void main(String[] args) {
-      // Write code here
-    }
-}
-```
-[/code-editor]
-[task-description]
-Write a program to convert from days to minutes:
-
-  * Read a single **integer** (the **days** to be converted)
-  * Convert the days to minutes (use calculations)
-  * Print the **minutes**
-[/task-description]
-[code-io /]
-[/code-task]
-
-## Sample Input and Output
-
-|       Input       | Output |
-|-------------------|--------|
-|2|2880|
-|5|7200|
-[/slide]
-
-[slide]
-# Solution: Days to Minutes
-[code-task title="Days to Minutes" executionStrategy="java-code" requiresInput]
-[code-editor language=java]
-```
-
-public class Program
-{
-  public static void main(String[] args) {
-      int days = Integer.parseInt(scanner.nextLine());
-      int hours = days * 24;
-      int minutes = hours * 60;
-      System.out.println(minutes);
-    }
-}
-```
-[/code-editor]
-[task-description]
-Write a program to convert from days to minutes:
-
-  * Read a single **integer** (the **days** to be converted)
-  * Convert the days to minutes (use calculations)
-  * Print the **minutes**
-[/task-description]
-[code-io /]
-[/code-task]
-
-## Sample Input and Output
-
-|       Input       | Output |
-|-------------------|--------|
-|2|2880|
-|5|7200|
+|15|7.5| 
+|2|| 
 [/slide]
 
 [slide]
 # Problem: Currency Converter
 [code-task title="Currency Converter" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
-```
+```java
+import java.util.Scanner;
 
-public class Program
-{
+public class Program {
   public static void main(String[] args) {
       // Write code here
     }
@@ -214,11 +90,12 @@ public class Program
 ```
 [/code-editor]
 [task-description]
-Write a program to convert from USD to EUR:
 
+Write a program to convert from USD to EUR:
   * Read a **floating-point number**: the **dollars** to be converted 
   * Convert dollars to euro (use fixed rate of dollars to euro: **0.88**)
   * Print the converted value in **euro**
+
 [/task-description]
 [code-io /]
 [/code-task]
@@ -235,11 +112,12 @@ Write a program to convert from USD to EUR:
 # Solution: Currency Converter
 [code-task title="Currency Converter" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
-```
+```java
+import java.util.Scanner;
 
-public class Program
-{
+public class Program {
   public static void main(String[] args) {
+      Scanner scanner = new Scanner(System.in);
       double dollars = Double.parseDouble(scanner.nextLine());
       double euros = dollars * 0.88; 
       System.out.println(euros);
@@ -248,11 +126,12 @@ public class Program
 ```
 [/code-editor]
 [task-description]
-Write a program to calculate the speed by time and distance:
 
-  * Read 2 floating-point numbers: distance and time
-  * Calculate the speed needed to travel a given distance for given time
-  * Print the calculated result
+Write a program to convert from USD to EUR:
+  * Read a **floating-point number**: the **dollars** to be converted 
+  * Convert dollars to euro (use fixed rate of dollars to euro: **0.88**)
+  * Print the converted value in **euro**
+
 [/task-description]
 [code-io /]
 [/code-task]
@@ -266,13 +145,13 @@ Write a program to calculate the speed by time and distance:
 [/slide]
 
 [slide]
-# Problem: Circle Area and Perimeter
-[code-task title="Circle Area and Perimeter" executionStrategy="java-code" requiresInput]
+# Problem: Area of Triangle
+[code-task title="Area of Triangle" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
-```
+```java
+import java.util.Scanner;
 
-public class Program
-{
+public class Program {
   public static void main(String[] args) {
       // Write code here
     }
@@ -280,11 +159,13 @@ public class Program
 ```
 [/code-editor]
 [task-description]
-Write a program to calculate a circle area and perimeter:
 
-  * Read a floating-point number: the radius of a circle
-  * Calculate the area and perimeter of a circle
-  * Print the calculated values
+Write a program to calculate a triangle area:
+
+  * Read from input a side **a** and height for that side **ha**
+  * Calculate the area of a triangle by the side and height
+  * Print the **area**, formatted to the **2nd digit** after decimal point
+
 [/task-description]
 [code-io /]
 [/code-task]
@@ -293,18 +174,238 @@ Write a program to calculate a circle area and perimeter:
 
 |       Input       | Output |
 |-------------------|--------|
-|7|Area = 153.9380400259<br>Perimeter = 43.9822971502571|
+|5|25.00 | 
+|10| | 
+[/slide]
+
+[slide]
+# Solution: Area of Triangle
+[code-task title="Area of Triangle" executionStrategy="java-code" requiresInput]
+[code-editor language=java]
+```java
+import java.util.Scanner;
+
+public class Program {
+  public static void main(String[] args) {
+      Scanner scanner = new Scanner(System.in);
+      double a = Double.parseDouble(scanner.nextLine());
+      double h = Double.parseDouble(scanner.nextLine());
+      double area = (a * h) / 2;
+      System.out.printf("%.2f", area);
+    }
+}
+```
+[/code-editor]
+[task-description]
+
+Write a program to calculate a triangle area:
+
+  * Read from input a side **a** and height for that side **ha**
+  * Calculate the area of a triangle by the side and height
+  * Print the **area**, formatted to the **2nd digit** after decimal point
+
+[/task-description]
+[code-io /]
+[/code-task]
+
+## Sample Input and Output
+
+|       Input       | Output |
+|-------------------|--------|
+|5|25.00| 
+|10|| 
+[/slide]
+
+[slide]
+# Problem: Four Operations
+[code-task title="Four Operations" executionStrategy="java-code" requiresInput]
+[code-editor language=java]
+```java
+import java.util.Scanner;
+
+public class Program {
+  public static void main(String[] args) {
+      // Write code here
+    }
+}
+```
+[/code-editor]
+[task-description]
+
+Write a program, which:
+  * **Reads** 2 real numbers from the **console**
+  * Performs **4 arithmetic operations** on the obtained 2 numbers, in the following order: **+, -, *, /**
+  * **Formats** and **prints** the results like this example:
+
+[/task-description]
+[code-io /]
+[/code-task]
+
+## Sample Input and Output
+
+|       Input       | Output |
+|-------------------|--------|
+|5|5.00 + 10.00 = 15.00| 
+|10|5.00 - 10.00 = -5.00|
+||5.00 * 10.00 = 50.00|
+||5.00 / 10.00 = 0.50|
+[/slide]
+
+[slide]
+# Solution: Four Operations
+[code-task title="Four Operations" executionStrategy="java-code" requiresInput]
+[code-editor language=java]
+```java
+import java.util.Scanner;
+
+public class Program {
+  public static void main(String[] args) {
+      Scanner scanner = new Scanner(System.in);
+      double num1 = Double.parseDouble(scanner.nextLine());
+      double num2 = Double.parseDouble(scanner.nextLine());
+      System.out.printf("%.2f + %.2f = %.2f%n", num1, num2, num1 + num2);
+      System.out.printf("%.2f - %.2f = %.2f%n", num1, num2, num1 - num2);
+      System.out.printf("%.2f * %.2f = %.2f%n", num1, num2, num1 * num2);
+      System.out.printf("%.2f / %.2f = %.2f%n", num1, num2, num1 / num2);
+    }
+}
+```
+[/code-editor]
+[task-description]
+
+Write a program, which:
+  * **Reads** 2 real numbers from the **console**
+  * Performs **4 arithmetic operations** on the obtained 2 numbers, in the following order: **+, -, *, /**
+  * **Formats** and **prints** the results like this example:
+
+[/task-description]
+[code-io /]
+[/code-task]
+
+## Sample Input and Output
+
+|       Input       | Output |
+|-------------------|--------|
+|5|5.00 + 10.00 = 15.00| 
+|10|5.00 - 10.00 = -5.00|
+||5.00 * 10.00 = 50.00|
+||5.00 / 10.00 = 0.50|
+[/slide]
+
+[slide]
+# Problem: Days to Minutes
+[code-task title="Days to Minutes" executionStrategy="java-code" requiresInput]
+[code-editor language=java]
+```java
+import java.util.Scanner;
+
+public class Program {
+  public static void main(String[] args) {
+      // Write code here
+    }
+}
+```
+[/code-editor]
+[task-description]
+
+Write a program to convert from days to minutes:
+  * Read a single **integer** (the **days** to be converted)
+  * Convert the days to minutes (use calculations)
+  * Print the **minutes**
+
+[/task-description]
+[code-io /]
+[/code-task]
+
+## Sample Input and Output
+
+|       Input       | Output |
+|-------------------|--------|
+|2|2880|
+|5|7200|
+[/slide]
+
+[slide]
+# Solution: Days to Minutes
+[code-task title="Days to Minutes" executionStrategy="java-code" requiresInput]
+[code-editor language=java]
+```java
+import java.util.Scanner;
+
+public class Program {
+  public static void main(String[] args) {
+      Scanner scanner = new Scanner(System.in);
+      int days = Integer.parseInt(scanner.nextLine());
+      int hours = days * 24;
+      int minutes = hours * 60;
+      System.out.println(minutes);
+    }
+}
+```
+[/code-editor]
+[task-description]
+
+Write a program to convert from days to minutes:
+  * Read a single **integer** (the **days** to be converted)
+  * Convert the days to minutes (use calculations)
+  * Print the **minutes**
+
+[/task-description]
+[code-io /]
+[/code-task]
+
+## Sample Input and Output
+
+|       Input       | Output |
+|-------------------|--------|
+|2|2880|
+|5|7200|
+[/slide]
+
+[slide]
+# Problem: Circle Area and Perimeter
+[code-task title="Circle Area and Perimeter" executionStrategy="java-code" requiresInput]
+[code-editor language=java]
+```java
+import java.util.Scanner;
+ 
+public class Program {
+  public static void main(String[] args) {
+      // Write code here
+    }
+}
+```
+[/code-editor]
+[task-description]
+
+Write a program to calculate a circle area and perimeter:
+  * Read a floating-point number: the radius of a circle
+  * Calculate the area and perimeter of a circle
+  * Print the calculated values
+
+[/task-description]
+[code-io /]
+[/code-task]
+
+## Sample Input and Output
+
+|       Input       | Output |
+|-------------------|--------|
+|7|Area = 153.938040|
+||Perimeter = 43.982297|
+
 [/slide]
 
 [slide]
 # Solution: Circle Area and Perimeter
 [code-task title="Circle Area and Perimeter" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
-```
+```java
+import java.util.Scanner;
 
-public class Program
-{
+public class Program {
   public static void main(String[] args) {
+      Scanner scanner = new Scanner(System.in);
       double radius = Double.parseDouble(scanner.nextLine());
       double area = radius * radius * Math.PI;
       double perimeter = 2 * Math.PI * radius;
@@ -315,11 +416,12 @@ public class Program
 ```
 [/code-editor]
 [task-description]
-Write a program to calculate a circle area and perimeter:
 
+Write a program to calculate a circle area and perimeter:
   * Read a floating-point number: the radius of a circle
   * Calculate the area and perimeter of a circle
   * Print the calculated values
+
 [/task-description]
 [code-io /]
 [/code-task]
@@ -328,149 +430,18 @@ Write a program to calculate a circle area and perimeter:
 
 |       Input       | Output |
 |-------------------|--------|
-|7|Area = 153.9380400259<br>Perimeter = 43.9822971502571|
+|7|Area = 153.938040|
+||Perimeter = 43.982297|
 [/slide]
-
-[slide]
-# Problem: Inches to Centimeters
-[code-task title="Inches to Centimeters" executionStrategy="java-code" requiresInput]
-[code-editor language=java]
-```
-
-public class Program
-{
-  public static void main(String[] args) {
-      // Write code here
-    }
-}
-```
-[/code-editor]
-[task-description]
-Write a program to convert from inches to centimeters:
-
-  * Read a floating-point number: the **inches** to be converted
-  * Convert the inches to **centimeters** (find the formula in Internet)
-  * Print the result 
-[/task-description]
-[code-io /]
-[/code-task]
-
-## Sample Input and Output
-
-|       Input       | Output |
-|-------------------|--------|
-|21|53.34| 
-|71|180.34|
-[/slide]
-
-[slide]
-# Solution: Inches to Centimeters
-[code-task title="Inches to Centimeters" executionStrategy="java-code" requiresInput]
-[code-editor language=java]
-```
-
-public class Program
-{
-  public static void main(String[] args) {
-      double inches = Double.parseDouble(scanner.nextLine());
-      double centimeters = inches * 2.54;
-      System.out.println(centimeters);
-    }
-}
-```
-[/code-editor]
-[task-description]
-Write a program to convert from inches to centimeters:
-
-  * Read a floating-point number: the **inches** to be converted
-  * Convert the inches to **centimeters** (find the formula in Internet)
-  * Print the result 
-[/task-description]
-[code-io /]
-[/code-task]
-
-## Sample Input and Output
-
-|       Input       | Output |
-|-------------------|--------|
-|21|53.34 | 
-|71|180.34|
-[/slide]
-
-[slide]
-# Problem: Calculate Speed
-[code-task title="Calculate Speed" executionStrategy="java-code" requiresInput]
-[code-editor language=java]
-```
-
-public class Program
-{
-  public static void main(String[] args) {
-    // Write code here
-  }
-}
-```
-[/code-editor]
-[task-description]
-Write a program to calculate the speed by time and distance:
-
-  * Read 2 floating-point numbers: distance and time
-  * Calculate the speed needed to travel a given distance for given time
-  * Print the calculated result
-[/task-description]
-[code-io /]
-[/code-task]
-
-## Sample Input and Output
-
-|       Input       | Output |
-|-------------------|--------|
-|15<br>2|7.5| 
-[/slide]
-
-[slide]
-# Solution: Calculate Speed
-[code-task title="Calculate Speed" executionStrategy="java-code" requiresInput]
-[code-editor language=java]
-```
-
-public class Program
-{
-  public static void main(String[] args) {
-      double distance = Double.parseDouble(scanner.nextLine());
-      double time = Double.parseDouble(scanner.nextLine());
-      double speed = distance / time;
-      System.out.println(speed);
-    }
-}
-```
-[/code-editor]
-[task-description]
-Write a program to calculate the speed by time and distance:
-
-  * Read 2 floating-point numbers: distance and time
-  * Calculate the speed needed to travel a given distance for given time
-  * Print the calculated result
-[/task-description]
-[code-io /]
-[/code-task]
-
-## Sample Input and Output
-
-|       Input       | Output |
-|-------------------|--------|
-|15<br>2|7.5| 
-[/slide]
-
 
 [slide]
 # Problem: Person Info
 [code-task title="Person Info" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
-```
+```java
+import java.util.Scanner; 
 
-public class Program
-{
+public class Program {
   public static void main(String[] args) {
       // Write code here
     }
@@ -478,10 +449,11 @@ public class Program
 ```
 [/code-editor]
 [task-description]
-Write a program, which:
 
+Write a program, which:
   * Reads 4 lines of **strings**: first name, last name, country and town 
   * Prints information about a person in the following format: "**{firstName} {lastName} from {country} - {town}!**"
+
 [/task-description]
 [code-io /]
 [/code-task]
@@ -490,18 +462,22 @@ Write a program, which:
 
 |       Input       | Output |
 |-------------------|--------|
-|Kelly<br>Smith<br>Ireland<br>Cork|Kelly Smith from Ireland - Cork!|
+|Kelly|Kelly Smith from Ireland - Cork!|
+|Smith||
+|Ireland||
+|Cork||
 [/slide]
 
 [slide]
 # Solution: Person Info
 [code-task title="Person Info" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
-```
+```java
+import java.util.Scanner;
 
-public class Program
-{
+public class Program {
   public static void main(String[] args) {
+      Scanner scanner = new Scanner(System.in);
       String firstName = scanner.nextLine();
       String lastName = scanner.nextLine();
       String country = scanner.nextLine();
@@ -512,10 +488,11 @@ public class Program
 ```
 [/code-editor]
 [task-description]
-Write a program, which:
 
+Write a program, which:
   * Reads 4 lines of **strings**: first name, last name, country and town 
   * Prints information about a person in the following format: "**{firstName} {lastName} from {country} - {town}!**"
+
 [/task-description]
 [code-io /]
 [/code-task]
@@ -524,17 +501,20 @@ Write a program, which:
 
 |       Input       | Output |
 |-------------------|--------|
-|Kelly<br>Smith<br>Ireland<br>Cork|Kelly Smith from Ireland - Cork!|
+|Kelly|Kelly Smith from Ireland - Cork!|
+|Smith||
+|Ireland||
+|Cork||
 [/slide]
 
 [slide]
 # Problem: Town Info
 [code-task title="Town Info" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
-```
+```java
+import java.util.Scanner;
 
-public class Program
-{
+public class Program {
   public static void main(String[] args) {
       // Write code here
     }
@@ -542,10 +522,11 @@ public class Program
 ```
 [/code-editor]
 [task-description]
-Write a program, which:
 
+Write a program, which:
   * Reads **3 lines** of input: **name** (string), **population** and **area** (integers)
   * Prints information about a town in the following format: "**Town {name} has population of {population} and area {area} square km.**"
+
 [/task-description]
 [code-io /]
 [/code-task]
@@ -554,18 +535,21 @@ Write a program, which:
 
 |       Input       | Output |
 |-------------------|--------|
-|Berlin<br>3675000<br>984|Town Berlin has population of 3675000 and area 984 square km.|
+|Berlin|Town Berlin has population of 3675000 and area 984 square km.|
+|3675000||
+|984||
 [/slide]
 
 [slide]
 # Solution: Town Info
 [code-task title="Town Info" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
-```
+```java
+import java.util.Scanner;
 
-public class Program
-{
+public class Program {
   public static void main(String[] args) {
+      Scanner scanner = new Scanner(System.in);
       String townName = scanner.nextLine();
       int population = Integer.parseInt(scanner.nextLine());
       int area = Integer.parseInt(scanner.nextLine()); 
@@ -575,10 +559,11 @@ public class Program
 ```
 [/code-editor]
 [task-description]
-Write a program, which:
 
+Write a program, which:
   * Reads **3 lines** of input: **name** (string), **population** and **area** (integers)
   * Prints information about a town in the following format: "**Town {name} has population of {population} and area {area} square km.**"
+
 [/task-description]
 [code-io /]
 [/code-task]
@@ -587,5 +572,7 @@ Write a program, which:
 
 |       Input       | Output |
 |-------------------|--------|
-|Berlin<br>3675000<br>984|Town Berlin has population of 3675000 and area 984 square km.|
+|Berlin|Town Berlin has population of 3675000 and area 984 square km.|
+|3675000||
+|984||
 [/slide]

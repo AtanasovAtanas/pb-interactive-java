@@ -14,18 +14,15 @@ Computers are machines that process data
 # Variables
 A **Variable** is a container of information
 
-* The information can be changed at any time
-* In C# programming, variables are used all the time
+* A named area of the computer memory 
+* The data can be read and changed at any time
 
 **Variables** provide means for:
 
 * **Storing** information
 * **Retrieving** stored info
 * **Modifying** stored info
-[/slide]
 
-[slide]
-# Variables
 Variables are characterized by:
 
 * **name** (identifier)
@@ -36,18 +33,14 @@ Defining a variable
 ```java
 int age = 25;
 ```
-[/slide]
-
-[slide]
-# Variables
-Named area of memory
+**Variable** == named area of the computer memory
 
 * Stores a value from a particular data type
 * Is accessible in the program by its name
 
 Can be stored in the program's:
 * Operational memory
-    * In the **Stack**
+    * In the **stack**
 * Dynamic memory
-    * In the **Heap**
+    * In the **heap**
 [/slide]

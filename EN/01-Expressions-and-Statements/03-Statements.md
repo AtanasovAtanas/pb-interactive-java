@@ -1,19 +1,29 @@
 [slide]
 # Statements
-The actions that a program takes are expressed in statements
+The actions that a program takes, are expressed as statements
 
-Common actions include:
+Common statements (actions / commands) include:
 
-* Declaring variables
+
+* **Declaring** variables
 ```java
 int counter;
 ```
-* Assigning values
+* **Assigning** values
 ```java
 counter = 1;
 ```
-* Declaring and initializing
+* Declaring and **initializing**
 ```java
 int counter = 1;
+```
+**Printing** a value
+```java
+System.out.println(counter);
+```
+**Modifying** a value
+```java
+counter++;
+sum = a + b;
 ```
 [/slide]
