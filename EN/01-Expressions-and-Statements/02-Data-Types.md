@@ -20,3 +20,10 @@ Data types are characterized by:
 * **Default value**
     * Example: 0
 [/slide]
+
+[slide]
+# Video
+
+[youtube-video videoId="u811BV_KtkA" startTimeInSeconds="1778" endTimeInSeconds="2358‬" /]
+
+[/slide]

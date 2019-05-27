@@ -162,3 +162,10 @@ String str = "a + b = " + a + b;
 System.out.println(str); // a + b = 511
 ```
 [/slide]
+
+[slide]
+# Video
+
+[youtube-video videoId="u811BV_KtkA" startTimeInSeconds="2902" endTimeInSeconds="6280" /]
+
+[/slide]

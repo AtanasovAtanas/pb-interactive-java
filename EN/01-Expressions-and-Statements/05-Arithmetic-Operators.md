@@ -64,3 +64,10 @@ System.out.println(4 % 2);   // 0
 System.out.println(3.5 % 1); // 0.5
 ```
 [/slide]
+
+[slide]
+# Video
+
+[youtube-video videoId="u811BV_KtkA" startTimeInSeconds="6282" endTimeInSeconds="7008" /]
+
+[/slide]
