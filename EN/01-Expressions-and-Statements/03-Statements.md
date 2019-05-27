@@ -27,10 +27,3 @@ counter++;
 sum = a + b;
 ```
 [/slide]
-
-[slide]
-# Video
-
-[youtube-video videoId="u811BV_KtkA" startTimeInSeconds="2360" endTimeInSeconds="2901‬" /]
-
-[/slide]

@@ -44,10 +44,3 @@ Can be stored in the program's:
 * Dynamic memory
     * In the **heap**
 [/slide]
-
-[slide]
-# Video
-
-[youtube-video videoId="u811BV_KtkA" startTimeInSeconds="1040" endTimeInSeconds="1777" /]
-
-[/slide]

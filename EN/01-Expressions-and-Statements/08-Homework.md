@@ -6,13 +6,6 @@ We have prepared some simple problems for you to solve. If you struggle you can 
 [/slide]
 
 [slide]
-# Video
-
-[youtube-video videoId="u811BV_KtkA" startTimeInSeconds="9283‬" endTimeInSeconds="11400" /]
-
-[/slide]
-
-[slide]
 # Problem: Calculate Speed
 [code-task title="Calculate Speed" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
