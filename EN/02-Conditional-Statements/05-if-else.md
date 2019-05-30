@@ -1,20 +1,27 @@
 [slide]
-# Simple Conditions - if-else
-If the condition is **false**, we may execute another code - using the statement **еlse** 
+# If...else Statement
+In an if-else statement, **`if`** condition evaluates to **`true`**, the then-statement runs. If condition is false, the else-statement runs
+
+Because condition can't be simultaneously true and false, the then-statement and the else-statement of an if-else statement can never both run
+
+In an if statement that doesn't include an else statement, if condition is true, the then-statement runs. If condition is false, control is transferred to the next statement after the if statement.
 
 ```java
-if (...) {
-   // Condition is true
+if (condition) {
+  // then-statement
+  // Commands to be executed if the condition is true
 } else {
-   // Condition is false
+  // else-statement
+  // Commands to be executed if the condition is false
 }
 ```
 [/slide]
 
 [slide]
 # Block of Code
-The curly brackets \{\} introduce a block (a group of commands)
-In case the **if** statement does **not** have curly brackets, only the code on the **next line** will be executed
+The curly brackets ***\{\}*** introduce a **block** (a group of commands)
+
+In case the ***if*** statement does **not** have curly brackets, only the code on the **next line** will be executed
 
 ```java
 String color = "red";
