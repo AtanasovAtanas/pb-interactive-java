@@ -1,15 +1,16 @@
 [slide]
-# Series of Conditions
-The if-else statement can be in a series
+# Sequence of Conditions
+Sometimes we need to do a sequence of conditions before we decide what actions our program will execute. In such cases, we can apply the construction if-else if ... -else in series. For this purpose, we use the following format:
 
 ```java
 //If one condition is true, the program will NOT check the rest of the conditions
-if (...) 
+if (...) {
 // Execution code
-else if (...) 
+} else if (...) {
 // Execution code
-else if (...) 
+} else if (...) {
 // Execution code
+}
 ```
 [/slide]
 
