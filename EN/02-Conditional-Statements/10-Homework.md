@@ -541,7 +541,8 @@ public class Program {
         } else if (b + c <= a) {
             isValidTriangle = false;
         }
-        if (isValidTriangle){
+
+        if (isValidTriangle) {
             System.out.println("Valid Triangle");
         }else {
             System.out.println("Invalid Triangle");
