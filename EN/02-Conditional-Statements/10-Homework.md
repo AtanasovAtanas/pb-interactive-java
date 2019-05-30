@@ -338,7 +338,7 @@ Write a program which:
 
 |Input|Output|
 |-----|------|
-|student!|$1.00|
+|student|$1.00|
 |regular|$1.60|
 
 [/slide]
@@ -381,7 +381,7 @@ Write a program which:
 
 |Input|Output|
 |-----|------|
-|student!|$1.00|
+|student|$1.00|
 |regular|$1.60|
 
 [/slide]
