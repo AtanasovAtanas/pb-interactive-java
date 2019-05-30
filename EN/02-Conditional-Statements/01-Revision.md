@@ -1,4 +1,6 @@
 [slide]
+# Revision
+
 # Variables
 Data is stored by using **variables**
 * Storing information
@@ -7,16 +9,12 @@ Data is stored by using **variables**
 
  Declaring, initializing, reading and changing a variable:
 
-
 ```java
 int age = 5;
 age = age + 1;
 System.out.println(age);
 ```
 
-[/slide]
-
-[slide]
 # Data Types
 Integer number – **int** (e.g. 5, 0, 120, -250)
 
@@ -28,11 +26,7 @@ Unicode characters (letters) – **char** (e.g. 'X', '#', '\n')
 
 Unicode strings (text) – **String** (e.g. "Hello Java")
 
-[/slide]
-
-[slide]
 # Expressions
-
 Expressions == **variable(s)** and **value(s)** combined with operators
 
 ```java
@@ -43,9 +37,6 @@ a = b * 2;
 // b * 2 is an arithmetic expression
 ```
 
-[/slide]
-
-[slide]
 # Statements
 Commands / actions to be executed
 
