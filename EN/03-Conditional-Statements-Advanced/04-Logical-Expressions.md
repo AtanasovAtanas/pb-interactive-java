@@ -1,5 +1,5 @@
 [slide]
-# Conditional Operators
+# Logical Operators
 Logical Operators are used to perform the logical operation between two operands like **AND**, **OR** and **NOT** based on our requirements
 
 The Logical Operators will **always work with Boolean expressions** (**true** or **false**) and return **Boolean values**
