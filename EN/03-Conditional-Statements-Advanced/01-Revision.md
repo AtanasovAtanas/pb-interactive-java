@@ -1,4 +1,6 @@
 [slide]
+# Revision
+
 # Comparison Operators
 Suitable for **numbers** and other **comparable data types**
 
