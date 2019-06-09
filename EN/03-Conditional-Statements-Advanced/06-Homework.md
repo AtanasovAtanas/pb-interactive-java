@@ -7,16 +7,14 @@ We have prepared some simple problems for you to solve. If you struggle you can 
 
 [slide]
 # Problem: Fruit or Vegetable
-[code-task title="Fruit or Vegetable" executionStrategy="csharp-dot-net-core-code" requiresInput]
-[code-editor language=csharp]
+[code-task title="Fruit or Vegetable" executionStrategy="java-code" requiresInput]
+[code-editor language=java]
 ```
-using System;
-public class Program
-{
-  public static void Main()
-  {
-    // Write code here
-  }
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+    }
 }
 ```
 [/code-editor]
@@ -39,22 +37,21 @@ Write a program to check for fruit or vegetable:
 
 [slide]
 # Solution: Fruit or Vegetable
-[code-task title="Fruit or Vegetable" executionStrategy="csharp-dot-net-core-code" requiresInput]
-[code-editor language=csharp]
+[code-task title="Fruit or Vegetable" executionStrategy="java-code" requiresInput]
+[code-editor language=java]
 ```
-using System;
+import java.util.Scanner;
 
-public class Program
-{
-    public static void Main()
-    {
-        string product = Console.ReadLine();
-        switch (product)
-        {
+public class Program {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        String product = scanner.nextLine();
+        switch (product) {
             case "cucumber":
             case "pepper":
             case "carrot":
-                Console.WriteLine("vegetable");
+                System.out.println("vegetable");
                 break;
             case "banana":
             case "apple":
@@ -62,10 +59,10 @@ public class Program
             case "cherry":
             case "lemon":
             case "grapes":
-                Console.WriteLine("fruit");
+                System.out.println("fruit");
                 break;
             default:
-                Console.WriteLine("unknown");
+                System.out.println("unknown");
                 break;
         }
     }
@@ -91,16 +88,14 @@ Write a program to check for fruit or vegetable:
 
 [slide]
 # Problem: Day of Week
-[code-task title="Day of Week" executionStrategy="csharp-dot-net-core-code" requiresInput]
-[code-editor language=csharp]
+[code-task title="Day of Week" executionStrategy="java-code" requiresInput]
+[code-editor language=java]
 ```
-using System;
-public class Program
-{
-  public static void Main()
-  {
-    // Write code here
-  }
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+    }
 }
 ```
 [/code-editor]
@@ -123,41 +118,40 @@ Write a program to print the day of week as words:
 
 [slide]
 # Solution: Day of Week
-[code-task title="Day of Week" executionStrategy="csharp-dot-net-core-code" requiresInput]
-[code-editor language=csharp]
+[code-task title="Day of Week" executionStrategy="java-code" requiresInput]
+[code-editor language=java]
 ```
-using System;
+import java.util.Scanner;
 
-public class Program
-{
-    public static void Main()
-    {
-        int day = int.Parse(Console.ReadLine());
-        switch (day)
-        {
+public class Main {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        
+        int day = Integer.parseInt(scanner.nextLine());
+        switch (day) {
             case 1:
-                Console.WriteLine("Monday");
+                System.out.println("Monday");
                 break;
             case 2:
-                Console.WriteLine("Tuesday");
+                System.out.println("Tuesday");
                 break;
             case 3:
-                Console.WriteLine("Wednesday");
+                System.out.println("Wednesday");
                 break;
             case 4:
-                Console.WriteLine("Thursday");
+                System.out.println("Thursday");
                 break;
             case 5:
-                Console.WriteLine("Friday");
+                System.out.println("Friday");
                 break;
             case 6:
-                Console.WriteLine("Saturday");
+                System.out.println("Saturday");
                 break;
             case 7:
-                Console.WriteLine("Sunday");
+                System.out.println("Sunday");
                 break;
             default:
-                Console.WriteLine("Error");
+                System.out.println("Error");
                 break;
         }
     }
@@ -183,16 +177,14 @@ Write a program to print the day of week as words:
 
 [slide]
 # Problem: Vowel or Consonant
-[code-task title="Vowel or Consonant" executionStrategy="csharp-dot-net-core-code" requiresInput]
-[code-editor language=csharp]
+[code-task title="Vowel or Consonant" executionStrategy="java-code" requiresInput]
+[code-editor language=java]
 ```
-using System;
-public class Program
-{
-  public static void Main()
-  {
-    // Write code here
-  }
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+    }
 }
 ```
 [/code-editor]
@@ -214,28 +206,24 @@ Write a program to check a letter for vowel or consonant:
 
 [slide]
 # Solution: Vowel or Consonant
-[code-task title="Vowel or Consonant" executionStrategy="csharp-dot-net-core-code" requiresInput]
-[code-editor language=csharp]
+[code-task title="Vowel or Consonant" executionStrategy="java-code" requiresInput]
+[code-editor language=java]
 ```
-using System;
+import java.util.Scanner;
 
-public class Program
-{
-    public static void Main()
-    {
-        char letter = char.Parse(Console.ReadLine());
+public class Main {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        char letter = scanner.nextLine().charAt(0);
 
         if (letter == 'A' || letter == 'a' ||
-            letter == 'E' || letter == 'e' ||
-            letter == 'I' || letter == 'i' ||
-            letter == 'O' || letter == 'o' ||
-            letter == 'U' || letter == 'u')
-        {
-            Console.WriteLine("Vowel");
-        }
-        else
-        {
-            Console.WriteLine("Consonant");
+                letter == 'E' || letter == 'e' ||
+                letter == 'I' || letter == 'i' ||
+                letter == 'O' || letter == 'o' ||
+                letter == 'U' || letter == 'u') {
+            System.out.println("Vowel");
+        } else {
+            System.out.println("Consonant");
         }
     }
 }
@@ -259,16 +247,14 @@ Write a program to check a letter for vowel or consonant:
 
 [slide]
 # Problem: Product of 3 Numbers
-[code-task title="Product of 3 Numbers" executionStrategy="csharp-dot-net-core-code" requiresInput]
-[code-editor language=csharp]
+[code-task title="Product of 3 Numbers" executionStrategy="java-code" requiresInput]
+[code-editor language=java]
 ```
-using System;
-public class Program
-{
-  public static void Main()
-  {
-    // Write code here
-  }
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+    }
 }
 ```
 [/code-editor]
@@ -296,48 +282,39 @@ Try to do this without multiplying the 3 numbers
 
 [slide]
 # Solution: Product of 3 Numbers
-[code-task title="Product of 3 Numbers" executionStrategy="csharp-dot-net-core-code" requiresInput]
-[code-editor language=csharp]
+[code-task title="Product of 3 Numbers" executionStrategy="java-code" requiresInput]
+[code-editor language=java]
 ```
-using System;
+import java.util.Scanner;
 
-public class Program
-{
-    public static void Main()
-    {
-        double n1 = double.Parse(Console.ReadLine());
-        double n2 = double.Parse(Console.ReadLine());
-        double n3 = double.Parse(Console.ReadLine());
+public class Main {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
 
-        if (n1 == 0 || n2 == 0 || n3 == 0)
-        {
-            Console.WriteLine("zero");
-        }
-        else
-        {
+        double n1 = Double.parseDouble(scanner.nextLine());
+        double n2 = Double.parseDouble(scanner.nextLine());
+        double n3 = Double.parseDouble(scanner.nextLine());
+
+        if (n1 == 0 || n2 == 0 || n3 == 0) {
+            System.out.println("zero");
+        } else {
             int negativeNumbersCount = 0;
-            if (n1 < 0)
-            {
-                negativeNumbersCount++;
+            if (n1 < 0) {
+                negativeNumbersCount += 1;
             }
 
-            if (n2 < 0)
-            {
-                negativeNumbersCount++;
+            if (n2 < 0) {
+                negativeNumbersCount += 1;
             }
 
-            if (n3 < 0)
-            {
-                negativeNumbersCount++;
+            if (n3 < 0) {
+                negativeNumbersCount += 1;
             }
 
-            if (negativeNumbersCount % 2 == 0)
-            {
-                Console.WriteLine("positive");
-            }
-            else
-            {
-                Console.WriteLine("negative");
+            if (negativeNumbersCount % 2 == 0) {
+                System.out.println("positive");
+            } else {
+                System.out.println("negative");
             }
         }
     }
@@ -368,16 +345,14 @@ Try to do this without multiplying the 3 numbers
 
 [slide]
 # Problem: Sorted Numbers
-[code-task title="Sorted Numbers" executionStrategy="csharp-dot-net-core-code" requiresInput]
-[code-editor language=csharp]
+[code-task title="Sorted Numbers" executionStrategy="java-code" requiresInput]
+[code-editor language=java]
 ```
-using System;
-public class Program
-{
-  public static void Main()
-  {
-    // Write code here
-  }
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+    }
 }
 ```
 [/code-editor]
@@ -405,30 +380,25 @@ Write a program, which checks for sorted 3 numbers:
 
 [slide]
 # Solution: Sorted Numbers
-[code-task title="Sorted Numbers" executionStrategy="csharp-dot-net-core-code" requiresInput]
-[code-editor language=csharp]
+[code-task title="Sorted Numbers" executionStrategy="java-code" requiresInput]
+[code-editor language=java]
 ```
-using System;
+import java.util.Scanner;
 
-public class Program
-{
-    public static void Main()
-    {
-        double n1 = double.Parse(Console.ReadLine());
-        double n2 = double.Parse(Console.ReadLine());
-        double n3 = double.Parse(Console.ReadLine());
+public class Main {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
 
-        if (n1 < n2 && n2 < n3)
-        {
-            Console.WriteLine("Ascending");
-        }
-        else if (n1 > n2 && n2 > n3)
-        {
-            Console.WriteLine("Descending");
-        }
-        else
-        {
-            Console.WriteLine("Not sorted");
+        double n1 = Double.parseDouble(scanner.nextLine());
+        double n2 = Double.parseDouble(scanner.nextLine());
+        double n3 = Double.parseDouble(scanner.nextLine());
+
+        if (n1 < n2 && n2 < n3) {
+            System.out.println("Ascending");
+        } else if (n1 > n2 && n2 > n3) {
+            System.out.println("Descending");
+        } else {
+            System.out.println("Not sorted");
         }
     }
 }
@@ -458,16 +428,14 @@ Write a program, which checks for sorted 3 numbers:
 
 [slide]
 # Problem: Vacation Expenses
-[code-task title="Vacation Expenses" executionStrategy="csharp-dot-net-core-code" requiresInput]
-[code-editor language=csharp]
+[code-task title="Vacation Expenses" executionStrategy="java-code" requiresInput]
+[code-editor language=java]
 ```
-using System;
-public class Program
-{
-  public static void Main()
-  {
-    // Write code here
-  }
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+    }
 }
 ```
 [/code-editor]
@@ -496,66 +464,47 @@ Write a program, which calculates vacation expenses:
 
 [slide]
 # Solution: Vacation Expenses
-[code-task title="Vacation Expenses" executionStrategy="csharp-dot-net-core-code" requiresInput]
-[code-editor language=csharp]
+[code-task title="Vacation Expenses" executionStrategy="java-code" requiresInput]
+[code-editor language=java]
 ```
-using System;
+import java.util.Scanner;
 
-public class Program
-{
-    public static void Main()
-    {
-        string season = Console.ReadLine();
-        string accommodation = Console.ReadLine();
-        int days = int.Parse(Console.ReadLine());
+public class Main {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        String season = scanner.nextLine();
+        String accommodation = scanner.nextLine();
+        int days = Integer.parseInt(scanner.nextLine());
         double totalPrice = 0.0;
 
-        if (season == "Spring")
-        {
-            if (accommodation == "Hotel")
-            {
+        if (season.equals("Spring")) {
+            if (accommodation.equals("Hotel")) {
                 totalPrice = days * 30 * 0.80;
-            }
-            else if (accommodation == "Camping")
-            {
+            } else if (accommodation.equals("Camping")) {
                 totalPrice = days * 10 * 0.80;
             }
-        }
-        else if (season == "Summer")
-        {
-            if (accommodation == "Hotel")
-            {
+        } else if (season.equals("Summer")) {
+            if (accommodation.equals("Hotel")) {
                 totalPrice = days * 50;
-            }
-            else if (accommodation == "Camping")
-            {
+            } else if (accommodation.equals("Camping")) {
                 totalPrice = days * 30;
             }
-        }
-        else if (season == "Autumn")
-        {
-            if (accommodation == "Hotel")
-            {
+        } else if (season.equals("Autumn")) {
+            if (accommodation.equals("Hotel")) {
                 totalPrice = days * 20 * 0.7;
-            }
-            else if (accommodation == "Camping")
-            {
+            } else if (accommodation.equals("Camping")) {
                 totalPrice = days * 15 * 0.7;
             }
-        }
-        else if (season == "Winter")
-        {
-            if (accommodation == "Hotel")
-            {
+        } else if (season.equals("Winter")) {
+            if (accommodation.equals("Hotel")) {
                 totalPrice = days * 40 * 0.9;
-            }
-            else if (accommodation == "Camping")
-            {
+            } else if (accommodation.equals("Camping")) {
                 totalPrice = days * 10 * 0.9;
             }
         }
 
-        Console.WriteLine($"{totalPrice:F2}");
+        System.out.printf("%.2f", totalPrice);
     }
 }
 ```
@@ -585,16 +534,14 @@ Write a program, which calculates vacation expenses:
 
 [slide]
 # Problem: Cinema
-[code-task title="Cinema" executionStrategy="csharp-dot-net-core-code" requiresInput]
-[code-editor language=csharp]
+[code-task title="Cinema" executionStrategy="java-code" requiresInput]
+[code-editor language=java]
 ```
-using System;
-public class Program
-{
-  public static void Main()
-  {
-    // Write code here
-  }
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+    }
 }
 ```
 [/code-editor]
@@ -622,30 +569,29 @@ Calculate the price for all the tickets for a cinema movie:
 
 [slide]
 # Solution: Cinema
-[code-task title="Cinema" executionStrategy="csharp-dot-net-core-code" requiresInput]
-[code-editor language=csharp]
+[code-task title="Cinema" executionStrategy="java-code" requiresInput]
+[code-editor language=java]
 ```
-using System;
+import java.util.Scanner;
 
-public class Program
-{
-    public static void Main()
-    {
-        string type = Console.ReadLine();
-        int rows = int.Parse(Console.ReadLine());
-        int cols = int.Parse(Console.ReadLine());
+public class Main {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        String type = scanner.nextLine();
+        int rows = Integer.parseInt(scanner.nextLine());
+        int cols = Integer.parseInt(scanner.nextLine());
         int seats = rows * cols;
 
-        switch (type)
-        {
+        switch (type) {
             case "Premiere":
-                Console.WriteLine("{0:f2}", seats * 12.0);
+                System.out.printf("%.2f", seats * 12.0);
                 break;
             case "Normal":
-                Console.WriteLine("{0:f2}", seats * 7.50);
+                System.out.printf("%.2f", seats * 7.50);
                 break;
             case "Discount":
-                Console.WriteLine("{0:f2}", seats * 5.00);
+                System.out.printf("%.2f", seats * 5.00);
                 break;
         }
     }
@@ -676,75 +622,13 @@ Calculate the price for all the tickets for a cinema movie:
 
 [slide]
 # Problem: Operations with Numbers
-[code-task title="Operations with Numbers" executionStrategy="csharp-dot-net-core-code" requiresInput]
-[code-editor language=csharp]
+[code-task title="Operations with Numbers" executionStrategy="java-code" requiresInput]
+[code-editor language=java]
 ```
-using System;
-public class Program
-{
-  public static void Main()
-  {
-    // Write code here
-  }
-}
-```
-[/code-editor]
-[task-description]
-Write a program to apply an operator for given two numbers:
+import java.util.Scanner;
 
-* Read two real numbers and math operator from the console
-* The math operator could be: "+", "-", "/", "%" and "*"
-* The output should be in the following format: "\{N1\} \{operator\} \{N2\} = \{result\}"
-
-[/task-description]
-[code-io /]
-[/code-task]
-# Sample Input and Output
-|Input|Output|
-|-----|------|
-|10|10 + 12 = 22|
-|12||
-|+||
-[/slide]
-
-[slide]
-# Solution: Operations with Numbers
-[code-task title="Operations with Numbers" executionStrategy="csharp-dot-net-core-code" requiresInput]
-[code-editor language=csharp]
-```
-using System;
-
-public class Program
-{
-    public static void Main()
-    {
-        double num1 = double.Parse(Console.ReadLine());
-        double num2 = double.Parse(Console.ReadLine());
-        string operation = Console.ReadLine();
-
-        double result = 0;
-        if (operation == "+")
-        {
-            result = num1 + num2;
-        }
-        else if (operation == "-")
-        {
-            result = num1 - num2;
-        }
-        else if (operation == "*")
-        {
-            result = num1 * num2;
-        }
-        else if (operation == "/")
-        {
-            result = num1 / num2;
-        }
-        else if (operation == "%")
-        {
-            result = num1 % num2;
-        }
-
-        Console.WriteLine("{0} {1} {2} = {3}", num1, operation, num2, result);
+public class Main {
+    public static void main(String[] args) {
     }
 }
 ```
@@ -768,17 +652,66 @@ Write a program to apply an operator for given two numbers:
 [/slide]
 
 [slide]
-# Problem: ATM
-[code-task title="ATM" executionStrategy="csharp-dot-net-core-code" requiresInput]
-[code-editor language=csharp]
+# Solution: Operations with Numbers
+[code-task title="Operations with Numbers" executionStrategy="java-code" requiresInput]
+[code-editor language=java]
 ```
-using System;
-public class Program
-{
-  public static void Main()
-  {
-    // Write code here
-  }
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        int num1 = Integer.parseInt(scanner.nextLine());
+        int num2 = Integer.parseInt(scanner.nextLine());
+        char operation = scanner.nextLine().charAt(0);
+
+        int result = 0;
+        if (operation == '+') {
+            result = num1 + num2;
+        } else if (operation == '-') {
+            result = num1 - num2;
+        } else if (operation == '*') {
+            result = num1 * num2;
+        } else if (operation == '/') {
+            result = num1 / num2;
+        } else if (operation == '%') {
+            result = num1 % num2;
+        }
+
+        System.out.printf("%d %s %d = %d", num1, operation, num2, result);
+    }
+}
+```
+[/code-editor]
+[task-description]
+Write a program to apply an operator for given two numbers:
+
+* Read two integers and math operator from the console
+* The math operator could be: "+", "-", "/", "%" and "*"
+* The output should be in the following format: "\{N1\} \{operator\} \{N2\} = \{result\}"
+
+[/task-description]
+[code-io /]
+[/code-task]
+# Sample Input and Output
+|Input|Output|
+|-----|------|
+|10|10 + 12 = 22|
+|12||
+|+||
+[/slide]
+
+[slide]
+# Problem: ATM
+[code-task title="ATM" executionStrategy="java-code" requiresInput]
+[code-editor language=java]
+```
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+    }
 }
 ```
 [/code-editor]
@@ -806,30 +739,24 @@ Write a program to simulate an ATM withdrawal:
 
 [slide]
 # Solution: ATM
-[code-task title="ATM" executionStrategy="csharp-dot-net-core-code" requiresInput]
-[code-editor language=csharp]
+[code-task title="ATM" executionStrategy="java-code" requiresInput]
+[code-editor language=java]
 ```
-using System;
+import java.util.Scanner;
 
-public class Program
-{
-    public static void Main()
-    {
-        int balance = int.Parse(Console.ReadLine());
-        int withdraw = int.Parse(Console.ReadLine());
-        int limit = int.Parse(Console.ReadLine());
+public class Main {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        int balance = Integer.parseInt(scanner.nextLine());
+        int withdraw = Integer.parseInt(scanner.nextLine());
+        int limit = Integer.parseInt(scanner.nextLine());
 
-        if (balance >= withdraw && withdraw <= limit)
-        {
-            Console.WriteLine("The withdraw was successful.");
-        }
-        else if (withdraw > limit)
-        {
-            Console.WriteLine("The daily limit was exceeded.");
-        }
-        else if (withdraw > balance)
-        {
-            Console.WriteLine("Insufficient availability.");
+        if (balance >= withdraw && withdraw <= limit) {
+            System.out.println("The withdraw was successful.");
+        } else if (withdraw > limit) {
+            System.out.println("The daily limit was exceeded.");
+        } else if (withdraw > balance) {
+            System.out.println("Insufficient availability.");
         }
     }
 }
@@ -859,16 +786,14 @@ Write a program to simulate an ATM withdrawal:
 
 [slide]
 # Problem: Biggest of Five Numbers
-[code-task title="Biggest of Five Numbers" executionStrategy="csharp-dot-net-core-code" requiresInput]
-[code-editor language=csharp]
+[code-task title="Biggest of Five Numbers" executionStrategy="java-code" requiresInput]
+[code-editor language=java]
 ```
-using System;
-public class Program
-{
-  public static void Main()
-  {
-    // Write code here
-  }
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+    }
 }
 ```
 [/code-editor]
@@ -896,39 +821,31 @@ Write a program to find the biggest among 5 numbers
 
 [slide]
 # Solution: Biggest of Five Numbers
-[code-task title="Biggest of Five Numbers" executionStrategy="csharp-dot-net-core-code" requiresInput]
-[code-editor language=csharp]
+[code-task title="Biggest of Five Numbers" executionStrategy="java-code" requiresInput]
+[code-editor language=java]
 ```
-using System;
-public class Program
-{
-    public static void Main()
-    {
-        int num1 = int.Parse(Console.ReadLine());
-        int num2 = int.Parse(Console.ReadLine());
-        int num3 = int.Parse(Console.ReadLine());
-        int num4 = int.Parse(Console.ReadLine());
-        int num5 = int.Parse(Console.ReadLine());
+import java.util.Scanner;
 
-        if (num1 >= num2 && num1 >= num3 && num1 >= num4 && num1 >= num5)
-        {
-            Console.WriteLine(num1);
-        }
-        else if (num2 >= num1 && num2 >= num3 && num2 >= num4 && num2 >= num5)
-        {
-            Console.WriteLine(num2);
-        }
-        else if (num3 >= num1 && num3 >= num2 && num3 >= num4 && num3 >= num5)
-        {
-            Console.WriteLine(num3);
-        }
-        else if (num4 >= num1 && num4 >= num2 && num5 >= num3 && num4 >= num5)
-        {
-            Console.WriteLine(num4);
-        }
-        else if (num5 >= num1 && num5 >= num2 && num5 >= num3 && num5 >= num4)
-        {
-            Console.WriteLine(num5);
+public class Main {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        int num1 = Integer.parseInt(scanner.nextLine());
+        int num2 = Integer.parseInt(scanner.nextLine());
+        int num3 = Integer.parseInt(scanner.nextLine());
+        int num4 = Integer.parseInt(scanner.nextLine());
+        int num5 = Integer.parseInt(scanner.nextLine());
+
+        if (num1 >= num2 && num1 >= num3 && num1 >= num4 && num1 >= num5) {
+            System.out.println(num1);
+        } else if (num2 >= num1 && num2 >= num3 && num2 >= num4 && num2 >= num5) {
+            System.out.println(num2);
+        } else if (num3 >= num1 && num3 >= num2 && num3 >= num4 && num3 >= num5) {
+            System.out.println(num3);
+        } else if (num4 >= num1 && num4 >= num2 && num5 >= num3 && num4 >= num5) {
+            System.out.println(num4);
+        } else if (num5 >= num1 && num5 >= num2 && num5 >= num3 && num5 >= num4) {
+            System.out.println(num5);
         }
     }
 }
