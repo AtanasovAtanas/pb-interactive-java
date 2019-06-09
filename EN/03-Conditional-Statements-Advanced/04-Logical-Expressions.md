@@ -1,20 +1,30 @@
 [slide]
 # Conditional Operators
-Used to perform logical operations
+Logical Operators are used to perform the logical operation between two operands like **AND**, **OR** and **NOT** based on our requirements
 
-The logical operators in Java are:
+The Logical Operators will **always work with Boolean expressions** (**true** or **false**) and return **Boolean values**
 
-* AND (**&&**)
-* OR (**||**)
-* Logical negation (**!**)
+The logical operators are:
+  * AND (**&&**) - **returns true if both operands are true**
+  * OR (**\| \|**) - **returns true if any one operand is true**
+  * Logical negation (**!**) - **returns the reverse of logical state**
+    * Brackets **()** change the order
 
-Brackets **()** change the order
-[/slide]
+| Operand1 | Operand2 | And | Or |
+|---|---|---|---|
+| true | true | true | true |
+| true | false | false | true |
+| false | true | false | true |
+| false | false | false | false |
 
-[slide]
-# Explanation
+If you observe above table, **if any one operand value become false, then the logical AND operator will return false**, same way **the logical OR operator will return true, if any one operand value become true**
 
-[image src="https://github.com/AlenPaunov/pb-interactive-course/blob/03-conditional-statements-advanced/assets/03-conditional-statements-advanced-1.png"/]
+| Operand | Not |
+|---|---|
+| true | false |
+| false | true |
+
+If you observe above table, **the NOT operator will always return the reverse value of operand** like **if operand value true, then the Logical NOT operator will return false and vice versa**
 [/slide]
 
 [slide]
@@ -24,7 +34,7 @@ Brackets **()** change the order
 ```
 import java.util.Scanner;
 
-public class Program {
+public class Main {
   public static void main(String[] args) {
       // Write code here
     }
@@ -32,12 +42,6 @@ public class Program {
 ```
 [/code-editor]
 [task-description]
-Returns the Boolean value ***true*** if all of the operands are ***true*** and ***false*** otherwise
-
-```java
-if (x >= x1 && x <= x2 && y >= y1 && y <= y2)
-```
-
 Write a program to add bonus to given points
 
 * If points are between 0 and 3, adds 5
@@ -59,28 +63,24 @@ Write a program to add bonus to given points
 ```
 import java.util.Scanner;
 
-public class Program {
-  public static void main(String[] args) {
+public class Main {
+    public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int points = Integer.parseInt(scanner.nextLine());
-        if (points >= 0 && points <= 3)
+        if (points >= 0 && points <= 3) {
             points += 5;
-        else if (points >= 4 && points <= 6)
+        } else if (points >= 4 && points <= 6) {
             points += 15;
-        else if (points >= 7 && points <= 9)
+        } else if (points >= 7 && points <= 9) {
             points += 20;
+        }
+        
         System.out.println(points);
     }
 }
 ```
 [/code-editor]
 [task-description]
-Returns the Boolean value ***true*** if all of the operands are ***true*** and ***false*** otherwise
-
-```java
-if (x >= x1 && x <= x2 && y >= y1 && y <= y2)
-```
-
 Write a program to add bonus to given points
 
 * If points are between 0 and 3, adds 5
@@ -102,7 +102,7 @@ Write a program to add bonus to given points
 ```
 import java.util.Scanner;
 
-public class Program {
+public class Main {
   public static void main(String[] args) {
       // Write code here
     }
@@ -130,17 +130,18 @@ Check for food or drink
 ```
 import java.util.Scanner;
 
-public class Program {
-  public static void main(String[] args) {
+public class Main {
+    public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        String s = scanner.nextLine();
-        if (s.equals("curry") || s.equals("noodles") || s.equals("sushi") || s.equals("spaghetti")) {
+        String input = scanner.nextLine();
+
+        if (input.equals("curry") || input.equals("noodles") ||
+                input.equals("sushi") || input.equals("spaghetti")) {
             System.out.println("food");
-        }
-        else if (s.equals("tea") || s.equals("water") || s.equals("coffee")) {
+        } else if (input.equals("tea") || input.equals("water") ||
+                input.equals("coffee")) {
             System.out.println("drink");
-        }
-        else {
+        } else {
             System.out.println("unknown");
         }
     }
@@ -159,13 +160,4 @@ Check for food or drink
 [/task-description]
 [code-io /]
 [/code-task]
-[/slide]
-
-[slide]
-# Logical NOT (!)
-Logical negation returns ***true*** when the operand is ***false***, and ***false*** when the operand is ***true***
-
-Example: check for valid number
-
-* A number is valid if is in the range \[100…200\] or is equal to 0
 [/slide]
