@@ -1,10 +1,6 @@
 [slide]
 # Nested Conditions
-Only if the first condition is true the nested one is checked
-
-* Deep nesting is not recommended
-
-* Use up to 3 nested levels
+An ***if-else*** statement can be nested within another ***if-else*** statement
 
 ```java
 if (expression) {
@@ -13,8 +9,24 @@ if (expression) {
   else
     // Some code
 }
-// Executes when the nested expression is false
 ``` 
+
+Only if the first condition is true the nested one is checked
+
+```java
+if (expression)
+{
+  if (nested expression)
+    // Some code
+  else
+    // Some code
+    // Executes when the nested expression is false
+}
+```
+Deep nesting is not recommended
+
+* Use up to 3 nested levels
+
 [/slide]
 
 [slide]
@@ -24,7 +36,7 @@ if (expression) {
 ```
 import java.util.Scanner;
 
-public class Program
+public class Main
 {
   public static void main(String[] args) {
       // Write code here
@@ -64,23 +76,29 @@ Print the price, formatted to 2nd digit, based on the price table:
 ```
 import java.util.Scanner;
 
-public class Program {
-  public static void main(String[] args) {
-      if (product.equals("Banana"))
-        if (dayOfWeek.equals("Weekday"))
-            System.out.println("2.50");
-        else
-            System.out.println("2.70");
-      else if (product.equals("Apple"))
-        if (dayOfWeek.equals("Weekday"))
-            System.out.pritnln("1.30");
-        else
-            System.out.println("1.60");
-      else if (product.equals("Kiwi"))
-        if (dayOfWeek.equals("Weekday"))
-            System.out.pritnln("2.20");
-        else
-            System.out.println("3.00");
+public class Main {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        String product = scanner.nextLine();
+        String dayOfWeek = scanner.nextLine();
+        if (product.equals("Banana"))
+            if (dayOfWeek.equals("Weekday")) {
+                System.out.println("2.50");
+            } else
+                System.out.println("2.70");
+        else if (product.equals("Apple"))
+            if (dayOfWeek.equals("Weekday")) {
+                System.out.println("1.30");
+            } else {
+                System.out.println("1.60");
+            }
+        else if (product.equals("Kiwi"))
+            if (dayOfWeek.equals("Weekday")) {
+                System.out.println("2.20");
+            } else {
+                System.out.println("3.00");
+            }
     }
 }
 ```
@@ -117,7 +135,7 @@ Print the price, formatted to 2nd digit, based on the price table:
 ```
 import java.util.Scanner;
 
-public class Program {
+public class Main {
   public static void main(String[] args) {
       // Write code here
     }
@@ -152,18 +170,23 @@ Print the biggest number of them
 ```
 import java.util.Scanner;
 
-public class Program {
-  public static void main(String[] args) {
-    if (first > second)
-        if (first > third)
-            System.out.println(first);
-        else
-            System.out.println(third);
-    else
-        if (second > third)
+public class Main {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        int first = Integer.parseInt(scanner.nextLine());
+        int second = Integer.parseInt(scanner.nextLine());
+        int third = Integer.parseInt(scanner.nextLine());
+        if (first > second)
+            if (first > third) {
+                System.out.println(first);
+            } else {
+                System.out.println(third);
+            }
+        else if (second > third) {
             System.out.println(second);
-        else
+        } else {
             System.out.println(third);
+        }
     }
 }
 ```
