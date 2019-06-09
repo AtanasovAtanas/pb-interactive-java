@@ -82,18 +82,20 @@ public class Main {
 
         String product = scanner.nextLine();
         String dayOfWeek = scanner.nextLine();
-        if (product.equals("Banana"))
+
+        if (product.equals("Banana")) {
             if (dayOfWeek.equals("Weekday")) {
                 System.out.println("2.50");
-            } else
+            } else {
                 System.out.println("2.70");
-        else if (product.equals("Apple"))
+            }
+        } else if (product.equals("Apple")) {
             if (dayOfWeek.equals("Weekday")) {
                 System.out.println("1.30");
             } else {
                 System.out.println("1.60");
             }
-        else if (product.equals("Kiwi"))
+        } else if (product.equals("Kiwi"))
             if (dayOfWeek.equals("Weekday")) {
                 System.out.println("2.20");
             } else {
