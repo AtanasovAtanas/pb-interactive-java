@@ -1,4 +1,4 @@
-[slide]
+﻿[slide]
 # Problem 02
 ## Description
 The Smiths are planning their family trip. 
@@ -81,7 +81,7 @@ The Smiths will be left with 24.49 dollars after vacation.
 18
 [/input]
 [output]
-Ivanovi will be left with 265.40 dollars after vacation.
+The Smiths will be left with 265.40 dollars after vacation.
 [/output]
 [/test]
 [test]
@@ -103,7 +103,7 @@ Ivanovi will be left with 265.40 dollars after vacation.
 30
 [/input]
 [output]
-Ivanovi will be left with 310.70 dollars after vacation.
+The Smiths will be left with 310.70 dollars after vacation.
 [/output]
 [/test]
 [test]
@@ -125,7 +125,7 @@ Ivanovi will be left with 310.70 dollars after vacation.
 60
 [/input]
 [output]
-Ivanovi will be left with 225.00 dollars after vacation.
+The Smiths will be left with 225.00 dollars after vacation.
 [/output]
 [/test]
 [test]
@@ -147,7 +147,7 @@ Ivanovi will be left with 225.00 dollars after vacation.
 10
 [/input]
 [output]
-Ivanovi will be left with 50.00 dollars after vacation.
+The Smiths will be left with 50.00 dollars after vacation.
 [/output]
 [/test]
 [test]
@@ -158,7 +158,7 @@ Ivanovi will be left with 50.00 dollars after vacation.
 0
 [/input]
 [output]
-Ivanovi will be left with 0.00 dollars after vacation.
+The Smiths will be left with 0.00 dollars after vacation.
 [/output]
 [/test]
 [test]
@@ -169,7 +169,7 @@ Ivanovi will be left with 0.00 dollars after vacation.
 10
 [/input]
 [output]
-Ivanovi will be left with 0.00 dollars after vacation.
+The Smiths will be left with 0.00 dollars after vacation.
 [/output]
 [/test]
 [/tests]
