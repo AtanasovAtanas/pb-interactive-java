@@ -36,8 +36,11 @@ public class Main {
 [task-description]
 ## Input
 21
+
 5.50
+
 4.40
+
 6.20
 
 ## Output
