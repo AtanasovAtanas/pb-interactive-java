@@ -1,4 +1,4 @@
-[slide]
+﻿[slide]
 # Problem 05
 ## Description
 Your task is to write a program that takes the name of a team and does statistics about it. 
@@ -55,6 +55,7 @@ public class Main {
 # Example
 ## Input
 Liverpool
+
 10
 
 W
