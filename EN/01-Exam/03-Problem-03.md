@@ -1,4 +1,4 @@
-[slide]
+﻿[slide]
 # Problem 03
 ## Description
 Write a program that calculates the price a customer, who has bought drinks from a coffee machine, has to pay:
@@ -10,9 +10,9 @@ Write a program that calculates the price a customer, who has bought drinks from
 | Tea | 0.50$ | 0.60$ | 0.70$ |
 
 Keep in mind the following discounts:
-- With a selected drink without sugar there is a 35% discount.
-- With selected drink "Espresso" and bought at least 5 drinks, there is a 25% discount.
-- With an amount of exceeding 15$, 20% discount from the final price. 
+- With a selected drink without sugar, there is a 35% discount.
+- With a selected drink "Espresso" and bought at least 5 drinks, there is a 25% discount.
+- With an amount exceeding 15$, there is a 20% discount from the final price. 
 
 The discounts are applied in the order of their description.
 
@@ -28,7 +28,7 @@ Print one line on the console:
 	 - The price must be formatted to the second digit after the decimal point.
 
 [code-task title="Problem-03" taskId="pb-june-pr-03" executionType="tests-execution" executionStrategy="java-code" requiresInput]
-[code-editor language=java]
+[code-editor language=csharp]
 ```
 import java.util.Scanner;
 
