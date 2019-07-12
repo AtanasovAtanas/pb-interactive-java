@@ -56,7 +56,6 @@ public class Main {
 The final price is: 115.50 + 70.40 + 68.20 = 254.10
 
 [/task-description]
-[code-io /]
 [tests]
 [test]
 [input]
