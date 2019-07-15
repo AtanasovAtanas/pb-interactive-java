@@ -7,7 +7,7 @@ We have prepared some simple problems for you to solve. If you struggle you can 
 
 [slide]
 # Problem: Print "Hello Java"
-[code-task title="Print Hello Java" executionStrategy="java-code"]
+[code-task title="Print Hello Java" executionType="tests-execution" executionStrategy="java-code"]
 [code-editor language=java]
 ```
 public class Main {
@@ -28,7 +28,7 @@ Prints "Hello Java" on the console
 
 [slide]
 # Solution: Print "Hello Java"
-[code-task title="Print Hello Java" executionStrategy="java-code"]
+[code-task title="Print Hello Java" executionType="tests-execution" executionStrategy="java-code"]
 [code-editor language=java]
 ```
 public class Main {
@@ -44,12 +44,21 @@ Write a Java program, which:
 Prints "Hello Java" on the console
 [/task-description]
 [code-io /]
+[tests]
+[test]
+[input]
+[/input]
+[output]
+Hello Java
+[/output]
+[/test]
+[/tests]
 [/code-task]
 [/slide]
 
 [slide]
 # Problem: Calculate and Print 5 * 5
-[code-task title="Calculate and Print 5 * 5" executionStrategy="java-code"]
+[code-task title="Calculate and Print 5 * 5" executionType="tests-execution" executionStrategy="java-code"]
 [code-editor language=java]
 ```
 public class Main {
@@ -67,12 +76,21 @@ Write a Java program, which:
 * Prints the result
 [/task-description]
 [code-io /]
+[tests]
+[test]
+[input]
+[/input]
+[output]
+Hello Java
+[/output]
+[/test]
+[/tests]
 [/code-task]
 [/slide]
 
 [slide]
 # Solution: Calculate and Print 5 * 5
-[code-task title="Calculate and Print 5 * 5" executionStrategy="java-code"]
+[code-task title="Calculate and Print 5 * 5" executionType="tests-execution" executionStrategy="java-code"]
 [code-editor language=java]
 ```
 public class Main {
@@ -89,12 +107,20 @@ Write a Java program, which:
 * Prints the result
 [/task-description]
 [code-io /]
+[tests]
+[test]
+[input]
+[/input]
+25
+[/output]
+[/test]
+[/tests]
 [/code-task]
 [/slide]
 
 [slide]
 # Problem: Name and Expression
-[code-task title="Name and Expression" executionStrategy="java-code"]
+[code-task title="Name and Expression" executionType="tests-execution" executionStrategy="java-code"]
 [code-editor language=java]
 ```
 public class Main {
@@ -106,22 +132,25 @@ public class Main {
 ```
 [/code-editor]
 [task-description]
-Write a program to print your name at the first line and calculate and print the expression 5 + 3 at the second line
+Write a program to print 'Catlyn' at the first line and calculate and print the expression 5 + 3 at the second line
 [/task-description]
 [code-io /]
+[tests]
+[test]
+[input]
+[/input]
+[output]
+Catlyn
+8
+[/output]
+[/test]
+[/tests]
 [/code-task]
-# Sample Input and Output
-|Input|Output|
-|-----|------|
-||Maria|
-||8|
-||Peter|
-||8|
 [/slide]
 
 [slide]
 # Solution: Name and Expression
-[code-task title="Name and Expression" executionStrategy="java-code"]
+[code-task title="Name and Expression" executionType="tests-execution" executionStrategy="java-code"]
 [code-editor language=java]
 ```
 public class Main {
@@ -133,22 +162,25 @@ public class Main {
 ```
 [/code-editor]
 [task-description]
-Write a program to print your name at the first line and calculate and print the expression 5 + 3 at the second line
+Write a program to print 'Catlyn' at the first line and calculate and print the expression 5 + 3 at the second line
 [/task-description]
 [code-io /]
+[tests]
+[test]
+[input]
+[/input]
+[output]
+Catlyn
+8
+[/output]
+[/test]
+[/tests]
 [/code-task]
-# Sample Input and Output
-|Input|Output|
-|-----|------|
-||Maria|
-||8|
-||Peter|
-||8|
 [/slide]
 
 [slide]
 # Problem: Calculations
-[code-task title="Calculations" executionStrategy="java-code"]
+[code-task title="Calculations" executionType="tests-execution" executionStrategy="java-code"]
 [code-editor language=java]
 ```
 public class Main {
@@ -166,12 +198,23 @@ Write a program, which calculates and prints the value of the following express
 * (2 + 5)  \*  (8 - 2) \/ 7
 [/task-description]
 [code-io /]
+[tests]
+[test]
+[input]
+[/input]
+[output]
+11
+20
+6.0
+[/output]
+[/test]
+[/tests]
 [/code-task]
 [/slide]
 
 [slide]
 # Solution: Calculations
-[code-task title="Calculations" executionStrategy="java-code"]
+[code-task title="Calculations" executionType="tests-execution" executionStrategy="java-code"]
 [code-editor language=java]
 ```
 public class Main {
@@ -191,12 +234,23 @@ Write a program, which calculates and prints the value of the following express
 * (2 + 5)  \*  (8 - 2) \/ 7
 [/task-description]
 [code-io /]
+[tests]
+[test]
+[input]
+[/input]
+[output]
+11
+20
+6.0
+[/output]
+[/test]
+[/tests]
 [/code-task]
 [/slide]
 
 [slide]
 # Problem: Square of 7 * 7 Stars
-[code-task title="Square of 7 * 7 Stars" executionStrategy="java-code"]
+[code-task title="Square of 7 * 7 Stars" executionType="tests-execution" executionStrategy="java-code"]
 [code-editor language=java]
 ```
 public class Main {
@@ -219,12 +273,27 @@ Prints a square of 7 * 7 stars like this:
 \* \* \* \* \* \* \*
 [/task-description]
 [code-io /]
+[tests]
+[test]
+[input]
+[/input]
+[output]
+\* \* \* \* \* \* \*
+\* \* \* \* \* \* \*
+\* \* \* \* \* \* \*
+\* \* \* \* \* \* \*
+\* \* \* \* \* \* \*
+\* \* \* \* \* \* \*
+\* \* \* \* \* \* \*
+[/output]
+[/test]
+[/tests]
 [/code-task]
 [/slide]
 
 [slide]
 # Solution: Square of 7 * 7 Stars
-[code-task title="Square of 7 * 7 Stars" executionStrategy="java-code"]
+[code-task title="Square of 7 * 7 Stars" executionType="tests-execution" executionStrategy="java-code"]
 [code-editor language=java]
 ```
 public class Main {
@@ -253,5 +322,20 @@ Prints a square of 7 * 7 stars like this:
 \* \* \* \* \* \* \*
 [/task-description]
 [code-io /]
+[tests]
+[test]
+[input]
+[/input]
+[output]
+\* \* \* \* \* \* \*
+\* \* \* \* \* \* \*
+\* \* \* \* \* \* \*
+\* \* \* \* \* \* \*
+\* \* \* \* \* \* \*
+\* \* \* \* \* \* \*
+\* \* \* \* \* \* \*
+[/output]
+[/test]
+[/tests]
 [/code-task]
 [/slide]
