@@ -23,6 +23,15 @@ Write a Java program, which:
 Prints "Hello Java" on the console
 [/task-description]
 [code-io /]
+[tests]
+[test]
+[input]
+[/input]
+[output]
+Hello Java
+[/output]
+[/test]
+[/tests]
 [/code-task]
 [/slide]
 
