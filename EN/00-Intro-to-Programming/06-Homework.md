@@ -214,7 +214,7 @@ Write a program, which calculates and prints the value of the following express
 [output]
 11
 20
-6.0
+6
 [/output]
 [/test]
 [/tests]
@@ -250,7 +250,7 @@ Write a program, which calculates and prints the value of the following express
 [output]
 11
 20
-6.0
+6
 [/output]
 [/test]
 [/tests]
