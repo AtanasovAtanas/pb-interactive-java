@@ -90,7 +90,7 @@ Write a Java program, which:
 [input]
 [/input]
 [output]
-Hello Java
+25
 [/output]
 [/test]
 [/tests]
