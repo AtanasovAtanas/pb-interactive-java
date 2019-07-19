@@ -113,6 +113,40 @@ Write a **program**, which:
 
 [/task-description]
 [code-io /]
+[tests]
+[test]
+[input]
+John
+[/input]
+[output]
+Hello, John
+[/output]
+[/test]
+[test]
+[input]
+Marie
+[/input]
+[output]
+Hello, Marie
+[/output]
+[/test]
+[test]
+[input]
+asd
+[/input]
+[output]
+Hello, asd
+[/output]
+[/test]
+[test]
+[input]
+George
+[/input]
+[output]
+Hello, George
+[/output]
+[/test]
+[/tests]
 [/code-task]
 [/slide]
 
