@@ -175,7 +175,7 @@ Write a program to calculate a triangle area:
 2.0
 [/input]
 [output]
-2.0
+12.0
 [/output]
 [/test]
 [test]
@@ -184,7 +184,7 @@ Write a program to calculate a triangle area:
 4.0
 [/input]
 [output]
-10.0
+10.00
 [/output]
 [/test]
 [test]
