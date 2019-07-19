@@ -92,7 +92,7 @@ System.out.println(centimeters);
 
 [slide]
 # Problem: Greeting
-[code-task title="Greeting" executionStrategy="java-code" requiresInput]
+[code-task title="Greeting" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language="java"]
 ```java
 import java.util.Scanner;
@@ -152,7 +152,7 @@ Hello, George
 
 [slide]
 # Solution: Greeting
-[code-task title="Greeting" executionStrategy="java-code" requiresInput]
+[code-task title="Greeting" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```java
 import java.util.Scanner;
@@ -175,6 +175,40 @@ Write a **program**, which:
 
 [/task-description]
 [code-io /]
+[tests]
+[test]
+[input]
+John
+[/input]
+[output]
+Hello, John
+[/output]
+[/test]
+[test]
+[input]
+Marie
+[/input]
+[output]
+Hello, Marie
+[/output]
+[/test]
+[test]
+[input]
+asd
+[/input]
+[output]
+Hello, asd
+[/output]
+[/test]
+[test]
+[input]
+George
+[/input]
+[output]
+Hello, George
+[/output]
+[/test]
+[/tests]
 [/code-task]
 [/slide]
 
