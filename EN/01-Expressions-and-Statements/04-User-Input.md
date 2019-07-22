@@ -112,7 +112,6 @@ Write a **program**, which:
 * Prints "Hello, \{name\}!", where \{name\} is the user input
 
 [/task-description]
-[code-io /]
 [tests]
 [test]
 [input]
@@ -174,7 +173,6 @@ Write a **program**, which:
 * Prints "Hello, \{name\}!", where \{name\} is the user input
 
 [/task-description]
-[code-io /]
 [tests]
 [test]
 [input]

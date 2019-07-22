@@ -27,7 +27,6 @@ Write a program to calculate the speed by time and distance:
   * Print the calculated result
 
 [/task-description]
-[code-io /]
 [tests]
 [test]
 [input]
@@ -99,7 +98,6 @@ Write a program to convert from USD to EUR:
   * Print the converted value in **euro**
 
 [/task-description]
-[code-io /]
 [tests]
 [test]
 [input]
@@ -167,7 +165,6 @@ Write a program to calculate a triangle area:
   * Print the **area**, formatted to the **2nd digit** after decimal point
 
 [/task-description]
-[code-io /]
 [tests]
 [test]
 [input]
@@ -238,7 +235,6 @@ Write a program, which:
   * **Formats** and **prints** the results like this example:
 
 [/task-description]
-[code-io /]
 [tests]
 [test]
 [input]
@@ -324,7 +320,6 @@ Write a program to convert from days to minutes:
   * Print the **minutes**
 
 [/task-description]
-[code-io /]
 [tests]
 [test]
 [input]
@@ -391,7 +386,6 @@ Write a program to calculate a circle area and perimeter:
   * Print the calculated values
 
 [/task-description]
-[code-io /]
 [tests]
 [test]
 [input]
@@ -462,7 +456,6 @@ Write a program, which:
   * Prints information about a person in the following format: "**{firstName} {lastName} from {country} - {town}!**"
 
 [/task-description]
-[code-io /]
 [tests]
 [test]
 [input]
@@ -542,7 +535,6 @@ Write a program, which:
   * Prints information about a town in the following format: "**Town {name} has population of {population} and area {area} square km.**"
 
 [/task-description]
-[code-io /]
 [tests]
 [test]
 [input]
