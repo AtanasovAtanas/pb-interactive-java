@@ -55,3 +55,10 @@ JDK should not be confused for a runtime environment (JRE)
 
 * JRE allow to **run** Java programs, but can't **develop own programs**
 [/slide]
+
+[slide]
+# Video
+
+[vimeo-video videoId="342593690" startTimeInSeconds="3111" endTimeInSeconds="4030" /]
+
+[/slide]

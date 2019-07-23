@@ -51,3 +51,10 @@ The "Compile Java" Online IDE: https://compilejava.net
 [image src="https://github.com/AlenPaunov/pb-interactive-java/blob/master/assets/intro-to-programming-2.png"/]
 
 [/slide]
+
+[slide]
+# Video
+
+[vimeo-video videoId="342593690" startTimeInSeconds="4035" endTimeInSeconds="4552" /]
+
+[/slide]
