@@ -13,3 +13,10 @@ String name = "John Doe"
 int r = (150-20) / 2 + 5;
 ```
 [/slide]
+
+[slide]
+# Video
+
+[vimeo-video videoId="341522009" startTimeInSeconds="7018" endTimeInSeconds="7376" /]
+
+[/slide]
