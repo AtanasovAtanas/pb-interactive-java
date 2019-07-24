@@ -2,7 +2,11 @@
 # Integrated Development Environments (IDE)
 Integrated Development Environments (**IDE**) simplify software development
 
-IDEs save time and eases the process of coding
+IDEs save time and eases the process of coding.
+
+They are actually editors for programs, in which we write the program code 
+and we can compile it and run it to see the errors, fix them and start the 
+program again.
 
 * Writing, running, testing, and debugging the code
 
@@ -10,6 +14,7 @@ For Java programming, we shall use **IntelliJ IDEA Community**
 
 * Free, open-source IDE from JetBrains
 * https://jetbrains.com/idea
+
 [/slide]
 
 [slide]

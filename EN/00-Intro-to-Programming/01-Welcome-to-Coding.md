@@ -34,11 +34,19 @@ for (int i = 1; i <= 100; i++)
 
 [slide]
 # Programming and Algorithms 
-**Programming** means writing computer programs (commands)
+**Programming** means writing computer programs (commands). Computer programs usually execute
+some algorithm. Algorithms are a sequence of steps, necessary for the completion of a certain 
+task and for gaining some expected result, something like a "recipe". We need to use a certain 
+**programming language**, such as C# or Python, to write it.
 
 * Using certain **programming language**, such as C# or Python
 
 **Algorithm** == a sequence of commands that achieves certain result
+In programming the computer programs execute algorithms: a sequence of commands, necessary for 
+the completion of a certain task. For example, to arrange a sequence of numbers in an ascending 
+order, an algorithm is needed, e.g. find the smallest number and print it, then find the smallest 
+number among the rest of the numbers and print it, and this is repeated until there are no more 
+numbers left.
 
 Programming is done by **programmers** (developers)
 
@@ -51,6 +59,8 @@ Programmers use IDE (like IntelliJ IDEA) to:
 
 [slide]
 # Computer Program – Example
+Computer programs represent a sequence of commands that are written in certain programming language. 
+
 Sample Java program (sequence of Java commands):
 
 ```java
@@ -75,6 +85,17 @@ public class Main {
   }
 }
 ```
+The above program holds a sequence of 3 commands:
+ * Declaring and assigning a variable: int size = 5;
+ * Calculating and printing an expression: System.out.println("Size = " + size);
+ * Calculating and printing an expression: System.out.println("Area = " + size * size);
+
+ The result (output) from the above program is as follows:
+```java
+Size = 5
+Area = 25
+```
+
 [/slide]
 
 [slide]
