@@ -59,6 +59,22 @@ const int INITIAL_VALUE = 5;
 [/slide]
 
 [slide]
+# Comments
+A comment is text in your program that is not executed as a code
+
+* Commonly used to document code
+
+```java
+// String name = "John" <- this code will not be executed
+```
+
+```java
+/* String name = "John"; 
+   int num = 5; (example for a multiline comment) */
+```
+[/slide]
+
+[slide]
 # Video
 
 [vimeo-video videoId="341522009" startTimeInSeconds="1778" endTimeInSeconds="2358" /]
