@@ -10,9 +10,11 @@ Data types:
 * **char** - a symbol: 'a', 'b', '#'…
 * **String** - text: "Hello", "World"…
 
-Once a variable is defined, it can change its value many times, but 
-it cannot change its data type later. Variables may hold only data 
-of their type. Here is how we can declare variables of different types:
+Once a variable is defined, it can change its value many times, but it cannot change its data type later. 
+
+Variables may hold only data of their type. 
+
+Here is how we can declare variables of different types:
 ```java
 int a = 5;
 String text = "Some text";
@@ -46,12 +48,11 @@ This_is_also_not_correct
 ```
 
 There are other conventions such as:
-* Pascal Case - capitalizes each word:
+* Pascal Case - capitalizes each word removes the space:
 ```java
 class MountainBike
 ```
-
-* Upper Case with underscores:
+* Snake Case (All Caps) - upper case with underscores:
 ```java
 const int INITIAL_VALUE = 5;
 ```
