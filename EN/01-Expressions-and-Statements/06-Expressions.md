@@ -20,9 +20,6 @@ and y are both variables of type int, the value of the expression x + y is also 
 If the value is assigned to a variable of a different type, or if x and y are different types, 
 they need to be converted to a certaint type.
 
-[/slide]
-
-[slide]
 # Priorities of arithmetic operations
 The standard rule for priorities of arithmetic operations is applied: multiplying and dividing are always done before adding and subtracting. In case of an expression in brackets, it is calculated first.
 
