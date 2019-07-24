@@ -21,6 +21,15 @@ If the value is assigned to a variable of a different type, or if x and y are di
 they need to be converted to a certaint type.
 
 [/slide]
+# Priorities of arithmetic operations
+The standard rule for priorities of arithmetic operations is applied: multiplying and dividing are always done before adding and subtracting. In case of an expression in brackets, it is calculated first.
+
+ When two operators share an operand the operator with the higher **precedence** goes first. For example, **1 + 2 * 3** is treated as **1 + (2 * 3)**, 
+ whereas **1 * 2 + 3** is treated as **(1 * 2) + 3** since multiplication has a higher precedence than addition.
+
+[slide]
+
+[/slide]
 
 [slide]
 # Video
