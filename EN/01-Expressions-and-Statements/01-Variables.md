@@ -1,6 +1,6 @@
 [slide]
 # How Computing Works?
-Computers are machines that process data
+Computers are machines that process data.
 
 * Instructions and data are stored in the computer memory
 
@@ -29,7 +29,8 @@ Variables are characterized by:
 * **type** (of the information preserved)
 * **value** (stored information)
 
-Defining a variable
+Each of the variables in Java has a name, a type and a value. Here is how we would 
+declare a variable and assign it with a value at the same time:
 ```java
 int age = 25;
 ```
@@ -38,11 +39,9 @@ int age = 25;
 * Stores a value from a particular data type
 * Is accessible in the program by its name
 
-Can be stored in the program's:
-* Operational memory
-    * In the **stack**
-* Dynamic memory
-    * In the **heap**
+Variables can be stored in the program's:
+  * Operational memory - in the execution **stack**
+  * Dynamic memory - in the **heap**
 [/slide]
 
 [slide]

@@ -35,13 +35,22 @@ System.out.println(a / b); // 6
 
 [slide]
 # Division Behavior in Java
-When dividing integers, the result is also integer:
+Dividing numbers is done using the / operator. It works differently with integers 
+and floating point numbers. When we divide two integers, an integer division is 
+applied, and the obtained output is without its fractional part. When we divide 
+two numbers and at least one of them is a float number, a floating division is 
+applied, and the obtained result is a float number, just like in math.The integer 
+division by 0 causes an exception during runtime, but float numbers divided by 0 
+do not cause an exception and the result is +/- infinity or a special value NaN.
+
+When **dividing** integers, the result is also integer:
 ```java
 int a = 25;
 System.out.println(a / 4);  // Integer result: 6
 System.out.println(a / 0);  // Error: division by 0
 ```
-When dividing floating-points, the result is also floating-point:
+When **dividing floating-points**, the result is also a floating-point number and 
+the division never fails, and works correctly with the special values Infinity and -Infinity:
 ```java
 double a = 15;
 System.out.println(a / 2.0); // 7.5

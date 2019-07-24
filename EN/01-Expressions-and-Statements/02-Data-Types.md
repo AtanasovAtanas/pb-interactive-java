@@ -10,6 +10,16 @@ Data types:
 * **char** - a symbol: 'a', 'b', '#'…
 * **String** - text: "Hello", "World"…
 
+Once a variable is defined, it can change its value many times, but 
+it cannot change its data type later. Variables may hold only data 
+of their type. Here is how we can declare variables of different types:
+```java
+int a = 5;
+String text = "Some text";
+char letter = 'A';
+float f = 4.2;
+```
+
 Sets (ranges) of values with similar characteristics
 
 Data types are characterized by:
