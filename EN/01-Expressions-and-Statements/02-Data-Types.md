@@ -61,7 +61,11 @@ const int INITIAL_VALUE = 5;
 
 [slide]
 # Comments
-A comment is text in your program that is not executed as a code
+When writing code in Java, it’s important to make sure that your code can be easily understood by others. Giving variables obvious names, defining explicit functions, and organizing your code are all great ways to do this.
+
+Another easy way to increase the readability of your code is by using comments!
+
+A comment is text in your program that is **not executed as a code**.
 
 * Commonly used to document code
 
