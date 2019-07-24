@@ -32,6 +32,33 @@ Data types are characterized by:
 [/slide]
 
 [slide]
+# Naming Conventions
+In computer programming, a naming convention is a set of rules for choosing the name to be used for variables
+
+In Java the convention for naming variables is **"camelCase"**:
+* First word begins with a **lowercase letter**, all the rest with **capital letters**
+
+```java
+thisIsCorrect
+this_Is_Not_Correct
+ThisIsNotCorrect
+This_is_also_not_correct
+```
+
+There are other conventions such as:
+* Pascal Case - capitalizes each word:
+```java
+class MountainBike
+```
+
+* Upper Case with underscores:
+```java
+const int INITIAL_VALUE = 5;
+```
+
+[/slide]
+
+[slide]
 # Video
 
 [vimeo-video videoId="341522009" startTimeInSeconds="1778" endTimeInSeconds="2358" /]
