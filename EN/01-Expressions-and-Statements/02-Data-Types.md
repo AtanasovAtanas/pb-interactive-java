@@ -48,7 +48,7 @@ This_is_also_not_correct
 ```
 
 There are other conventions such as:
-* Pascal Case - capitalizes each word removes the space:
+* Pascal Case - capitalizes each word, removes the space:
 ```java
 class MountainBike
 ```
