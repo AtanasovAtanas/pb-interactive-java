@@ -52,7 +52,7 @@ if (color.equals("red")) {
 
 [slide]
 # Problem: Even or Odd
-[code-task title="Even or Odd" executionStrategy="java-code" requiresInput]
+[code-task title="Even or Odd" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```java
 import java.util.Scanner;
@@ -72,7 +72,48 @@ Write a program, which:
     * If it's odd, it should print "**odd**"
 
 [/task-description]
-[code-io /]
+[tests]
+[test]
+[input]
+4
+[/input]
+[output]
+even
+[/output]
+[/test]
+[test]
+[input]
+7
+[/input]
+[output]
+odd
+[/output]
+[/test]
+[test]
+[input]
+10
+[/input]
+[output]
+even
+[/output]
+[/test]
+[test]
+[input]
+91
+[/input]
+[output]
+odd
+[/output]
+[/test]
+[test]
+[input]
+105
+[/input]
+[output]
+odd
+[/output]
+[/test]
+[/tests]
 [/code-task]
 
 
@@ -129,7 +170,7 @@ Write a program, which:
 
 [slide]
 # Problem: Greater Number
-[code-task title="Greater Number" executionStrategy="java-code" requiresInput]
+[code-task title="Greater Number" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```java
 import java.util.Scanner;
@@ -149,7 +190,53 @@ Write a program, which:
 * Prints "**Greater number:** " + the **greater** number
 
 [/task-description]
-[code-io /]
+[tests]
+[test]
+[input]
+4
+5
+[/input]
+[output]
+Greater number: 5
+[/output]
+[/test]
+[test]
+[input]
+100
+1
+[/input]
+[output]
+Greater number: 100
+[/output]
+[/test]
+[test]
+[input]
+0
+-1
+[/input]
+[output]
+Greater number: 0
+[/output]
+[/test]
+[test]
+[input]
+999
+99
+[/input]
+[output]
+Greater number: 999
+[/output]
+[/test]
+[test]
+[input]
+-60
+-70
+[/input]
+[output]
+Greater number: -60
+[/output]
+[/test]
+[/tests]
 [/code-task]
 
 ## Sample Input and Output
