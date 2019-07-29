@@ -34,9 +34,9 @@ The statement or statements in the then-statement and the else-statement can be 
 
 [slide]
 # Block of Code
-The curly brackets ***\{\}*** introduce a **block** (a group of commands)
+The curly brackets **\{\}** introduce a **block** (a group of commands)
 
-In case the ***if*** statement does **not** have curly brackets, only the code on the **next line** will be executed
+In case the ***if*** statement does **NOT** have curly brackets, only the code on the **next line** will be executed
 
 ```java
 String color = "red";
