@@ -649,7 +649,7 @@ coffee
 sugar
 [/input]
 [output]
-$1.40
+Final price: $1.40
 [/output]
 [/test]
 [test]
@@ -658,7 +658,7 @@ coffee
 no
 [/input]
 [output]
-$1.00
+Final price: $1.00
 [/output]
 [/test]
 [test]
@@ -667,7 +667,7 @@ tea
 sugar
 [/input]
 [output]
-$1.00
+Final price: $1.00
 [/output]
 [/test]
 [test]
@@ -676,7 +676,7 @@ tea
 no
 [/input]
 [output]
-$0.60
+Final price: $0.60
 [/output]
 [/test]
 [/tests]
@@ -742,7 +742,7 @@ coffee
 sugar
 [/input]
 [output]
-$1.40
+Final price: $1.40
 [/output]
 [/test]
 [test]
