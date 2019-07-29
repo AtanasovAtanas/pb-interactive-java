@@ -3,6 +3,10 @@
 The process of **tracking** the execution of the program
 * This allows us to find mistakes (**bugs**)
 
+Debugging is the process of "attaching" to the program execution, which allows us to track step by step the process. 
+
+We can track line by line what happens in our program, what path it follows, what are the values of defined variables at each step of debugging, and many other things that allow us to detect errors (bugs).
+
 [image src="https://github.com/AlenPaunov/pb-interactive-course/blob/02-java-conditional-statements/assets/conditional-statements-1.png"/]
 
 [/slide]
