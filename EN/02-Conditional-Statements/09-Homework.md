@@ -349,6 +349,7 @@ Write a program which:
 * Reads a **number** (**two numbers** for rectangle)
 * Checks if the figure is **square**, **rectangle** or **circle**
 * Prints the calculated area **formatted** to the **second decimal**
+* For unknown figure print **"Unknown figure"**
 
 [/task-description]
 [tests]
@@ -420,8 +421,11 @@ public class Program {
             int height = Integer.parseInt(scanner.nextLine());
             area = width * height;
         } else if (figure.equals("circle")) {
-            int radius = Integer.parseInt(scanner.nextLine());
+            double radius = Double.parseDouble(scanner.nextLine());
             area = Math.PI * (radius * radius);
+        } else {
+            System.out.println("Unknown figure");
+            return;
         }
         System.out.printf("%.2f", area);
     }
