@@ -34,7 +34,7 @@ else
 
 [slide]
 # Problem: Number 1…9
-[code-task title="Problem: Number 1…9" executionStrategy="java-code" requiresInput]
+[code-task title="Problem: Number 1…9" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```java
 import java.util.Scanner;
@@ -54,7 +54,48 @@ Write a program, which:
 * If the number is **greater** than 9 prints "**Number too big**"
 
 [/task-description]
-[code-io /]
+[tests]
+[test]
+[input]
+5
+[/input]
+[output]
+five
+[/output]
+[/test]
+[test]
+[input]
+3
+[/input]
+[output]
+three
+[/output]
+[/test]
+[test]
+[input]
+18
+[/input]
+[output]
+Number too big
+[/output]
+[/test]
+[test]
+[input]
+10
+[/input]
+[output]
+Number too big
+[/output]
+[/test]
+[test]
+[input]
+4
+[/input]
+[output]
+four
+[/output]
+[/test]
+[/tests]
 [/code-task]
 
 ## Sample Input and Output
@@ -67,7 +108,7 @@ Write a program, which:
 
 [slide]
 # Solution: Number 1…9
-[code-task title="Problem: Number 1…9" executionStrategy="java-code" requiresInput]
+[code-task title="Problem: Number 1…9" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```java
 import java.util.Scanner;
@@ -109,7 +150,48 @@ Write a program, which:
 * If the number is **greater** than 9 prints "**Number too big**"
 
 [/task-description]
-[code-io /]
+[tests]
+[test]
+[input]
+5
+[/input]
+[output]
+five
+[/output]
+[/test]
+[test]
+[input]
+3
+[/input]
+[output]
+three
+[/output]
+[/test]
+[test]
+[input]
+18
+[/input]
+[output]
+Number too big
+[/output]
+[/test]
+[test]
+[input]
+10
+[/input]
+[output]
+Number too big
+[/output]
+[/test]
+[test]
+[input]
+4
+[/input]
+[output]
+four
+[/output]
+[/test]
+[/tests]
 [/code-task]
 
 ## Sample Input and Output
