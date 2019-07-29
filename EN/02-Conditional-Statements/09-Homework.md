@@ -7,7 +7,7 @@ We have prepared some simple problems for you to solve. If you struggle you can 
 
 [slide]
 # Problem: Guess the Password
-[code-task title="Guess the Password" executionStrategy="java-code" requiresInput]
+[code-task title="Guess the Password" taskId="p-01" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```java
 import java.util.Scanner;
@@ -27,7 +27,24 @@ Write a program which:
 * Prints "**Wrong password!**" in all other cases 
 
 [/task-description]
-[code-io /]
+[tests]
+[test]
+[input]
+s3cr3t!
+[/input]
+[output]
+Welcome
+[/output]
+[/test]
+[test]
+[input]
+qwerty
+[/input]
+[output]
+Wrong password!
+[/output]
+[/test]
+[/tests]
 [/code-task]
 
 ## Sample Input and Output
@@ -40,7 +57,7 @@ Write a program which:
 
 [slide]
 # Solution: Guess the Password
-[code-task title="Guess the Password" executionStrategy="java-code" requiresInput]
+[code-task title="Guess the Password" taskId="p-01" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```java
 import java.util.Scanner;
@@ -66,7 +83,24 @@ Write a program which:
 * Prints "**Wrong password!**" in all other cases 
 
 [/task-description]
-[code-io /]
+[tests]
+[test]
+[input]
+s3cr3t!
+[/input]
+[output]
+Welcome
+[/output]
+[/test]
+[test]
+[input]
+qwerty
+[/input]
+[output]
+Wrong password!
+[/output]
+[/test]
+[/tests]
 [/code-task]
 
 ## Sample Input and Output
@@ -79,7 +113,7 @@ Write a program which:
 
 [slide]
 # Problem: Boiling Water
-[code-task title="Boiling Water" executionStrategy="java-code" requiresInput]
+[code-task title="Boiling Water" taskId="p-02" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 
 ```java
@@ -100,7 +134,24 @@ Write a program which:
 * Prints "**The water is not hot enough**" in all other cases
 
 [/task-description]
-[code-io /]
+[tests]
+[test]
+[input]
+104.8
+[/input]
+[output]
+The water is boiling
+[/output]
+[/test]
+[test]
+[input]
+29
+[/input]
+[output]
+The water is not hot enough
+[/output]
+[/test]
+[/tests]
 [/code-task]
 
 ## Sample Input and Output
@@ -113,7 +164,7 @@ Write a program which:
 
 [slide]
 # Solution: Boiling Water
-[code-task title="Boiling Water" executionStrategy="java-code" requiresInput]
+[code-task title="Boiling Water" taskId="p-02" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 
 ```java
@@ -140,7 +191,24 @@ Write a program which:
 * Prints "**The water is not hot enough**" in all other cases
 
 [/task-description]
-[code-io /]
+[tests]
+[test]
+[input]
+104.8
+[/input]
+[output]
+The water is boiling
+[/output]
+[/test]
+[test]
+[input]
+29
+[/input]
+[output]
+The water is not hot enough
+[/output]
+[/test]
+[/tests]
 [/code-task]
 
 ## Sample Input and Output
@@ -153,7 +221,7 @@ Write a program which:
 
 [slide]
 # Problem: Speed Info
-[code-task title="Speed Info" executionStrategy="java-code" requiresInput]
+[code-task title="Speed Info" taskId="p-03" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 
 ```java
@@ -174,7 +242,24 @@ Write a program which:
 * Prints "**Fast**" if the number **>** 30
 
 [/task-description]
-[code-io /]
+[tests]
+[test]
+[input]
+30
+[/input]
+[output]
+Slow
+[/output]
+[/test]
+[test]
+[input]
+60
+[/input]
+[output]
+Fast
+[/output]
+[/test]
+[/tests]
 [/code-task]
 
 ## Sample Input and Output
@@ -187,7 +272,7 @@ Write a program which:
 
 [slide]
 # Solution: Speed Info
-[code-task title="Speed Info" executionStrategy="java-code" requiresInput]
+[code-task title="Speed Info" taskId="p-03" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 
 ```java
@@ -214,7 +299,24 @@ Write a program which:
 * Prints "**Fast**" if the number **>** 30
 
 [/task-description]
-[code-io /]
+[tests]
+[test]
+[input]
+30
+[/input]
+[output]
+Slow
+[/output]
+[/test]
+[test]
+[input]
+60
+[/input]
+[output]
+Fast
+[/output]
+[/test]
+[/tests]
 [/code-task]
 
 ## Sample Input and Output
@@ -227,7 +329,7 @@ Write a program which:
 
 [slide]
 # Problem: Area of Figures
-[code-task title="Area of Figures" executionStrategy="java-code" requiresInput]
+[code-task title="Area of Figures" taskId="p-04" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 
 ```java
@@ -249,7 +351,44 @@ Write a program which:
 * Prints the calculated area **formatted** to the **second decimal**
 
 [/task-description]
-[code-io /]
+[tests]
+[test]
+[input]
+square
+5
+[/input]
+[output]
+25.00
+[/output]
+[/test]
+[test]
+[input]
+rectangle
+5
+10
+[/input]
+[output]
+50.00
+[/output]
+[/test]
+[test]
+[input]
+circle
+2.5
+[/input]
+[output]
+19.63
+[/output]
+[/test]
+[test]
+[input]
+figure
+[/input]
+[output]
+Unknown figure
+[/output]
+[/test]
+[/tests]
 [/code-task]
 
 ## Sample Input and Output
@@ -262,7 +401,7 @@ Write a program which:
 
 [slide]
 # Solution: Area of Figures
-[code-task title="Area of Figures" executionStrategy="java-code" requiresInput]
+[code-task title="Area of Figures" taskId="p-04" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 
 ```java
@@ -298,7 +437,44 @@ Write a program which:
 * Prints the calculated area **formatted** to the **second decimal**
 
 [/task-description]
-[code-io /]
+[tests]
+[test]
+[input]
+square
+5
+[/input]
+[output]
+25.00
+[/output]
+[/test]
+[test]
+[input]
+rectangle
+5
+10
+[/input]
+[output]
+50.00
+[/output]
+[/test]
+[test]
+[input]
+circle
+2.5
+[/input]
+[output]
+19.63
+[/output]
+[/test]
+[test]
+[input]
+figure
+[/input]
+[output]
+Unknown figure
+[/output]
+[/test]
+[/tests]
 [/code-task]
 
 ## Sample Input and Output
@@ -311,7 +487,7 @@ Write a program which:
 
 [slide]
 # Problem: Tickets
-[code-task title="Tickets" executionStrategy="java-code" requiresInput]
+[code-task title="Tickets" taskId="p-05" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```java
 import java.util.Scanner;
@@ -333,7 +509,32 @@ Write a program which:
     * For invalid type "Invalid ticket type!"
 
 [/task-description]
-[code-io /]
+[tests]
+[test]
+[input]
+student
+[/input]
+[output]
+$1.00
+[/output]
+[/test]
+[test]
+[input]
+regular
+[/input]
+[output]
+$1.60
+[/output]
+[/test]
+[test]
+[input]
+ticket
+[/input]
+[output]
+Invalid ticket type!
+[/output]
+[/test]
+[/tests]
 [/code-task]
 
 |Input|Output|
@@ -345,7 +546,7 @@ Write a program which:
 
 [slide]
 # Solution: Tickets
-[code-task title="Tickets" executionStrategy="java-code" requiresInput]
+[code-task title="Tickets" taskId="p-05" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 
 ```java
@@ -376,7 +577,32 @@ Write a program which:
     * For invalid type "Invalid ticket type!"
 
 [/task-description]
-[code-io /]
+[tests]
+[test]
+[input]
+student
+[/input]
+[output]
+$1.00
+[/output]
+[/test]
+[test]
+[input]
+regular
+[/input]
+[output]
+$1.60
+[/output]
+[/test]
+[test]
+[input]
+ticket
+[/input]
+[output]
+Invalid ticket type!
+[/output]
+[/test]
+[/tests]
 [/code-task]
 
 |Input|Output|
@@ -388,7 +614,7 @@ Write a program which:
 
 [slide]
 # Problem: Coffee Shop
-[code-task title="Coffee Shop" executionStrategy="java-code" requiresInput]
+[code-task title="Coffee Shop" taskId="p-06" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 
 ```java
@@ -412,7 +638,44 @@ Write a program which:
     * Price for the sugar - 0.40
 
 [/task-description]
-[code-io /]
+[tests]
+[test]
+[input]
+coffee
+sugar
+[/input]
+[output]
+$1.40
+[/output]
+[/test]
+[test]
+[input]
+coffee
+no
+[/input]
+[output]
+$1.00
+[/output]
+[/test]
+[test]
+[input]
+tea
+sugar
+[/input]
+[output]
+$1.00
+[/output]
+[/test]
+[test]
+[input]
+tea
+no
+[/input]
+[output]
+$0.60
+[/output]
+[/test]
+[/tests]
 [/code-task]
 
 ## Sample Input and Output
@@ -431,7 +694,7 @@ Write a program which:
 
 [slide]
 # Solution: Coffee Shop
-[code-task title="Coffee Shop" executionStrategy="java-code" requiresInput]
+[code-task title="Coffee Shop" taskId="p-06" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 
 ```java
@@ -468,7 +731,44 @@ Write a program which:
     * Price for the sugar - 0.40
 
 [/task-description]
-[code-io /]
+[tests]
+[test]
+[input]
+coffee
+sugar
+[/input]
+[output]
+$1.40
+[/output]
+[/test]
+[test]
+[input]
+coffee
+no
+[/input]
+[output]
+$1.00
+[/output]
+[/test]
+[test]
+[input]
+tea
+sugar
+[/input]
+[output]
+$1.00
+[/output]
+[/test]
+[test]
+[input]
+tea
+no
+[/input]
+[output]
+$0.60
+[/output]
+[/test]
+[/tests]
 [/code-task]
 
 ## Sample Input and Output
@@ -486,7 +786,7 @@ Write a program which:
 
 [slide]
 # Problem: Valid Triangle
-[code-task title="Valid Triangle" executionStrategy="java-code" requiresInput]
+[code-task title="Valid Triangle" taskId="p-07" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 
 ```java
@@ -508,7 +808,28 @@ Write a program which:
 * Prints "Invalid Triangle" otherwise
 
 [/task-description]
-[code-io /]
+[tests]
+[test]
+[input]
+3
+4
+5
+[/input]
+[output]
+Valid Triangle
+[/output]
+[/test]
+[test]
+[input]
+5
+8
+3
+[/input]
+[output]
+Invalid Triangle
+[/output]
+[/test]
+[/tests]
 [/code-task]
 
 ## Sample Input and Output
@@ -522,7 +843,7 @@ Write a program which:
 
 [slide]
 # Solution: Valid Triangle
-[code-task title="Valid Triangle" executionStrategy="java-code" requiresInput]
+[code-task title="Valid Triangle" taskId="p-07" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```java
 import java.util.Scanner;
@@ -561,7 +882,28 @@ Write a program which:
 * Prints "Invalid Triangle" otherwise
 
 [/task-description]
-[code-io /]
+[tests]
+[test]
+[input]
+3
+4
+5
+[/input]
+[output]
+Valid Triangle
+[/output]
+[/test]
+[test]
+[input]
+5
+8
+3
+[/input]
+[output]
+Invalid Triangle
+[/output]
+[/test]
+[/tests]
 [/code-task]
 
 ## Sample Input and Output
