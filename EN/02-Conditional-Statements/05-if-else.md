@@ -147,6 +147,14 @@ public class Program {
 }
 ```
 [/code-editor]
+[task-description]
+
+Write a program, which: 
+* Checks whether a number is **even** or **odd**
+    * If it's even, it should print "**even**"
+    * If it's odd, it should print "**odd**"
+
+[/task-description]
 [tests]
 [test]
 [input]
@@ -189,15 +197,6 @@ odd
 [/output]
 [/test]
 [/tests]
-[task-description]
-
-Write a program, which: 
-* Checks whether a number is **even** or **odd**
-    * If it's even, it should print "**even**"
-    * If it's odd, it should print "**odd**"
-
-[/task-description]
-[code-io /]
 [/code-task]
 
 
