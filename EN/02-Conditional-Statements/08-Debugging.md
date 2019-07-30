@@ -21,3 +21,10 @@ Pressing **Shift + F9** will start the program in debug mode
 [image src="https://github.com/AlenPaunov/pb-interactive-course/blob/02-java-conditional-statements/assets/conditional-statements-2.jpg"/]
 
 [/slide]
+
+[slide]
+# Video
+
+[vimeo-video videoId="341539841" startTimeInSeconds="4211" endTimeInSeconds="4582" /]
+
+[/slide]

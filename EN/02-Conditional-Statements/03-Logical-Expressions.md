@@ -65,6 +65,11 @@ String a = "5";
 String b = "5";
 System.out.println(a.equals.(b));   // true 
 ```
+[/slide]
 
+[slide]
+# Video
+
+[vimeo-video videoId="341539841" startTimeInSeconds="1628" endTimeInSeconds="2292" /]
 
 [/slide]
