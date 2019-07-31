@@ -14,8 +14,7 @@ if (expression) {
 Only if the first condition is true the nested one is checked
 
 ```java
-if (expression)
-{
+if (expression) {
   if (nested expression)
     // Some code
   else
@@ -31,13 +30,12 @@ Deep nesting is not recommended
 
 [slide]
 # Problem: Marketplace
-[code-task title="Marketplace" executionStrategy="java-code" requiresInput]
+[code-task title="Marketplace" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```
 import java.util.Scanner;
 
-public class Main
-{
+public class Main {
   public static void main(String[] args) {
       // Write code here
     }
@@ -55,7 +53,44 @@ Print the price, formatted to 2nd digit, based on the price table:
 |Apple|1.30|1.60|
 |Kiwi|2.20|3.00|
 [/task-description]
-[code-io /]
+[tests]
+[test]
+[input]
+Banana
+Weekday
+[/input]
+[output]
+2.50
+[/output]
+[/test]
+[test]
+[input]
+Apple
+Weekend
+[/input]
+[output]
+1.60
+[/output]
+[/test]
+[test]
+[input]
+Kiwi
+Weekend
+[/input]
+[output]
+3.00
+[/output]
+[/test]
+[test]
+[input]
+Apple
+Weekday
+[/input]
+[output]
+1.30
+[/output]
+[/test]
+[/tests]
 [/code-task]
 # Sample Input and Output
 |Input|Output|
@@ -71,7 +106,7 @@ Print the price, formatted to 2nd digit, based on the price table:
 
 [slide]
 # Solution: Marketplace
-[code-task title="Marketplace" executionStrategy="java-code" requiresInput]
+[code-task title="Marketplace" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```
 import java.util.Scanner;
@@ -116,7 +151,44 @@ Print the price, formatted to 2nd digit, based on the price table:
 |Apple|1.30|1.60|
 |Banana|2.20|3.00|
 [/task-description]
-[code-io /]
+[tests]
+[test]
+[input]
+Banana
+Weekday
+[/input]
+[output]
+2.50
+[/output]
+[/test]
+[test]
+[input]
+Apple
+Weekend
+[/input]
+[output]
+1.60
+[/output]
+[/test]
+[test]
+[input]
+Kiwi
+Weekend
+[/input]
+[output]
+3.00
+[/output]
+[/test]
+[test]
+[input]
+Apple
+Weekday
+[/input]
+[output]
+1.30
+[/output]
+[/test]
+[/tests]
 [/code-task]
 # Sample Input and Output
 |Input|Output|
@@ -132,7 +204,7 @@ Print the price, formatted to 2nd digit, based on the price table:
 
 [slide]
 # Problem: Biggest Number of Three
-[code-task title="Biggest Number of Three" executionStrategy="java-code" requiresInput]
+[code-task title="Biggest Number of Three" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```
 import java.util.Scanner;
@@ -149,7 +221,48 @@ Read 3 numbers from the console
 
 Print the biggest number of them
 [/task-description]
-[code-io /]
+[tests]
+[test]
+[input]
+1
+2
+3
+[/input]
+[output]
+3
+[/output]
+[/test]
+[test]
+[input]
+3
+2
+1
+[/input]
+[output]
+3
+[/output]
+[/test]
+[test]
+[input]
+-2
+0
+4
+[/input]
+[output]
+4
+[/output]
+[/test]
+[test]
+[input]
+-10
+-11
+-12
+[/input]
+[output]
+-10
+[/output]
+[/test]
+[/tests]
 [/code-task]
 # Sample Input and Output
 |Input|Output|
@@ -167,7 +280,7 @@ Print the biggest number of them
 
 [slide]
 # Solution: Biggest Number of Three
-[code-task title="Biggest Number of Three" executionStrategy="java-code" requiresInput]
+[code-task title="Biggest Number of Three" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```
 import java.util.Scanner;
@@ -198,7 +311,48 @@ Read 3 numbers from the console
 
 Print the biggest number of them
 [/task-description]
-[code-io /]
+[tests]
+[test]
+[input]
+1
+2
+3
+[/input]
+[output]
+3
+[/output]
+[/test]
+[test]
+[input]
+3
+2
+1
+[/input]
+[output]
+3
+[/output]
+[/test]
+[test]
+[input]
+-2
+0
+4
+[/input]
+[output]
+4
+[/output]
+[/test]
+[test]
+[input]
+-10
+-11
+-12
+[/input]
+[output]
+-10
+[/output]
+[/test]
+[/tests]
 [/code-task]
 # Sample Input and Output
 |Input|Output|
