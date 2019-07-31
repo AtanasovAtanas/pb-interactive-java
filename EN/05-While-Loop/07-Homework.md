@@ -267,7 +267,7 @@ Write a program to check if given number is special:
 12
 [/input]
 [output]
-12 i special
+12 is special
 [/output]
 [/test]
 [test]
