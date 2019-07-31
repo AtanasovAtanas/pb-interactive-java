@@ -15,7 +15,7 @@ for (int i = 10; i >= 0; i -= 2)
 
 [slide]
 # Problem: Numbers Ending with 7 
-[code-task title="Numbers Ending with 7" executionStrategy="java-code" requiresInput]
+[code-task title="Numbers Ending with 7" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```java
 import java.util.Scanner;
@@ -34,7 +34,48 @@ Write a program, which:
 * Prints all numbers from **7** to **n**, ending with 7
 
 [/task-description]
-[code-io /]
+[tests]
+[test]
+[input]
+30
+[/input]
+[output]
+7
+17
+27
+[/output]
+[/test]
+[test]
+[input]
+20
+[/input]
+[output]
+7
+17
+[/output]
+[/test]
+[test]
+[input]
+50
+[/input]
+[output]
+7
+17
+27
+37
+47
+[/output]
+[/test]
+[test]
+[input]
+23
+[/input]
+[output]
+7
+17
+[/output]
+[/test]
+[/tests]
 [/code-task]
 ## Sample Input and Output
 |Input|Output|
@@ -53,7 +94,7 @@ Write a program, which:
 
 [slide]
 # Solution: Numbers Ending with 7 
-[code-task title="Numbers Ending with 7" executionStrategy="java-code" requiresInput]
+[code-task title="Numbers Ending with 7" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```java
 import java.util.Scanner;
@@ -76,7 +117,48 @@ Write a program, which:
 * Prints all numbers from **7** to **n**, ending with 7
 
 [/task-description]
-[code-io /]
+[tests]
+[test]
+[input]
+30
+[/input]
+[output]
+7
+17
+27
+[/output]
+[/test]
+[test]
+[input]
+20
+[/input]
+[output]
+7
+17
+[/output]
+[/test]
+[test]
+[input]
+50
+[/input]
+[output]
+7
+17
+27
+37
+47
+[/output]
+[/test]
+[test]
+[input]
+23
+[/input]
+[output]
+7
+17
+[/output]
+[/test]
+[/tests]
 [/code-task]
 ## Sample Input and Output
 |Input|Output|
