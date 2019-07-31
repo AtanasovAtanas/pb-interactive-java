@@ -7,7 +7,7 @@ We have prepared some simple problems for you to solve. If you struggle you can 
 
 [slide]
 # Problem: Building
-[code-task title="Building" executionStrategy="java-code" requiresInput]
+[code-task title="Building" taskId="p-01" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```
 import java.util.Scanner;
@@ -28,7 +28,53 @@ Write a program, which:
 * Floor ***"L\{buildingNum\}\{apartmentNum\}"***
 * The numbers always start from **0**
 [/task-description]
-[code-io /]
+[tests]
+[test]
+[input]
+4
+3
+[/input]
+[output]
+L40 L41 L42 
+A30 A31 A32 
+O20 O21 O22 
+A10 A11 A12 
+[/output]
+[/test]
+[test]
+[input]
+1
+2
+[/input]
+[output]
+L10 L11 
+[/output]
+[/test]
+[test]
+[input]
+3
+1
+[/input]
+[output]
+L30 
+O20 
+A10 
+[/output]
+[/test]
+[test]
+[input]
+5
+2
+[/input]
+[output]
+L50 L51 
+O40 O41 
+A30 A31 
+O20 O21 
+A10 A11 
+[/output]
+[/test]
+[/tests]
 [/code-task]
 # Sample Input and Output
 |Input|Output|
@@ -96,7 +142,7 @@ Write a program, which:
 
 [slide]
 # Problem: Passwords
-[code-task title="Passwords" executionStrategy="java-code" requiresInput]
+[code-task title="Passwords" taskId="p-02" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```
 import java.util.Scanner;
@@ -167,7 +213,7 @@ Write a program, which:
 
 [slide]
 # Problem: Magic Number
-[code-task title="Magic Number" executionStrategy="java-code" requiresInput]
+[code-task title="Magic Number" taskId="p-03" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```
 import java.util.Scanner;
@@ -242,7 +288,7 @@ Write a program, which:
 
 [slide]
 # Problem: Travelling
-[code-task title="Travelling" executionStrategy="java-code" requiresInput]
+[code-task title="Travelling" taskId="p-04" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```
 import java.util.Scanner;
@@ -322,7 +368,7 @@ Write a program, which:
 
 [slide]
 # Problem: Prime Numbers
-[code-task title="Prime Numbers" executionStrategy="java-code" requiresInput]
+[code-task title="Prime Numbers" taskId="p-05" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```
 import java.util.Scanner;
@@ -401,7 +447,7 @@ Write a program, which:
 
 [slide]
 # Problem: Unique PIN Codes
-[code-task title="Unique PIN Codes" executionStrategy="java-code" requiresInput]
+[code-task title="Unique PIN Codes" taskId="p-06" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```
 import java.util.Scanner;
@@ -489,7 +535,7 @@ Write a program, which:
 
 [slide]
 # Problem: Letter Combinations
-[code-task title="Letter Combinations" executionStrategy="java-code" requiresInput]
+[code-task title="Letter Combinations" taskId="p-07" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```
 import java.util.Scanner;
@@ -569,7 +615,7 @@ Write a program, which:
 
 [slide]
 # Problem: Happy Numbers
-[code-task title="Happy Numbers" executionStrategy="java-code" requiresInput]
+[code-task title="Happy Numbers" taskId="p-08" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```
 import java.util.Scanner;
