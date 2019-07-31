@@ -209,34 +209,51 @@ Write a program to find the min and max numbers
 [tests]
 [test]
 [input]
-111
+1
+2
+3
+END
 [/input]
 [output]
-3
+Min number: 1
+Max number: 3
 [/output]
 [/test]
 [test]
 [input]
-100004
+-4
+5
+10
+30
+END
 [/input]
 [output]
-5
+Min number: -4
+Max number: 30
 [/output]
 [/test]
 [test]
 [input]
 121
+222
+0
+END
 [/input]
 [output]
-4
+Min number: 0
+Max number: 222
 [/output]
 [/test]
 [test]
 [input]
 554
+-89
+-8
+23
 [/input]
 [output]
-14
+Min number: -89
+Max number: 554
 [/output]
 [/test]
 [/tests]
