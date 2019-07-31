@@ -26,7 +26,7 @@ for (int i = 1; i <= 10; i += 1) {
 
 [slide]
 # Problem: Print Sum of N Numbers
-[code-task title="Print Sum of N Numbers" executionStrategy="java-code" requiresInput]
+[code-task title="Print Sum of N Numbers" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```java
 import java.util.Scanner;
@@ -38,6 +38,40 @@ public class Program {
 }
 ```
 [/code-editor]
+[tests]
+[test]
+[input]
+5
+[/input]
+[output]
+15
+[/output]
+[/test]
+[test]
+[input]
+10
+[/input]
+[output]
+55
+[/output]
+[/test]
+[test]
+[input]
+7
+[/input]
+[output]
+28
+[/output]
+[/test]
+[test]
+[input]
+2
+[/input]
+[output]
+3
+[/output]
+[/test]
+[/tests]
 [task-description]
 
 Write a program, which:
@@ -58,7 +92,7 @@ Write a program, which:
 
 [slide]
 # Solution: Print Sum of N Numbers
-[code-task title="Print Sum of N Numbers" executionStrategy="java-code" requiresInput]
+[code-task title="Print Sum of N Numbers" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```java
 import java.util.Scanner;
@@ -96,7 +130,7 @@ Write a program, which:
 
 [slide]
 # Problem: Calculate Month Salary
-[code-task title="Calculate Month Salary" executionStrategy="java-code" requiresInput]
+[code-task title="Calculate Month Salary" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```java
 import java.util.Scanner;
@@ -116,6 +150,40 @@ Write a program, which:
 * Prints the result on the console
 
 [/task-description]
+[tests]
+[test]
+[input]
+5
+[/input]
+[output]
+15
+[/output]
+[/test]
+[test]
+[input]
+10
+[/input]
+[output]
+55
+[/output]
+[/test]
+[test]
+[input]
+7
+[/input]
+[output]
+28
+[/output]
+[/test]
+[test]
+[input]
+2
+[/input]
+[output]
+3
+[/output]
+[/test]
+[/tests]
 [/code-task]
 
 ## Sample Input and Output
