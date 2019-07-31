@@ -221,6 +221,7 @@ End
 Inc
 Inc
 Inc
+End
 [/input]
 [output]
 4
@@ -318,6 +319,7 @@ End
 Inc
 Inc
 Inc
+End
 [/input]
 [output]
 4
