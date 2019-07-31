@@ -343,7 +343,7 @@ Don't use **Math.pow()**
 
 [slide]
 # Problem: Biggest Number
-[code-task title="Biggest Number" executionStrategy="java-code" requiresInput]
+[code-task title="Biggest Number" taskId="p-03" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```java
 import java.util.Scanner;
@@ -363,7 +363,50 @@ Write a program, which:
 * Finds and prints the **biggest** number
 
 [/task-description]
-[code-io /]
+[tests]
+[test]
+[input]
+3
+1
+2
+3
+[/input]
+[output]
+3
+[/output]
+[/test]
+[test]
+[input]
+2
+4
+3
+[/input]
+[output]
+4
+[/output]
+[/test]
+[test]
+[input]
+3
+-7
+-7
+8
+[/input]
+[output]
+8
+[/output]
+[/test]
+[test]
+[input]
+2
+5
+10
+[/input]
+[output]
+10
+[/output]
+[/test]
+[/tests]
 [/code-task]
 ## Sample Input and Output
 |Input|Output|
