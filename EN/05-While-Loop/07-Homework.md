@@ -69,43 +69,6 @@ Write a program to sum the digits of given number
 [/slide]
 
 [slide]
-# Solution: Sum Digits
-[code-task title="Sum Digits" executionStrategy="java-code" requiresInput]
-[code-editor language=java]
-```java
-import java.util.Scanner;
-
-public class Program {
-   public static void main(String[] args) {
-      Scanner scanner = new Scanner(System.in);
-      int n = scanner.nextInt();
-      int sum = 0;
-      while (n > 0) {
-         sum += n % 10;
-         n /= 10;
-      }
-      System.out.println(sum);
-    }
-}
-```
-[/code-editor]
-[task-description]
-Write a program to sum the digits of given number
-
-* Read an integer from the console
-* Sum its digits and print the sum
-[/task-description]
-[code-io /]
-[/code-task]
-## Sample Input and Output
-|Input|Output|
-|-----|------|
-|5634|18|
-|150|6|
-|-532|10|
-[/slide]
-
-[slide]
 # Problem: Favorite Book
 [code-task title="Favorite Book" taskId="p-01" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
@@ -127,7 +90,54 @@ Write a program to guess for a favorite book, which:
 * Prints "Book found!" and stops afterwards
 * Prints "Invalid book: " + book for all invalid books
 [/task-description]
-[code-io /]
+[tests]
+[test]
+[input]
+asd
+fgh
+asd
+[/input]
+[output]
+Invalid book: fgh
+Book found!
+[/output]
+[/test]
+[test]
+[input]
+book
+book
+[/input]
+[output]
+Book found!
+[/output]
+[/test]
+[test]
+[input]
+qwerty
+asd
+love
+qwerty
+[/input]
+[output]
+Invalid book: asd
+Invalid book: love
+Book found!
+[/output]
+[/test]
+[test]
+[input]
+ooo
+oo
+o
+ooo
+[/input]
+[output]
+Invalid book: oo
+Invalid book: o
+Book found!
+[/output]
+[/test]
+[/tests]
 [/code-task]
 ## Sample Input and Output
 |Input|Output|
@@ -196,7 +206,40 @@ Write a program to find the min and max numbers
 * Read integers from the console until "END" is entered
 * Print the biggest and the smallest integer
 [/task-description]
-[code-io /]
+[tests]
+[test]
+[input]
+111
+[/input]
+[output]
+3
+[/output]
+[/test]
+[test]
+[input]
+100004
+[/input]
+[output]
+5
+[/output]
+[/test]
+[test]
+[input]
+121
+[/input]
+[output]
+4
+[/output]
+[/test]
+[test]
+[input]
+554
+[/input]
+[output]
+14
+[/output]
+[/test]
+[/tests]
 [/code-task]
 ## Sample Input and Output
 |Input|Output|
@@ -283,7 +326,40 @@ Write a program to check if given number is special:
 * Print "\{num\} is special" if the number is special
 * Otherwise, print "\{num\} is not special"
 [/task-description]
-[code-io /]
+[tests]
+[test]
+[input]
+111
+[/input]
+[output]
+3
+[/output]
+[/test]
+[test]
+[input]
+100004
+[/input]
+[output]
+5
+[/output]
+[/test]
+[test]
+[input]
+121
+[/input]
+[output]
+4
+[/output]
+[/test]
+[test]
+[input]
+554
+[/input]
+[output]
+14
+[/output]
+[/test]
+[/tests]
 [/code-task]
 ## Sample Input and Output
 |Input|Output|
@@ -364,7 +440,40 @@ Write a program to apply a 20% bonus for certain number:
 * Keep reading integers until it finds the stop number
 * When the stop number is found, increase the value of the previous number before it with 20% and print it
 [/task-description]
-[code-io /]
+[tests]
+[test]
+[input]
+111
+[/input]
+[output]
+3
+[/output]
+[/test]
+[test]
+[input]
+100004
+[/input]
+[output]
+5
+[/output]
+[/test]
+[test]
+[input]
+121
+[/input]
+[output]
+4
+[/output]
+[/test]
+[test]
+[input]
+554
+[/input]
+[output]
+14
+[/output]
+[/test]
+[/tests]
 [/code-task]
 ## Sample Input and Output
 |Input|Output|
@@ -438,7 +547,40 @@ Write a program to print a sequence of numbers:
 * Read an integer n from the console – the max number
 * Print the elements of the sequence, which are ≤ n
 [/task-description]
-[code-io /]
+[tests]
+[test]
+[input]
+111
+[/input]
+[output]
+3
+[/output]
+[/test]
+[test]
+[input]
+100004
+[/input]
+[output]
+5
+[/output]
+[/test]
+[test]
+[input]
+121
+[/input]
+[output]
+4
+[/output]
+[/test]
+[test]
+[input]
+554
+[/input]
+[output]
+14
+[/output]
+[/test]
+[/tests]
 [/code-task]
 ## Sample Input and Output
 |Input|Output|
@@ -507,7 +649,40 @@ Write a program to calculate an account balance
 * Add the money to the balance (starting form 0) and print "Increase: \{money\} " or "Decrease: \{money\}"
 * Finally, print the account balance
 [/task-description]
-[code-io /]
+[tests]
+[test]
+[input]
+111
+[/input]
+[output]
+3
+[/output]
+[/test]
+[test]
+[input]
+100004
+[/input]
+[output]
+5
+[/output]
+[/test]
+[test]
+[input]
+121
+[/input]
+[output]
+4
+[/output]
+[/test]
+[test]
+[input]
+554
+[/input]
+[output]
+14
+[/output]
+[/test]
+[/tests]
 [/code-task]
 ## Sample Input and Output
 |Input|Output|
