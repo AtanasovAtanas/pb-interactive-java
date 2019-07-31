@@ -492,43 +492,47 @@ public class Program {
 
 Write a program, which:
 Reads number **n** and **n** pairs of numbers
-Prints "**Yes, value=\{sum\}**", if the sum of all pairs is the same
-Otherwise, prints "**No, maxdiff=\{diff\}**"
+
+Prints "Yes, value =\{sum\}", if the sum of all pairs is the same
+
+Otherwise, prints "No, maxdiff =\{diff\}"
+
 * **diff** is the max difference in the sum between two pairs
 
 [/task-description]
 [tests]
 [test]
 [input]
-3
+2
 1
 2
 3
+4
 [/input]
 [output]
--2
+No, maxdiff = 4
 [/output]
 [/test]
 [test]
 [input]
 2
-4
-5
+2
+2
+2
+2
 [/input]
 [output]
-1
+Yes, value = 4
 [/output]
 [/test]
 [test]
 [input]
-4
--1
-2
-5
+1
 3
+4
 [/input]
 [output]
-1
+Yes, value = 7
 [/output]
 [/test]
 [test]
@@ -538,9 +542,13 @@ Otherwise, prints "**No, maxdiff=\{diff\}**"
 0
 9
 10
+4
+3
+2
+1
 [/input]
 [output]
-4
+No, maxdiff = 22
 [/output]
 [/test]
 [/tests]
@@ -593,8 +601,11 @@ public class Program {
 
 Write a program, which:
 Reads number **n** and **n** pairs of numbers
-Prints "**Yes, value=\{sum\}**", if the sum of all pairs is the same
-Otherwise, prints "**No, maxdiff=\{diff\}**"
+
+Prints "Yes, value =\{sum\}", if the sum of all pairs is the same
+
+Otherwise, prints "No, maxdiff =\{diff\}"
+
 * **diff** is the max difference in the sum between two pairs
 
 [/task-description]
