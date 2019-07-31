@@ -29,7 +29,7 @@ If you observe above table, **the NOT operator will always return the reverse va
 
 [slide]
 # Problem: Bonus Points
-[code-task title="Bonus Points" executionStrategy="java-code" requiresInput]
+[code-task title="Bonus Points" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```
 import java.util.Scanner;
@@ -48,7 +48,40 @@ Write a program to add bonus to given points
 * If points are between 4 and 6, adds 15
 * If points are between 7 and 9, adds 20
 [/task-description]
-[code-io /]
+[tests]
+[test]
+[input]
+10
+[/input]
+[output]
+10
+[/output]
+[/test]
+[test]
+[input]
+5
+[/input]
+[output]
+20
+[/output]
+[/test]
+[test]
+[input]
+2
+[/input]
+[output]
+7
+[/output]
+[/test]
+[test]
+[input]
+8
+[/input]
+[output]
+28
+[/output]
+[/test]
+[/tests]
 [/code-task]
 # Sample Input and Output
 |Input|Output|
@@ -58,7 +91,7 @@ Write a program to add bonus to given points
 
 [slide]
 # Solution: Bonus Points
-[code-task title="Bonus Points" executionStrategy="java-code" requiresInput]
+[code-task title="Bonus Points" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```
 import java.util.Scanner;
@@ -87,7 +120,40 @@ Write a program to add bonus to given points
 * If points are between 4 and 6, adds 15
 * If points are between 7 and 9, adds 20
 [/task-description]
-[code-io /]
+[tests]
+[test]
+[input]
+10
+[/input]
+[output]
+10
+[/output]
+[/test]
+[test]
+[input]
+5
+[/input]
+[output]
+20
+[/output]
+[/test]
+[test]
+[input]
+2
+[/input]
+[output]
+7
+[/output]
+[/test]
+[test]
+[input]
+8
+[/input]
+[output]
+28
+[/output]
+[/test]
+[/tests]
 [/code-task]
 # Sample Input and Output
 |Input|Output|
@@ -97,7 +163,7 @@ Write a program to add bonus to given points
 
 [slide]
 # Problem: Food or Drink
-[code-task title="Food or Drink" executionStrategy="java-code" requiresInput]
+[code-task title="Food or Drink" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```
 import java.util.Scanner;
@@ -119,13 +185,46 @@ Check for food or drink
 * Drinks: tea, water, coffee
 * Everything else is unknown
 [/task-description]
-[code-io /]
+[tests]
+[test]
+[input]
+curry
+[/input]
+[output]
+food
+[/output]
+[/test]
+[test]
+[input]
+tea
+[/input]
+[output]
+drink
+[/output]
+[/test]
+[test]
+[input]
+water
+[/input]
+[output]
+drink
+[/output]
+[/test]
+[test]
+[input]
+sushiiii
+[/input]
+[output]
+unknown
+[/output]
+[/test]
+[/tests]
 [/code-task]
 [/slide]
 
 [slide]
 # Solution: Food or Drink
-[code-task title="Food or Drink" executionStrategy="java-code" requiresInput]
+[code-task title="Food or Drink" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```
 import java.util.Scanner;
@@ -158,6 +257,39 @@ Check for food or drink
 * Drinks: tea, water, coffee
 * Everything else is unknown
 [/task-description]
-[code-io /]
+[tests]
+[test]
+[input]
+curry
+[/input]
+[output]
+food
+[/output]
+[/test]
+[test]
+[input]
+tea
+[/input]
+[output]
+drink
+[/output]
+[/test]
+[test]
+[input]
+water
+[/input]
+[output]
+drink
+[/output]
+[/test]
+[test]
+[input]
+sushiiii
+[/input]
+[output]
+unknown
+[/output]
+[/test]
+[/tests]
 [/code-task]
 [/slide]
