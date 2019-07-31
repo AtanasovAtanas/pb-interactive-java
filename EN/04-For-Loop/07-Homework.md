@@ -623,7 +623,7 @@ Otherwise, prints "No, maxdiff =\{diff\}"
 
 [slide]
 # Problem: Zig Zag Sum
-[code-task title="Zig Zag Sum" executionStrategy="java-code" requiresInput]
+[code-task title="Zig Zag Sum" taskId="p-04" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```java
 import java.util.Scanner;
@@ -646,7 +646,54 @@ Reads **n** numbers:
 Prints the result
 
 [/task-description]
-[code-io /]
+[tests]
+[test]
+[input]
+3
+1
+2
+3
+[/input]
+[output]
+-2
+[/output]
+[/test]
+[test]
+[input]
+3
+4
+5
+6
+[/input]
+[output]
+-5
+[/output]
+[/test]
+[test]
+[input]
+4
+-2
+3
+-6
+4
+[/input]
+[output]
+15
+[/output]
+[/test]
+[test]
+[input]
+4
+-3
+0
+9
+10
+[/input]
+[output]
+4
+[/output]
+[/test]
+[/tests]
 [/code-task]
 ## Sample Input and Output
 |Input|Output|
