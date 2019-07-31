@@ -493,9 +493,13 @@ public class Program {
 Write a program, which:
 Reads number **n** and **n** pairs of numbers
 
-Prints "Yes, value =\{sum\}", if the sum of all pairs is the same
+If the sum of all pairs is the same, prints: 
 
-Otherwise, prints "No, maxdiff =\{diff\}"
+"Yes, value = \{sum\}"
+
+Otherwise, prints: 
+
+"No, maxdiff = \{diff\}"
 
 * **diff** is the max difference in the sum between two pairs
 
