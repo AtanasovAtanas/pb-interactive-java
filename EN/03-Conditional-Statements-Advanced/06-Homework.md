@@ -70,7 +70,7 @@ unknown
 
 [slide]
 # Solution: Fruit or Vegetable
-[code-task title="Fruit or Vegetable" taskId="p-01" executionType="tests-execution" executionStrategy="java-code" requiresInput]
+[code-task title="Fruit or Vegetable" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```
 import java.util.Scanner;
@@ -217,7 +217,7 @@ Friday
 
 [slide]
 # Solution: Day of Week
-[code-task title="Day of Week" taskId="p-02" executionType="tests-execution" executionStrategy="java-code" requiresInput]
+[code-task title="Day of Week" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```
 import java.util.Scanner;
