@@ -750,7 +750,7 @@ Prints the result
 
 [slide]
 # Problem: Divide Without Remainder
-[code-task title="Divide Without Remainder" executionStrategy="java-code" requiresInput]
+[code-task title="Divide Without Remainder" taskId="p-05" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```java
 import java.util.Scanner;
@@ -770,7 +770,62 @@ Write a program, which:
 * Prints percentages **p1**, **p2** and **p3**, formatted to the second digit
 
 [/task-description]
-[code-io /]
+[tests]
+[test]
+[input]
+3
+1
+2
+3
+[/input]
+[output]
+33.33
+33.33
+0.00
+[/output]
+[/test]
+[test]
+[input]
+3
+4
+5
+6
+[/input]
+[output]
+66.67
+33.33
+33.33
+[/output]
+[/test]
+[test]
+[input]
+4
+-2
+3
+-6
+4
+[/input]
+[output]
+75.00
+50.00
+25.00
+[/output]
+[/test]
+[test]
+[input]
+4
+-3
+0
+9
+10
+[/input]
+[output]
+50.00
+75.00
+25.00
+[/output]
+[/test]
+[/tests]
 [/code-task]
 ## Sample Input and Output
 |Input|Output|
