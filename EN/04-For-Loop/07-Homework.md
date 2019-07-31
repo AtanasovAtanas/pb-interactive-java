@@ -7,7 +7,7 @@ We have prepared some simple problems for you to solve. If you struggle you can 
 
 [slide]
 # Problem: Number Sequence
-[code-task title="Number Sequence" executionStrategy="java-code" requiresInput]
+[code-task title="Number Sequence" taskId="p-01" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```java
 import java.util.Scanner;
@@ -27,7 +27,56 @@ Write a program, which:
 * Prints them on the console
 
 [/task-description]
-[code-io /]
+[tests]
+[test]
+[input]
+3
+1
+2
+3
+[/input]
+[output]
+Max number: 3
+Min number: 1
+[/output]
+[/test]
+[test]
+[input]
+2
+7
+1
+[/input]
+[output]
+Max number: 7
+Min number: 1
+[/output]
+[/test]
+[test]
+[input]
+4
+0
+-1
+2
+3
+[/input]
+[output]
+Max number: 3
+Min number: -1
+[/output]
+[/test]
+[test]
+[input]
+3
+-13
+-12
+-9
+[/input]
+[output]
+Max number: -9
+Min number: -13
+[/output]
+[/test]
+[/tests]
 [/code-task]
 ## Sample Input and Output
 |Input|Output|
