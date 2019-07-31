@@ -204,7 +204,6 @@ Write a program, which:
 4
 [/input]
 [output]
-4
 4 days before the exam
 3 days before the exam
 2 days before the exam
@@ -291,7 +290,6 @@ Write a program, which:
 4
 [/input]
 [output]
-4
 4 days before the exam
 3 days before the exam
 2 days before the exam
