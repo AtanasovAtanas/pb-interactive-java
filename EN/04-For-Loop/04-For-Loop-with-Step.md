@@ -177,7 +177,7 @@ Write a program, which:
 
 [slide]
 # Problem: Exam Countdown
-[code-task title="Exam Countdown" executionStrategy="java-code" requiresInput]
+[code-task title="Exam Countdown" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```java
 import java.util.Scanner;
@@ -198,7 +198,55 @@ Write a program, which:
 
 
 [/task-description]
-[code-io /]
+[tests]
+[test]
+[input]
+4
+[/input]
+[output]
+4
+4 days before the exam
+3 days before the exam
+2 days before the exam
+1 days before the exam
+The exam has come
+[/output]
+[/test]
+[test]
+[input]
+3
+[/input]
+[output]
+3 days before the exam
+2 days before the exam
+1 days before the exam
+The exam has come
+[/output]
+[/test]
+[test]
+[input]
+2
+[/input]
+[output]
+2 days before the exam
+1 days before the exam
+The exam has come
+[/output]
+[/test]
+[test]
+[input]
+5
+[/input]
+[output]
+5 days before the exam
+4 days before the exam
+3 days before the exam
+2 days before the exam
+1 days before the exam
+The exam has come
+[/output]
+[/test]
+[/tests]
 [/code-task]
 ## Sample Input and Output
 |Input|Output|
@@ -211,7 +259,7 @@ Write a program, which:
 
 [slide]
 # Solution: Exam Countdown
-[code-task title="Exam Countdown" executionStrategy="java-code" requiresInput]
+[code-task title="Exam Countdown" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```java
 import java.util.Scanner;
@@ -237,7 +285,55 @@ Write a program, which:
 
 
 [/task-description]
-[code-io /]
+[tests]
+[test]
+[input]
+4
+[/input]
+[output]
+4
+4 days before the exam
+3 days before the exam
+2 days before the exam
+1 days before the exam
+The exam has come
+[/output]
+[/test]
+[test]
+[input]
+3
+[/input]
+[output]
+3 days before the exam
+2 days before the exam
+1 days before the exam
+The exam has come
+[/output]
+[/test]
+[test]
+[input]
+2
+[/input]
+[output]
+2 days before the exam
+1 days before the exam
+The exam has come
+[/output]
+[/test]
+[test]
+[input]
+5
+[/input]
+[output]
+5 days before the exam
+4 days before the exam
+3 days before the exam
+2 days before the exam
+1 days before the exam
+The exam has come
+[/output]
+[/test]
+[/tests]
 [/code-task]
 ## Sample Input and Output
 |Input|Output|
