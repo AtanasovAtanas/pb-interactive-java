@@ -148,45 +148,6 @@ Book found!
 [/slide]
 
 [slide]
-# Solution: Favorite Book
-[code-task title="Favorite Book" executionStrategy="java-code" requiresInput]
-[code-editor language=java]
-```java
-import java.util.Scanner;
-
-public class Program {
-   public static void main(String[] args) {
-      Scanner scanner = new Scanner(System.in);
-      String favBook = scanner.nextLine();
-      String book = scanner.nextLine();
-      while (!book.equals(favBook)) {
-        System.out.println("Invalid book: " + book);
-        book = scanner.nextLine();
-      }
-      System.out.println("Book found!");
-    }
-}
-```
-[/code-editor]
-[task-description]
-Write a program to guess for a favorite book, which: 
-
-* Reads a favorite book's name
-* Reads book names until it reaches the favorite book
-* Prints "Book found!" and stops afterwards
-* Prints "Invalid book: " + book for all invalid books
-[/task-description]
-[code-io /]
-[/code-task]
-## Sample Input and Output
-|Input|Output|
-|-----|------|
-|Alice in Wonderland|Invalid book: Winnie the Pooh|
-|Winnie the Pooh|Book Found!|
-|Alice in Wonderland||
-[/slide]
-
-[slide]
 # Problem: Find Min and Max
 [code-task title="Find Min and Max" taskId="p-03" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
@@ -250,6 +211,7 @@ Max number: 222
 -89
 -8
 23
+END
 [/input]
 [output]
 Min number: -89
