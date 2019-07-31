@@ -118,38 +118,6 @@ Write a program, which:
 * **Prints** the **sum** on the console
 
 [/task-description]
-[/code-task]
-
-## Sample Input and Output
-|Input|Output|
-|-----|------|
-|5|15|
-|6|21|
-
-[/slide]
-
-[slide]
-# Problem: Calculate Month Salary
-[code-task title="Calculate Month Salary" executionType="tests-execution" executionStrategy="java-code" requiresInput]
-[code-editor language=java]
-```java
-import java.util.Scanner;
-
-public class Program {
-   public static void main(String[] args) {
-      // Write code here
-    }
-}
-```
-[/code-editor]
-[task-description]
-
-Write a program, which:
-* Reads working **days** in the current month and **salary** per day
-* **Calculates** the salary for the month
-* Prints the result on the console
-
-[/task-description]
 [tests]
 [test]
 [input]
@@ -189,6 +157,89 @@ Write a program, which:
 ## Sample Input and Output
 |Input|Output|
 |-----|------|
+|5|15|
+|6|21|
+
+[/slide]
+
+[slide]
+# Problem: Calculate Month Salary
+[code-task title="Calculate Month Salary" executionType="tests-execution" executionStrategy="java-code" requiresInput]
+[code-editor language=java]
+```java
+import java.util.Scanner;
+
+public class Program {
+   public static void main(String[] args) {
+      // Write code here
+    }
+}
+```
+[/code-editor]
+[task-description]
+
+Write a program, which:
+* Reads working **days** in the current month and **salary** per day
+* **Calculates** the salary for the month
+* Prints the result on the console
+
+[/task-description]
+[tests]
+[test]
+[input]
+3
+1
+2
+3
+[/input]
+[output]
+6
+[/output]
+[/test]
+[test]
+[input]
+5
+10
+20
+30
+40
+50
+[/input]
+[output]
+150
+[/output]
+[/test]
+[test]
+[input]
+3
+10
+234
+54
+[/input]
+[output]
+298
+[/output]
+[/test]
+[test]
+[input]
+6
+234
+43
+54
+23
+43
+12
+[/input]
+[output]
+409
+[/output]
+[/test]
+[/tests]
+[/code-task]
+
+## Sample Input and Output
+|Input|Output|
+|-----|------|
 |3|60|
 |10||
 |20||
@@ -198,7 +249,7 @@ Write a program, which:
 
 [slide]
 # Solution: Calculate Month Salary
-[code-task title="Calculate Month Salary" executionStrategy="java-code" requiresInput]
+[code-task title="Calculate Month Salary" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```java
 import java.util.Scanner;
@@ -226,6 +277,57 @@ Write a program, which:
 
 
 [/task-description]
+[tests]
+[test]
+[input]
+3
+1
+2
+3
+[/input]
+[output]
+6
+[/output]
+[/test]
+[test]
+[input]
+5
+10
+20
+30
+40
+50
+[/input]
+[output]
+150
+[/output]
+[/test]
+[test]
+[input]
+3
+10
+234
+54
+[/input]
+[output]
+298
+[/output]
+[/test]
+[test]
+[input]
+6
+234
+43
+54
+23
+43
+12
+[/input]
+[output]
+409
+[/output]
+[/test]
+[/tests]
 [/code-task]
 
 ## Sample Input and Output
