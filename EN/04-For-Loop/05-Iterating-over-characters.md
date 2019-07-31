@@ -23,7 +23,7 @@ Computers can only understand numbers
 
 [slide]
 # Problem: Latin Letters
-[code-task title="Latin Letters" executionStrategy="java-code" requiresInput]
+[code-task title="Latin Letters" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```java
 import java.util.Scanner;
@@ -41,7 +41,44 @@ Write a program, which:
 * Prints **all letters** in the given range **inclusive**
 
 [/task-description]
-[code-io /]
+[tests]
+[test]
+[input]
+a
+m
+[/input]
+[output]
+a b c d e f g h i j k l m
+[/output]
+[/test]
+[test]
+[input]
+t
+z
+[/input]
+[output]
+t u v w x y z 
+[/output]
+[/test]
+[test]
+[input]
+m
+n
+[/input]
+[output]
+m n
+[/output]
+[/test]
+[test]
+[input]
+a
+v
+[/input]
+[output]
+a b c d e f g h i j k l m n o p q r s t u v 
+[/output]
+[/test]
+[/tests]
 [/code-task]
 # Sample Input and Output
 |Input|Output|
@@ -57,7 +94,7 @@ Write a program, which:
 
 [slide]
 # Solution: Latin Letters
-[code-task title="Latin Letters" executionStrategy="java-code" requiresInput]
+[code-task title="Latin Letters" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```java
 import java.util.Scanner;
@@ -82,7 +119,44 @@ Write a program, which:
 * Prints **all letters** in the given range **inclusive**
 
 [/task-description]
-[code-io /]
+[tests]
+[test]
+[input]
+a
+m
+[/input]
+[output]
+a b c d e f g h i j k l m
+[/output]
+[/test]
+[test]
+[input]
+t
+z
+[/input]
+[output]
+t u v w x y z 
+[/output]
+[/test]
+[test]
+[input]
+m
+n
+[/input]
+[output]
+m n
+[/output]
+[/test]
+[test]
+[input]
+a
+v
+[/input]
+[output]
+a b c d e f g h i j k l m n o p q r s t u v 
+[/output]
+[/test]
+[/tests]
 [/code-task]
 # Sample Input and Output
 |Input|Output|
