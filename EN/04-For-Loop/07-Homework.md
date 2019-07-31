@@ -1058,7 +1058,7 @@ Write a program, which:
 
 [slide]
 # Problem: Rollercoaster
-[code-task title="Rollercoaster" executionStrategy="java-code" requiresInput]
+[code-task title="Rollercoaster" taskId="p-07" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```java
 import java.util.Scanner;
@@ -1078,7 +1078,61 @@ Write a program, which:
 * Prints "**Waiting**" in all other cases
 
 [/task-description]
-[code-io /]
+[tests]
+[test]
+[input]
+5
+10
+3
+1
+2
+3
+[/input]
+[output]
+Waiting
+[/output]
+[/test]
+[test]
+[input]
+4
+3
+2
+1
+4
+[/input]
+[output]
+Waiting
+[/output]
+[/test]
+[test]
+[input]
+5
+10
+3
+20
+5
+5
+[/input]
+[output]
+Waiting
+[/output]
+[/test]
+[test]
+[input]
+3
+4
+5
+6
+7
+8
+9
+6
+[/input]
+[output]
+The rollercoaster departures
+[/output]
+[/test]
+[/tests]
 [/code-task]
 ## Sample Input and Output
 |Input|Output|
