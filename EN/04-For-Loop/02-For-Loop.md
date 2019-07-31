@@ -38,6 +38,14 @@ public class Program {
 }
 ```
 [/code-editor]
+[task-description]
+
+Write a program, which:
+* Reads number **n** from the console
+* Sums **all** numbers from **1** to **n**
+* **Prints** the **sum** on the console
+
+[/task-description]
 [tests]
 [test]
 [input]
@@ -72,14 +80,6 @@ public class Program {
 [/output]
 [/test]
 [/tests]
-[task-description]
-
-Write a program, which:
-* Reads number **n** from the console
-* Sums **all** numbers from **1** to **n**
-* **Prints** the **sum** on the console
-
-[/task-description]
 [/code-task]
 
 ## Sample Input and Output
