@@ -13,7 +13,7 @@ Use while if you don't know when the exit condition will be met
 
 [slide]
 # Problem: Odd Number
-[code-task title="Odd Number" executionStrategy="java-code" requiresInput]
+[code-task title="Odd Number" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```java
 import java.util.Scanner;
@@ -33,7 +33,43 @@ Write a program to enter an odd number
 
 * Print the odd number as output
 [/task-description]
-[code-io /]
+[tests]
+[test]
+[input]
+5
+[/input]
+[output]
+5
+[/output]
+[/test]
+[test]
+[input]
+4
+6
+3
+[/input]
+[output]
+3
+[/output]
+[/test]
+[test]
+[input]
+2
+7
+[/input]
+[output]
+7
+[/output]
+[/test]
+[test]
+[input]
+1
+[/input]
+[output]
+1
+[/output]
+[/test]
+[/tests]
 [/code-task]
 ## Sample Input and Output
 |Input|Output|
@@ -46,13 +82,14 @@ Write a program to enter an odd number
 
 [slide]
 # Solution: Odd Number
-[code-task title="Odd Number" executionStrategy="java-code" requiresInput]
+[code-task title="Odd Number" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```java
 import java.util.Scanner;
 
 public class Program {
    public static void main(String[] args) {
+      Scanner scanner = new Scanner(System.in);
       int num = scanner.nextInt();
 
       while (num % 2 == 0) {
@@ -72,7 +109,43 @@ Write a program to enter an odd number
 
 * Print the odd number as output
 [/task-description]
-[code-io /]
+[tests]
+[test]
+[input]
+5
+[/input]
+[output]
+5
+[/output]
+[/test]
+[test]
+[input]
+4
+6
+3
+[/input]
+[output]
+3
+[/output]
+[/test]
+[test]
+[input]
+2
+7
+[/input]
+[output]
+7
+[/output]
+[/test]
+[test]
+[input]
+1
+[/input]
+[output]
+1
+[/output]
+[/test]
+[/tests]
 [/code-task]
 ## Sample Input and Output
 |Input|Output|
@@ -85,7 +158,7 @@ Write a program to enter an odd number
 
 [slide]
 # Problem: Number Processor
-[code-task title="Number Processor" executionStrategy="java-code" requiresInput]
+[code-task title="Number Processor" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```java
 import java.util.Scanner;
@@ -107,7 +180,53 @@ Write a program to process a sequence of commands:
   * Dec – subtract 1 from the number (decrement)
   * End – print the number and stop the program
 [/task-description]
-[code-io /]
+[tests]
+[test]
+[input]
+5
+Dec
+Dec
+End
+[/input]
+[output]
+3
+[/output]
+[/test]
+[test]
+[input]
+8
+Dec
+Dec
+Dec
+Dec
+End
+[/input]
+[output]
+4
+[/output]
+[/test]
+[test]
+[input]
+3
+Inc
+End
+[/input]
+[output]
+4
+[/output]
+[/test]
+[test]
+[input]
+1
+Inc
+Inc
+Inc
+[/input]
+[output]
+4
+[/output]
+[/test]
+[/tests]
 [/code-task]
 ## Sample Input and Output
 |Input|Output|
@@ -119,13 +238,14 @@ Write a program to process a sequence of commands:
 
 [slide]
 # Solution: Number Processor
-[code-task title="Number Processor" executionStrategy="java-code" requiresInput]
+[code-task title="Number Processor" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```java
 import java.util.Scanner;
 
 public class Program {
    public static void main(String[] args) {
+      Scanner scanner = new Scanner(System.in);
       int number = Integer.parseInt(scanner.nextLine());
       String command = scanner.nextLine();
 
@@ -157,7 +277,53 @@ Write a program to process a sequence of commands:
   * Dec – subtract 1 from the number (decrement)
   * End – print the number and stop the program
 [/task-description]
-[code-io /]
+[tests]
+[test]
+[input]
+5
+Dec
+Dec
+End
+[/input]
+[output]
+3
+[/output]
+[/test]
+[test]
+[input]
+8
+Dec
+Dec
+Dec
+Dec
+End
+[/input]
+[output]
+4
+[/output]
+[/test]
+[test]
+[input]
+3
+Inc
+End
+[/input]
+[output]
+4
+[/output]
+[/test]
+[test]
+[input]
+1
+Inc
+Inc
+Inc
+[/input]
+[output]
+4
+[/output]
+[/test]
+[/tests]
 [/code-task]
 ## Sample Input and Output
 |Input|Output|
