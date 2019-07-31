@@ -489,7 +489,7 @@ End
 [output]
 Increase: 3.00
 Increase: 2.00
-Decrease: -4.00
+Decrease: 4.00
 Balance: 1.00
 [/output]
 [/test]
@@ -518,7 +518,7 @@ End
 Decrease: 9.00
 Decrease: 10.00
 Increase: 10.00
-Balance: 9.00
+Balance: -9.00
 [/output]
 [/test]
 [/tests]
