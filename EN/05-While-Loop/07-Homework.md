@@ -452,44 +452,6 @@ Write a program to print a sequence of numbers:
 [/slide]
 
 [slide]
-# Solution: Sequence 2k + 1
-[code-task title="Sequence 2k + 1" executionStrategy="java-code" requiresInput]
-[code-editor language=java]
-```java
-import java.util.Scanner;
-
-public class Program {
-   public static void main(String[] args) {
-      Scanner scanner = new Scanner(System.in);
-      int n = scanner.nextInt();
-      int k = 1;
-      while (k <= n) {
-        System.out.println(k);
-        k = k * 2 + 1;
-      }
-    }
-}
-```
-[/code-editor]
-[task-description]
-Write a program to print a sequence of numbers:
-
-* The first number is 1
-* Each next number is 2 times the previous number + 1
-* Read an integer n from the console – the max number
-* Print the elements of the sequence, which are ≤ n
-[/task-description]
-[code-io /]
-[/code-task]
-## Sample Input and Output
-|Input|Output|
-|-----|------|
-|8|1|
-||3|
-||7|
-[/slide]
-
-[slide]
 # Problem: Account Balance
 [code-task title="Account Balance" taskId="p-07" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
@@ -507,40 +469,56 @@ public class Program {
 Write a program to calculate an account balance 
 
 * Read a sequence of incomes / expenses, until "End" is read
-* Add the money to the balance (starting form 0) and print "Increase: \{money\} " or "Decrease: \{money\}"
-* Finally, print the account balance
+
+* Add the money to the balance (starting form 0) and print: 
+
+"Increase: \{money\} " or "Decrease: \{money\}"
+
+* Finally, print the account balance: 
+
+"Balance: \{balance\}"
 [/task-description]
 [tests]
 [test]
 [input]
-111
+3.0
+2.0
+-4.0
+End
 [/input]
 [output]
-3
+Increase: 3.00
+Increase: 2.00
+Decrease: -4.00
+Balance: 1.00
 [/output]
 [/test]
 [test]
 [input]
-100004
+1.0
+2.0
+3.0
+End
 [/input]
 [output]
-5
+Increase: 1.00
+Increase: 2.00
+Increase: 3.00
+Balance: 6.00
 [/output]
 [/test]
 [test]
 [input]
-121
+-9
+-10
+10
+End
 [/input]
 [output]
-4
-[/output]
-[/test]
-[test]
-[input]
-554
-[/input]
-[output]
-14
+Decrease: 9.00
+Decrease: 10.00
+Increase: 10.00
+Balance: 9.00
 [/output]
 [/test]
 [/tests]
