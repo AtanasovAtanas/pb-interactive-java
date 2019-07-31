@@ -134,7 +134,7 @@ public class Main {
 [task-description]
 Write a program, which:
 
-* Reads the **height** of a triangle from the console
+* Reads the **height** of a triangle from the console 
 * Prints a **triangle of stars**
 [/task-description]
 [tests]
