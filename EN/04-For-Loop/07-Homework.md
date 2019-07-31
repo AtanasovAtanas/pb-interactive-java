@@ -476,7 +476,7 @@ Write a program, which:
 
 [slide]
 # Problem: Equal Pairs
-[code-task title="Equal Pairs" executionStrategy="java-code" requiresInput]
+[code-task title="Equal Pairs" taskId="p-04" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```java
 import java.util.Scanner;
@@ -497,7 +497,53 @@ Otherwise, prints "**No, maxdiff=\{diff\}**"
 * **diff** is the max difference in the sum between two pairs
 
 [/task-description]
-[code-io /]
+[tests]
+[test]
+[input]
+3
+1
+2
+3
+[/input]
+[output]
+-2
+[/output]
+[/test]
+[test]
+[input]
+2
+4
+5
+[/input]
+[output]
+1
+[/output]
+[/test]
+[test]
+[input]
+4
+-1
+2
+5
+3
+[/input]
+[output]
+1
+[/output]
+[/test]
+[test]
+[input]
+4
+-3
+0
+9
+10
+[/input]
+[output]
+4
+[/output]
+[/test]
+[/tests]
 [/code-task]
 ## Sample Input and Output
 |Input|Output|
