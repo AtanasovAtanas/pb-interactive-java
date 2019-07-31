@@ -296,57 +296,6 @@ Write a program to check if given number is special:
 [/slide]
 
 [slide]
-# Solution: Special Number
-[code-task title="Special Number" executionStrategy="java-code" requiresInput]
-[code-editor language=java]
-```java
-import java.util.Scanner;
-
-public class Program {
-   public static void main(String[] args) {
-      Scanner scanner = new Scanner(System.in);
-      
-      int num = Integer.parseInt(scanner.nextLine());
-      int numDigits = num;
-      boolean isSpecial = true;
-
-      while (numDigits > 0) {
-        int digit = numDigits % 10;
-        numDigits /= 10;
-        
-        if (digit != 0 && num % digit != 0) {
-          isSpecial = false;
-          break;
-        }
-      }
-
-      if (isSpecial) {
-        System.out.println(num + " is special");
-      } else {
-        System.out.println(num + " is not special");
-      }
-    }
-}
-```
-[/code-editor]
-[task-description]
-Write a program to check if given number is special: 
-
-* Special numbers are divisible by all of their digits without remainder
-* Read an integer and check whether it is a special number
-* Print "\{num\} is special" if the number is special
-* Otherwise, print "\{num\} is not special"
-[/task-description]
-[code-io /]
-[/code-task]
-## Sample Input and Output
-|Input|Output|
-|-----|------|
-|23|23 is not special|
-|204|204 is special|
-[/slide]
-
-[slide]
 # Problem: Special Bonus
 [code-task title="Special Bonus" taskId="p-05" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
@@ -370,34 +319,51 @@ Write a program to apply a 20% bonus for certain number:
 [tests]
 [test]
 [input]
-111
-[/input]
-[output]
-3
-[/output]
-[/test]
-[test]
-[input]
-100004
-[/input]
-[output]
-5
-[/output]
-[/test]
-[test]
-[input]
-121
-[/input]
-[output]
 4
+3
+2
+4
+[/input]
+[output]
+2.4
 [/output]
 [/test]
 [test]
 [input]
-554
+1
+2
+3
+4
+5
+1
 [/input]
 [output]
+6.0
+[/output]
+[/test]
+[test]
+[input]
+2
+9
+0
+4
+5
+2
+[/input]
+[output]
+6.0
+[/output]
+[/test]
+[test]
+[input]
+12
+13
 14
+15
+12
+[/input]
+[output]
+18.0
 [/output]
 [/test]
 [/tests]
