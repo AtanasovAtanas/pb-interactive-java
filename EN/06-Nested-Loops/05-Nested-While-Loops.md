@@ -38,7 +38,7 @@ while (i < 2) {
 
 [slide]
 # Problem: Triangle of Stars with While
-[code-task title="Triangle of Stars with While" executionStrategy="java-code" requiresInput]
+[code-task title="Triangle of Stars with While" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```
 import java.util.Scanner;
@@ -56,7 +56,42 @@ Write a program, which:
 * Reads the **height** of a triangle from the console
 * Prints a **triangle of stars**
 [/task-description]
-[code-io /]
+[tests]
+[test]
+[input]
+6
+[/input]
+[output]
+*
+**
+***
+****
+*****
+******
+[/output]
+[/test]
+[test]
+[input]
+3
+[/input]
+[output]
+*
+**
+***
+[/output]
+[/test]
+[test]
+[input]
+4
+[/input]
+[output]
+*
+**
+***
+****
+[/output]
+[/test]
+[/tests]
 [/code-task]
 # Sample Input and Output
 |Input|Output|
@@ -70,7 +105,7 @@ Write a program, which:
 
 [slide]
 # Solution: Triangle of Stars with While
-[code-task title="Triangle of Stars with While" executionStrategy="java-code" requiresInput]
+[code-task title="Triangle of Stars with While" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```
 import java.util.Scanner;
@@ -102,7 +137,42 @@ Write a program, which:
 * Reads the **height** of a triangle from the console
 * Prints a **triangle of stars**
 [/task-description]
-[code-io /]
+[tests]
+[test]
+[input]
+6
+[/input]
+[output]
+*
+**
+***
+****
+*****
+******
+[/output]
+[/test]
+[test]
+[input]
+3
+[/input]
+[output]
+*
+**
+***
+[/output]
+[/test]
+[test]
+[input]
+4
+[/input]
+[output]
+*
+**
+***
+****
+[/output]
+[/test]
+[/tests]
 [/code-task]
 # Sample Input and Output
 |Input|Output|
