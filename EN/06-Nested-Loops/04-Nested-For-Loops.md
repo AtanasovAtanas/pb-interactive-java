@@ -48,7 +48,7 @@ for (int i = 0; i < a; i++) {
 
 [slide]
 # Problem: Triangle of Stars
-[code-task title="Triangle of Stars" executionStrategy="java-code" requiresInput]
+[code-task title="Triangle of Stars" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```
 import java.util.Scanner;
@@ -66,7 +66,42 @@ Write a program, which:
 * Reads the **height** of a triangle from the console
 * Prints a **triangle of stars**
 [/task-description]
-[code-io /]
+[tests]
+[test]
+[input]
+6
+[/input]
+[output]
+*
+**
+***
+****
+*****
+******
+[/output]
+[/test]
+[test]
+[input]
+3
+[/input]
+[output]
+*
+**
+***
+[/output]
+[/test]
+[test]
+[input]
+4
+[/input]
+[output]
+*
+**
+***
+****
+[/output]
+[/test]
+[/tests]
 [/code-task]
 # Sample Input and Output
 |Input|Output|
@@ -80,7 +115,7 @@ Write a program, which:
 
 [slide]
 # Solution: Triangle of Stars
-[code-task title="Triangle of Stars" executionStrategy="java-code" requiresInput]
+[code-task title="Triangle of Stars" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```
 import java.util.Scanner;
@@ -92,7 +127,7 @@ public class Main {
         int height = Integer.parseInt(scanner.nextLine());
         for (int i = 1; i <= height; i++) {
             for (int j = 1; j <= i; j++) {
-                System.out.println("*");
+                System.out.print("*");
             }
 
             System.out.println();
@@ -107,7 +142,42 @@ Write a program, which:
 * Reads the **height** of a triangle from the console
 * Prints a **triangle of stars**
 [/task-description]
-[code-io /]
+[tests]
+[test]
+[input]
+6
+[/input]
+[output]
+*
+**
+***
+****
+*****
+******
+[/output]
+[/test]
+[test]
+[input]
+3
+[/input]
+[output]
+*
+**
+***
+[/output]
+[/test]
+[test]
+[input]
+4
+[/input]
+[output]
+*
+**
+***
+****
+[/output]
+[/test]
+[/tests]
 [/code-task]
 # Sample Input and Output
 |Input|Output|
