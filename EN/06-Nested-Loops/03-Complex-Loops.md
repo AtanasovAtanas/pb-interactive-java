@@ -369,6 +369,7 @@ Write a program, which:
 64
 256
 [/output]
+[/test]
 [/tests]
 [/code-task]
 # Sample Input and Output
@@ -443,6 +444,7 @@ Write a program, which:
 64
 256
 [/output]
+[/test]
 [/tests]
 [/code-task]
 # Sample Input and Output
