@@ -46,7 +46,6 @@ Write a program, which:
 * **Prints** the **sum** on the console
 
 [/task-description]
-[code-io /]
 [/code-task]
 
 ## Sample Input and Output
@@ -85,7 +84,6 @@ Write a program, which:
 * **Prints** the **sum** on the console
 
 [/task-description]
-[code-io /]
 [/code-task]
 
 ## Sample Input and Output
@@ -118,7 +116,6 @@ Write a program, which:
 * Prints the result on the console
 
 [/task-description]
-[code-io /]
 [/code-task]
 
 ## Sample Input and Output
@@ -161,7 +158,6 @@ Write a program, which:
 
 
 [/task-description]
-[code-io /]
 [/code-task]
 
 ## Sample Input and Output
