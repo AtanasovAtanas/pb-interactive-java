@@ -367,7 +367,9 @@ public class Program {
 
 Write a program, which: 
 * Reads **n** - an integer from the console
-* Prints **n**'s first multiples in the format "**\{n\} x \{i\}** = **\{result\}**"
+* Prints **n**'s first multiples in the format 
+
+"\{n\} x \{i\} = \{result\}"
 
 [/task-description]
 [code-io /]
@@ -407,7 +409,9 @@ public class Program {
 
 Write a program, which: 
 * Reads **n** - an integer from the console
-* Prints **n**'s first multiples in the format "**\{n\} x \{i\}** = **\{result\}**"
+* Prints **n**'s first multiples in the format 
+
+"\{n\} x \{i\} = \{result\}"
 
 [/task-description]
 [code-io /]
