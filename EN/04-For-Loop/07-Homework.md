@@ -187,7 +187,7 @@ Min number: -13
 
 [slide]
 # Problem: Power of Number
-[code-task title="Power of Number" taskId="p-01" executionType="tests-execution" executionStrategy="java-code" requiresInput]
+[code-task title="Power of Number" taskId="p-02" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```java
 import java.util.Scanner;
