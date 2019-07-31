@@ -378,47 +378,6 @@ Write a program to apply a 20% bonus for certain number:
 [/slide]
 
 [slide]
-# Solution: Special Bonus
-[code-task title="Special Bonus" executionStrategy="java-code" requiresInput]
-[code-editor language=java]
-```java
-import java.util.Scanner;
-
-public class Program {
-   public static void main(String[] args) {
-      Scanner scanner = new Scanner(System.in);
-      int stopNum = scanner.nextInt();
-      int previousNum = stopNum;
-      while (true) {
-        int num = scanner.nextInt();
-        if (num == stopNum)
-          break;
-        previousNum = num;
-      }
-      System.out.println(previousNum * 1.2);
-    }
-}
-```
-[/code-editor]
-[task-description]
-Write a program to apply a 20% bonus for certain number: 
-
-* Read an integer from the console: the "stop number"
-* Keep reading integers until it finds the stop number
-* When the stop number is found, increase the value of the previous number before it with 20% and print it
-[/task-description]
-[code-io /]
-[/code-task]
-## Sample Input and Output
-|Input|Output|
-|-----|------|
-|25|36|
-|20||
-|30||
-|25||
-[/slide]
-
-[slide]
 # Problem: Sequence 2k + 1
 [code-task title="Sequence 2k + 1" taskId="p-06" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
@@ -443,34 +402,43 @@ Write a program to print a sequence of numbers:
 [tests]
 [test]
 [input]
-111
+4
 [/input]
 [output]
+1
 3
 [/output]
 [/test]
 [test]
 [input]
-100004
+10
 [/input]
 [output]
-5
+1
+3
+7
 [/output]
 [/test]
 [test]
 [input]
-121
+20
 [/input]
 [output]
-4
+1
+3
+7
+15
 [/output]
 [/test]
 [test]
 [input]
-554
+25
 [/input]
 [output]
-14
+1
+3
+7
+15
 [/output]
 [/test]
 [/tests]
