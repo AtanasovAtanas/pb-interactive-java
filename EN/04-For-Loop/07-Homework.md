@@ -911,7 +911,7 @@ Write a program, which:
 
 [slide]
 # Problem: Vowel Sum
-[code-task title="Vowel Sum" executionStrategy="java-code" requiresInput]
+[code-task title="Vowel Sum" taskId="p-06" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```java
 import java.util.Scanner;
@@ -936,7 +936,52 @@ Write a program, which:
 * Prints the result
 
 [/task-description]
-[code-io /]
+[tests]
+[test]
+[input]
+3
+a
+v
+d
+[/input]
+[output]
+1
+[/output]
+[/test]
+[test]
+[input]
+4
+a
+u
+r
+t
+[/input]
+[output]
+6
+[/output]
+[/test]
+[test]
+[input]
+3
+a
+e
+r
+[/input]
+[output]
+3
+[/output]
+[/test]
+[test]
+[input]
+2
+e
+o
+[/input]
+[output]
+6
+[/output]
+[/test]
+[/tests]
 [/code-task]
 ## Sample Input and Output
 |Input|Output|
