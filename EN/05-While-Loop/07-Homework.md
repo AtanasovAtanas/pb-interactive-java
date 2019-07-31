@@ -7,7 +7,7 @@ We have prepared some simple problems for you to solve. If you struggle you can 
 
 [slide]
 # Problem: Sum Digits
-[code-task title="Sum Digits" executionType="tests-execution" executionStrategy="java-code" requiresInput]
+[code-task title="Sum Digits" taskId="p-01" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```java
 import java.util.Scanner;
@@ -70,7 +70,7 @@ Write a program to sum the digits of given number
 
 [slide]
 # Problem: Favorite Book
-[code-task title="Favorite Book" taskId="p-01" executionStrategy="java-code" requiresInput]
+[code-task title="Favorite Book" taskId="p-02" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```java
 import java.util.Scanner;
@@ -188,7 +188,7 @@ Write a program to guess for a favorite book, which:
 
 [slide]
 # Problem: Find Min and Max
-[code-task title="Find Min and Max" taskId="p-02" executionStrategy="java-code" executionStrategy="java-code" requiresInput]
+[code-task title="Find Min and Max" taskId="p-03" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```java
 import java.util.Scanner;
@@ -323,7 +323,7 @@ Write a program to find the min and max numbers
 
 [slide]
 # Problem: Special Number
-[code-task title="Special Number" taskId="p-03" executionStrategy="java-code" executionStrategy="java-code" requiresInput]
+[code-task title="Special Number" taskId="p-04" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```java
 import java.util.Scanner;
@@ -438,7 +438,7 @@ Write a program to check if given number is special:
 
 [slide]
 # Problem: Special Bonus
-[code-task title="Special Bonus" taskId="p-04" executionStrategy="java-code" executionStrategy="java-code" requiresInput]
+[code-task title="Special Bonus" taskId="p-05" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```java
 import java.util.Scanner;
@@ -544,7 +544,7 @@ Write a program to apply a 20% bonus for certain number:
 
 [slide]
 # Problem: Sequence 2k + 1
-[code-task title="Sequence 2k + 1" taskId="p-05" executionStrategy="java-code" executionStrategy="java-code" requiresInput]
+[code-task title="Sequence 2k + 1" taskId="p-06" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```java
 import java.util.Scanner;
@@ -647,7 +647,7 @@ Write a program to print a sequence of numbers:
 
 [slide]
 # Problem: Account Balance
-[code-task title="Account Balance" taskId="p-06" executionStrategy="java-code" executionStrategy="java-code" requiresInput]
+[code-task title="Account Balance" taskId="p-07" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```java
 import java.util.Scanner;
