@@ -11,7 +11,7 @@ for (int k = 1; k <= n; k*=2)
 
 [slide]
 # Problem: Numbers from N to 1
-[code-task title="Numbers form N to 1" executionStrategy="java-code" requiresInput]
+[code-task title="Numbers form N to 1" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```
 import java.util.Scanner;
@@ -29,7 +29,55 @@ Write a program, which:
 * Reads an integer number **n**
 * Prints the numbers from **n** to **1** 
 [/task-description]
-[code-io /]
+[tests]
+[test]
+[input]
+4
+[/input]
+[output]
+4
+3
+2
+1
+[/output]
+[/test]
+[test]
+[input]
+5
+[/input]
+[output]
+5
+4
+3
+2
+1
+[/output]
+[/test]
+[test]
+[input]
+3
+[/input]
+[output]
+3
+2
+1
+[/output]
+[/test]
+[test]
+[input]
+7
+[/input]
+[output]
+7
+6
+5
+4
+3
+2
+1
+[/output]
+[/test]
+[/tests]
 [/code-task]
 # Sample Input and Output
 |Input|Output|
@@ -43,7 +91,7 @@ Write a program, which:
 
 [slide]
 # Solution: Numbers from N to 1
-[code-task title="Numbers form N to 1" executionStrategy="java-code" requiresInput]
+[code-task title="Numbers form N to 1" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```
 import java.util.Scanner;
@@ -66,7 +114,55 @@ Write a program, which:
 * Reads an integer number **n**
 * Prints the numbers from **n** to **1** 
 [/task-description]
-[code-io /]
+[tests]
+[test]
+[input]
+4
+[/input]
+[output]
+4
+3
+2
+1
+[/output]
+[/test]
+[test]
+[input]
+5
+[/input]
+[output]
+5
+4
+3
+2
+1
+[/output]
+[/test]
+[test]
+[input]
+3
+[/input]
+[output]
+3
+2
+1
+[/output]
+[/test]
+[test]
+[input]
+7
+[/input]
+[output]
+7
+6
+5
+4
+3
+2
+1
+[/output]
+[/test]
+[/tests]
 [/code-task]
 # Sample Input and Output
 |Input|Output|
@@ -80,7 +176,7 @@ Write a program, which:
 
 [slide]
 # Problem: Numbers from 1 to N with Step 3
-[code-task title="Numbers from 1 to N with Step 3" executionStrategy="java-code" requiresInput]
+[code-task title="Numbers from 1 to N with Step 3" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```
 import java.util.Scanner;
@@ -98,7 +194,45 @@ Write a program, which:
 * Reads an integer number **n**
 * Prints the numbers from **1** to **n** with step **3**
 [/task-description]
-[code-io /]
+[tests]
+[test]
+[input]
+4
+[/input]
+[output]
+1
+4
+[/output]
+[/test]
+[test]
+[input]
+5
+[/input]
+[output]
+1
+4
+[/output]
+[/test]
+[test]
+[input]
+10
+[/input]
+[output]
+1
+4
+7
+10
+[/output]
+[/test]
+[test]
+[input]
+1
+[/input]
+[output]
+1
+[/output]
+[/test]
+[/tests]
 [/code-task]
 # Sample Input and Output
 |Input|Output|
@@ -110,7 +244,7 @@ Write a program, which:
 
 [slide]
 # Solution: Numbers from 1 to N with Step 3
-[code-task title="Numbers from 1 to N with Step 3" executionStrategy="java-code" requiresInput]
+[code-task title="Numbers from 1 to N with Step 3" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```
 import java.util.Scanner;
@@ -133,7 +267,45 @@ Write a program, which:
 * Reads an integer number **n**
 * Prints the numbers from **1** to **n** with step **3**
 [/task-description]
-[code-io /]
+[tests]
+[test]
+[input]
+4
+[/input]
+[output]
+1
+4
+[/output]
+[/test]
+[test]
+[input]
+5
+[/input]
+[output]
+1
+4
+[/output]
+[/test]
+[test]
+[input]
+10
+[/input]
+[output]
+1
+4
+7
+10
+[/output]
+[/test]
+[test]
+[input]
+1
+[/input]
+[output]
+1
+[/output]
+[/test]
+[/tests]
 [/code-task]
 # Sample Input and Output
 |Input|Output|
@@ -145,7 +317,7 @@ Write a program, which:
 
 [slide]
 # Problem: Even Powers of 2
-[code-task title="Even Powers of 2" executionStrategy="java-code" requiresInput]
+[code-task title="Even Powers of 2" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```
 import java.util.Scanner;
@@ -163,7 +335,41 @@ Write a program, which:
 * Reads a number **n**
 * Prints the even powers of 2 to 2^**n**: 2^0, 2^2, 2^4, 2^8, …, 2^n
 [/task-description]
-[code-io /]
+[tests]
+[test]
+[input]
+10
+[/input]
+[output]
+1
+4
+16
+64
+256
+1024
+[/output]
+[/test]
+[test]
+[input]
+3
+[/input]
+[output]
+1
+4
+[/output]
+[/test]
+[test]
+[input]
+8
+[/input]
+[output]
+1
+4
+16
+64
+256
+[/output]
+[/tests]
 [/code-task]
 # Sample Input and Output
 |Input|Output|
@@ -177,7 +383,7 @@ Write a program, which:
 
 [slide]
 # Solution: Even Powers of 2
-[code-task title="Even Powers of 2" executionStrategy="java-code" requiresInput]
+[code-task title="Even Powers of 2" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```
 import java.util.Scanner;
@@ -203,7 +409,41 @@ Write a program, which:
 * Reads a number **n**
 * Prints the even powers of 2 to 2**n**: 20, 22, 24, 28, …, 2n
 [/task-description]
-[code-io /]
+[tests]
+[test]
+[input]
+10
+[/input]
+[output]
+1
+4
+16
+64
+256
+1024
+[/output]
+[/test]
+[test]
+[input]
+3
+[/input]
+[output]
+1
+4
+[/output]
+[/test]
+[test]
+[input]
+8
+[/input]
+[output]
+1
+4
+16
+64
+256
+[/output]
+[/tests]
 [/code-task]
 # Sample Input and Output
 |Input|Output|
