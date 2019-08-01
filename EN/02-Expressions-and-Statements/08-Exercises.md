@@ -86,15 +86,34 @@ Write a program that calculates how many hours will be necessary to an architect
 Creating one project takes approximately 3 hours.
 
 You will receive:
+
+• Name of the architect - String
+
+• Number of projects - integer 
+
+Print on the console:
+• "The architect \{name of the architect\} will need \{necessary hours\} hours to complete \{number of projects\} project/s."
+
 [/task-description]
 
 [code-io /]
 [tests]
 [test]
 [input]
+George
+4
 [/input]
 [output]
-50
+The architect George will need 12 hours to complete 4 project/s.
+[/output]
+[/test]
+[test]
+[input]
+Sanya
+9
+[/input]
+[output]
+The architect Sanya will need 27 hours to complete 9 project/s.
 [/output]
 [/test]
 [/tests]
@@ -103,7 +122,7 @@ You will receive:
 
 
 [slide]
-# Problem: Calculations
+# Problem: Trapezoid Area
 [code-task title="Calculations" executionType="tests-execution" executionStrategy="java-code"]
 [code-editor language=java]
 ```
@@ -134,7 +153,7 @@ Write a console program to find the result of the following mathematical express
 
 
 [slide]
-# Problem: Capital Letters from English Alphabet
+# Problem: Vegetable Market
 [code-task title="Letters" executionType="tests-execution" executionStrategy="java-code"]
 [code-editor language=java]
 ```
@@ -189,7 +208,206 @@ Z
 
 
 [slide]
-# Problem: Drawing
+# Problem: Fishland
+[code-task title="Drawing" executionType="tests-execution" executionStrategy="java-code"]
+[code-editor language=java]
+```
+public class Main {
+    public static void main(String[] args) {
+        // Write your code here
+    }
+}
+```
+[/code-editor]
+[task-description]
+Write a program to draw on the console a triangle. You should print seven rows part of the triangle. The first row contains the symbol '^' once. On second row – the symbol occurs twice, on the third – three times and so on – every new line contains the number of symbols the previous line has plus one.
+
+\^
+
+\^\^
+
+\^\^\^
+
+\^\^\^\^
+
+\^\^\^\^\^
+
+\^\^\^\^\^\^
+
+\^\^\^\^\^\^\^
+[/task-description]
+[code-io /]
+[tests]
+[test]
+[input]
+[/input]
+[output]
+\^
+\^\^
+\^\^\^
+\^\^\^\^
+\^\^\^\^\^
+\^\^\^\^\^\^
+\^\^\^\^\^\^\^
+[/output]
+[/test]
+[/tests]
+[/code-task]
+[/slide]
+
+
+[slide]
+# Problem: Pet Shop
+[code-task title="Drawing" executionType="tests-execution" executionStrategy="java-code"]
+[code-editor language=java]
+```
+public class Main {
+    public static void main(String[] args) {
+        // Write your code here
+    }
+}
+```
+[/code-editor]
+[task-description]
+Write a program to draw on the console a triangle. You should print seven rows part of the triangle. The first row contains the symbol '^' once. On second row – the symbol occurs twice, on the third – three times and so on – every new line contains the number of symbols the previous line has plus one.
+
+\^
+
+\^\^
+
+\^\^\^
+
+\^\^\^\^
+
+\^\^\^\^\^
+
+\^\^\^\^\^\^
+
+\^\^\^\^\^\^\^
+[/task-description]
+[code-io /]
+[tests]
+[test]
+[input]
+[/input]
+[output]
+\^
+\^\^
+\^\^\^
+\^\^\^\^
+\^\^\^\^\^
+\^\^\^\^\^\^
+\^\^\^\^\^\^\^
+[/output]
+[/test]
+[/tests]
+[/code-task]
+[/slide]
+
+
+
+[slide]
+# Problem: Yard Greening
+[code-task title="Drawing" executionType="tests-execution" executionStrategy="java-code"]
+[code-editor language=java]
+```
+public class Main {
+    public static void main(String[] args) {
+        // Write your code here
+    }
+}
+```
+[/code-editor]
+[task-description]
+Write a program to draw on the console a triangle. You should print seven rows part of the triangle. The first row contains the symbol '^' once. On second row – the symbol occurs twice, on the third – three times and so on – every new line contains the number of symbols the previous line has plus one.
+
+\^
+
+\^\^
+
+\^\^\^
+
+\^\^\^\^
+
+\^\^\^\^\^
+
+\^\^\^\^\^\^
+
+\^\^\^\^\^\^\^
+[/task-description]
+[code-io /]
+[tests]
+[test]
+[input]
+[/input]
+[output]
+\^
+\^\^
+\^\^\^
+\^\^\^\^
+\^\^\^\^\^
+\^\^\^\^\^\^
+\^\^\^\^\^\^\^
+[/output]
+[/test]
+[/tests]
+[/code-task]
+[/slide]
+
+
+
+[slide]
+# Problem: Fish Tank
+[code-task title="Drawing" executionType="tests-execution" executionStrategy="java-code"]
+[code-editor language=java]
+```
+public class Main {
+    public static void main(String[] args) {
+        // Write your code here
+    }
+}
+```
+[/code-editor]
+[task-description]
+Write a program to draw on the console a triangle. You should print seven rows part of the triangle. The first row contains the symbol '^' once. On second row – the symbol occurs twice, on the third – three times and so on – every new line contains the number of symbols the previous line has plus one.
+
+\^
+
+\^\^
+
+\^\^\^
+
+\^\^\^\^
+
+\^\^\^\^\^
+
+\^\^\^\^\^\^
+
+\^\^\^\^\^\^\^
+[/task-description]
+[code-io /]
+[tests]
+[test]
+[input]
+[/input]
+[output]
+\^
+\^\^
+\^\^\^
+\^\^\^\^
+\^\^\^\^\^
+\^\^\^\^\^\^
+\^\^\^\^\^\^\^
+[/output]
+[/test]
+[/tests]
+[/code-task]
+[/slide]
+
+
+
+[slide]
+# Problem: Charity Campaign
 [code-task title="Drawing" executionType="tests-execution" executionStrategy="java-code"]
 [code-editor language=java]
 ```
