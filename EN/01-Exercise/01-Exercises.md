@@ -8,6 +8,17 @@ If you struggle you can ask for help in the facebook group.
 [slide]
 # Problem: Greeting
 
+[code-task title="Greeting" executionType="tests-execution" executionStrategy="java-code"]
+[code-editor language=java]
+```
+public class Main {
+    public static void main(String[] args) {
+        // Write your code here
+    }
+}
+```
+[/code-editor]
+
 [task-description]
 Write a program to print on the console the following greeting:
 "Hello, Java!"
@@ -28,7 +39,16 @@ Hello Java
 
 [slide]
 # Problem: Calculate 10 * 5
-
+[code-task title="Calculation" executionType="tests-execution" executionStrategy="java-code"]
+[code-editor language=java]
+```
+public class Main {
+    public static void main(String[] args) {
+        // Write your code here
+    }
+}
+```
+[/code-editor]
 [task-description]
 Write a program which:
 * Calculate 10 * 5
@@ -51,7 +71,16 @@ Write a program which:
 
 [slide]
 # Problem: Calculations
-
+[code-task title="Calculations" executionType="tests-execution" executionStrategy="java-code"]
+[code-editor language=java]
+```
+public class Main {
+    public static void main(String[] args) {
+        // Write your code here
+    }
+}
+```
+[/code-editor]
 [task-description]
 Write a console program to find the result of the following mathematical expression:
 123 * 321 + (12659 - 1524 * 26 + 248) - 159 * 15 / 2 + 49
@@ -73,7 +102,16 @@ Write a console program to find the result of the following mathematical express
 
 [slide]
 # Problem: Capital Letters from English Alphabet
-
+[code-task title="Letters" executionType="tests-execution" executionStrategy="java-code"]
+[code-editor language=java]
+```
+public class Main {
+    public static void main(String[] args) {
+        // Write your code here
+    }
+}
+```
+[/code-editor]
 [task-description]
 Write a console program to print the capital letters from English alphabet. Each letter should be printed on a separate line.
 [/task-description]
@@ -119,7 +157,16 @@ Z
 
 [slide]
 # Problem: Drawing
-
+[code-task title="Drawing" executionType="tests-execution" executionStrategy="java-code"]
+[code-editor language=java]
+```
+public class Main {
+    public static void main(String[] args) {
+        // Write your code here
+    }
+}
+```
+[/code-editor]
 [task-description]
 Write a program to draw on the console a triangle. You should print seven rows part of the triangle. The first row contains the symbol '^' once. On second row – the symbol occurs twice, on the third – three times and so on – every new line contains the number of symbols the previous line has plus one.
 
