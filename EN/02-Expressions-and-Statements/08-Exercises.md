@@ -11,6 +11,8 @@ If you struggle you can ask for help in the facebook group.
 [code-task title="Square Area" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```
+import java.util.Scanner;
+
 public class Main {
     public static void main(String[] args) {
         // Write your code here
@@ -73,6 +75,8 @@ Write a console program that reads an integer 'a' and calculates the area of a s
 [code-task title="Projects Creation" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```
+import java.util.Scanner;
+
 public class Main {
     public static void main(String[] args) {
         // Write your code here
