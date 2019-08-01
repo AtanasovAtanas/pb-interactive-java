@@ -1525,6 +1525,7 @@ Write a program to find the biggest among 5 numbers
 -4
 -5
 [/input]
+[output]
 -1
 [/output]
 [/test]
