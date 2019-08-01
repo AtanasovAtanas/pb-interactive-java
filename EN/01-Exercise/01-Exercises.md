@@ -29,7 +29,7 @@ Write a program to print on the console the following greeting:
 [input]
 [/input]
 [output]
-Hello Java
+Hello, Java!
 [/output]
 [/test]
 [/tests]
