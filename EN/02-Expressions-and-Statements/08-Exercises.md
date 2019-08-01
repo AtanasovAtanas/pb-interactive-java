@@ -92,6 +92,7 @@ You will receive:
 • Number of projects - integer 
 
 Print on the console:
+
 • "The architect \{name of the architect\} will need \{necessary hours\} hours to complete \{number of projects\} project/s."
 
 [/task-description]
