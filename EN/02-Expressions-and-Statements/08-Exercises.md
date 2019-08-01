@@ -8,7 +8,7 @@ If you struggle you can ask for help in the facebook group.
 [slide]
 # Problem: Square Area
 
-[code-task title="Square Area" executionType="tests-execution" executionStrategy="java-code"]
+[code-task title="Square Area" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```
 public class Main {
@@ -22,7 +22,7 @@ public class Main {
 [task-description]
 Write a console program that reads an integer 'a' and calculates the area of a square with size 'a'.
 [/task-description]
-[code-io /]
+[code-io/]
 [tests]
 [test]
 [input]
@@ -70,7 +70,7 @@ Write a console program that reads an integer 'a' and calculates the area of a s
 [slide]
 # Problem: Projects Creation
 
-[code-task title="Projects Creation" executionType="tests-execution" executionStrategy="java-code"]
+[code-task title="Projects Creation" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```
 public class Main {
@@ -97,7 +97,7 @@ Print on the console:
 
 [/task-description]
 
-[code-io /]
+[code-io/]
 [tests]
 [test]
 [input]
