@@ -1,6 +1,10 @@
 [slide]
 # Nested Conditions
-An ***if-else*** statement can be nested within another ***if-else*** statement
+Pretty often the program logic requires the use of if or if-else statements, which are **contained one inside another**. 
+
+They are called **nested** if or if-else statements. 
+
+As implied by the title "nested", these are ***if*** or ***if-else*** statements that are placed inside other ***if*** or ***else*** statements.
 
 ```java
 if (expression) {
@@ -11,7 +15,7 @@ if (expression) {
 }
 ``` 
 
-Only if the first condition is true the nested one is checked
+Only if the first condition is true the nested one is checked.
 
 ```java
 if (expression) {
@@ -22,9 +26,11 @@ if (expression) {
     // Executes when the nested expression is false
 }
 ```
-Deep nesting is not recommended
+**Deep nesting is not recommended**
 
-* Use up to 3 nested levels
+Nesting of more than three conditional statements inside each other is not considered a good practice. 
+
+It has to be avoided, mostly through optimization of the structure/the algorithm of the code and/or by using another type of conditional statement.
 
 [/slide]
 
