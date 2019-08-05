@@ -4,9 +4,7 @@ Integrated Development Environments (**IDE**) simplify software development
 
 IDEs save time and eases the process of coding.
 
-They are actually editors for programs, in which we write the program code 
-and we can compile it and run it to see the errors, fix them and start the 
-program again.
+They are actually editors for programs, in which we write the program code and we can compile it and run it to see the errors, fix them and start the program again.
 
 * Writing, running, testing, and debugging the code
 
@@ -54,12 +52,5 @@ Alternative IDE (online)
 The "Compile Java" Online IDE: https://compilejava.net
 
 [image src="https://github.com/AlenPaunov/pb-interactive-java/blob/master/assets/intro-to-programming-2.png"/]
-
-[/slide]
-
-[slide]
-# Video
-
-[vimeo-video videoId="342593690" startTimeInSeconds="4035" endTimeInSeconds="4552" /]
 
 [/slide]

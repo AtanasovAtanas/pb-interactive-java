@@ -1,5 +1,5 @@
 [slide]
-# Welcome to programming
+# Welcome to Programming
 # What is Coding?
 **Coding** means to give **commands** to tell the computer what to do
 
@@ -21,10 +21,12 @@ Calculate an expression and print its value:
 ```java
 System.out.println(5 + 5);
 ```
-Plays the "A" sound (works in Windows only)
+
+Check whether a specified subtext occurs within text
 ```java
 System.out.println("softuni".contains("uni"));
 ```
+
 Print the numbers from 1 to 100
 ```java
 for (int i = 1; i <= 100; i++) 
@@ -34,19 +36,22 @@ for (int i = 1; i <= 100; i++)
 
 [slide]
 # Programming and Algorithms 
-**Programming** means writing computer programs (commands). Computer programs usually execute
-some algorithm. Algorithms are a sequence of steps, necessary for the completion of a certain 
-task and for gaining some expected result, something like a "recipe". We need to use a certain 
-**programming language**, such as C# or Python, to write it.
 
-* Using certain **programming language**, such as C# or Python
+## Programming
+**Programming** means writing computer programs (commands). 
 
-**Algorithm** == a sequence of commands that achieves certain result
-In programming the computer programs execute algorithms: a sequence of commands, necessary for 
-the completion of a certain task. For example, to arrange a sequence of numbers in an ascending 
-order, an algorithm is needed, e.g. find the smallest number and print it, then find the smallest 
-number among the rest of the numbers and print it, and this is repeated until there are no more 
-numbers left.
+Computer programs usually execute some algorithm. Algorithms are a sequence of steps, necessary for the completion of a certain task and for gaining some expected result, something like a "recipe". 
+
+We need to use a certain **programming language**, such as C# or Python, to write it.
+
+## Algorithms
+**Algorithm** is a sequence of commands that achieves certain result. 
+
+In programming the computer programs execute algorithms: a sequence of commands, necessary for the completion of a certain task. 
+
+For example, to arrange a sequence of numbers in an ascending 
+order, an algorithm is needed
+  - e.g. find the smallest number and print it, then find the smallest number among the rest of the numbers and print it, and this is repeated until there are no more numbers left.
 
 Programming is done by **programmers** (developers)
 
@@ -95,7 +100,6 @@ The above program holds a sequence of 3 commands:
 Size = 5
 Area = 25
 ```
-
 [/slide]
 
 [slide]
@@ -115,11 +119,4 @@ class Program
   }
 }
 ```
-[/slide]
-
-[slide]
-# Video
-
-[vimeo-video videoId="342593690" startTimeInSeconds="1783" endTimeInSeconds="3110" /]
-
 [/slide]
