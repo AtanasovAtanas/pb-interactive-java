@@ -18,3 +18,10 @@ The project explorer holds the project files \[Alt + 1\]
 
 The project source code consists of .java files (Java classes)
 [/slide]
+
+[slide]
+# Video
+
+[vimeo-video videoId="342593690" startTimeInSeconds="4553" endTimeInSeconds="4655" /]
+
+[/slide]
