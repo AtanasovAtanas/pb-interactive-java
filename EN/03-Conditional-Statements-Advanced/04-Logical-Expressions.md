@@ -293,3 +293,10 @@ unknown
 [/tests]
 [/code-task]
 [/slide]
+
+[slide]
+# Video
+
+[vimeo-video videoId="341582556" startTimeInSeconds="2834" endTimeInSeconds="4109" /]
+
+[/slide]
