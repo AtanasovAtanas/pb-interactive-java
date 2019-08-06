@@ -81,7 +81,7 @@ public class Main {
 ```
 [/code-editor]
 [task-description]
-Write a program to print 'Catlyn' at the first line and calculate and print the expression 5 + 3 at the second line
+Write a program to print \"Catlyn\" at the first line and calculate and print the expression 5 + 3 at the second line
 [/task-description]
 [code-io /]
 [tests]
