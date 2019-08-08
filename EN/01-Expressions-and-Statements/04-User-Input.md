@@ -100,6 +100,7 @@ import java.util.Scanner;
 public class Program {
   public static void main(String[] args) {
       Scanner scanner = new Scanner(System.in);
+      
       // Write code here
   }
 }
@@ -227,11 +228,4 @@ int b = 11;
 String str = "a + b = " + a + b;
 System.out.println(str); // a + b = 511
 ```
-[/slide]
-
-[slide]
-# Video
-
-[vimeo-video videoId="341522009" startTimeInSeconds="2901" endTimeInSeconds="6281" /]
-
 [/slide]

@@ -29,24 +29,20 @@ Variables are characterized by:
 * **type** (of the information preserved)
 * **value** (stored information)
 
-Each of the variables in Java has a name, a type and a value. Here is how we would 
-declare a variable and assign it with a value at the same time:
+Each of the variables in Java has a name, a type and a value. 
+
+Here is how we would declare a variable and assign it with a value at the same time:
+
 ```java
 int age = 25;
 ```
-**Variable** == named area of the computer memory
+**Variable** is named area of the computer memory.
 
-* Stores a value from a particular data type
-* Is accessible in the program by its name
+Stores a value from a particular data type.
+
+Accessible in the program by its name.
 
 Variables can be stored in the program's:
   * Operational memory - in the execution **stack**
   * Dynamic memory - in the **heap**
-[/slide]
-
-[slide]
-# Video
-
-[vimeo-video videoId="341522009" startTimeInSeconds="1040" endTimeInSeconds="1777" /]
-
 [/slide]

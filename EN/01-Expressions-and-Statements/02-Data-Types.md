@@ -35,7 +35,7 @@ Data types are characterized by:
 
 [slide]
 # Naming Conventions
-In computer programming, a naming convention is a set of rules for choosing the name to be used for variables
+In computer programming, a naming convention is a set of rules for choosing the name to be used for variables.
 
 In Java the convention for naming variables is **"camelCase"**:
 * First word begins with a **lowercase letter**, all the rest with **capital letters**
@@ -61,7 +61,9 @@ const int INITIAL_VALUE = 5;
 
 [slide]
 # Comments
-When writing code in Java, it’s important to make sure that your code can be easily understood by others. Giving variables obvious names, defining explicit functions, and organizing your code are all great ways to do this.
+When writing code in Java, it's important to make sure that your code can be easily understood by others. 
+
+Giving variables obvious names, defining explicit functions, and organizing your code are all great ways to do this.
 
 Another easy way to increase the readability of your code is by using comments!
 
@@ -77,11 +79,4 @@ A comment is text in your program that is **not executed as a code**.
 /* String name = "John"; 
    int num = 5; (example for a multiline comment) */
 ```
-[/slide]
-
-[slide]
-# Video
-
-[vimeo-video videoId="341522009" startTimeInSeconds="1778" endTimeInSeconds="2358" /]
-
 [/slide]
