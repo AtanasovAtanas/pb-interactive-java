@@ -80,3 +80,10 @@ A comment is text in your program that is **not executed as a code**.
    int num = 5; (example for a multiline comment) */
 ```
 [/slide]
+
+[slide]
+# Video
+
+[vimeo-video videoId="341522009" startTimeInSeconds="1778" endTimeInSeconds="2358" /]
+
+[/slide]

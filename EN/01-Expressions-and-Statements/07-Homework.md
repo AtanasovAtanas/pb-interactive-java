@@ -453,7 +453,7 @@ public class Program {
 
 Write a program, which:
   * Reads 4 lines of **strings**: first name, last name, country and town 
-  * Prints information about a person in the following format: "**{firstName} {lastName} from {country} - {town}!**"
+  * Prints information about a person in the following format: "**\{firstName\} \{lastName\} from \{country\} - \{town\}!**"
 
 [/task-description]
 [tests]
@@ -532,7 +532,7 @@ public class Program {
 
 Write a program, which:
   * Reads **3 lines** of input: **name** (string), **population** and **area** (integers)
-  * Prints information about a town in the following format: "**Town {name} has population of {population} and area {area} square km.**"
+  * Prints information about a town in the following format: "**Town \{name\} has population of \{population\} and area \{area\} square km.**"
 
 [/task-description]
 [tests]
@@ -586,4 +586,11 @@ Town A has population of 123456 and area 789 square km.
 |Berlin|Town Berlin has population of 3675000 and area 984 square km.|
 |3675000||
 |984||
+[/slide]
+
+[slide]
+# Video
+
+[vimeo-video videoId="341522009" startTimeInSeconds="9284" endTimeInSeconds="11400" /]
+
 [/slide]
