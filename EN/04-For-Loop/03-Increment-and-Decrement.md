@@ -1,32 +1,50 @@
 [slide]
-# Increment / Decrement Operators
-Increment (**++**) operator **increases** the value **by 1**
+# Increment Operator
+The unary increment operator `++` increments its operand by 1.
 
-Decrement (**--**) operator **decreases** the value **by 1**
+The increment operator is supported in two forms: the postfix increment operator, `x++`, and the prefix increment operator, `++x`.
 
-Can be used **pre** and **post** fix
-* Prefix: **++i**, **--i**
-* Postfix: **i++**, **i--**
-
-Both operators can be used only with numeric variables
-
-# Example: Increment/Decrement
-Pre - decrement
+## Postfix Increment Operator
+The result of `x++` is the value of `x` before the operation, as the following example shows:
 ```java
-int a = 1; 
-//Decreases the value and then prints it
-
-System.out.println(--a); // 0
-System.out.println(a);   // 0
-
+int i = 3;
+System.out.println(i);   // output: 3
+System.out.println(i++); // output: 3
+System.out.println(i);   // output: 4
 ```
-Post - decrement
+
+## Prefix Increment Operator
+The result of `++x` is the value of `x` after the operation, as the following example shows:
 ```java
-int a = 1; 
-//First prints the value and then decreases it
+double a = 1.5;
+System.out.println(a);   // output: 1.5
+System.out.println(++a); // output: 2.5
+System.out.println(a);   // output: 2.5
+```
+[/slide]
 
-System.out.println(a--); // 1
-System.out.println(a);   // 0
+[slide]
+# Decrement Operator
 
+The unary decrement operator `--` decrements its operand by 1.
+
+The decrement operator is supported in two forms: the postfix decrement operator, `x--`, and the prefix decrement operator, `--x`.
+
+## Postfix Decrement Operator
+The result of `x--` is the value of `x` before the operation, as the following example shows:
+```java
+int i = 3;
+System.out.println(i);   // output: 3
+System.out.println(i--); // output: 3
+System.out.println(i);   // output: 2
+```
+
+## Prefix Decrement Operator
+The result of `--x` is the value of `x` after the operation, as the following example shows:
+```java
+double a = 1.5;
+System.out.println(a);   // output: 1.5
+System.out.println(--a); // output: 0.5
+System.out.println(a);   // output: 0.5
 ```
 [/slide]
