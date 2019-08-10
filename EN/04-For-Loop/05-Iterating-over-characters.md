@@ -1,24 +1,25 @@
 [slide]
 # Iterating over Characters
-In Java, we can iterate over characters
+It is good to know that the for loops don't only work with numbers. 
+
+We can solve the task by running a for loop that passes sequentially through all letters in the English alphabet:
 ```java
 for (char ch = 'a'; ch <= 'd'; ch++) {
-  System.out.println(ch + " ");
+  System.out.print(ch + " ");
 }
-// Expected Output: a b c d
 ```
-[/slide]
 
-[slide]
 # ASCII Table
-Computers can only understand numbers
-* **ASCII** code is the numerical representation of a character
+**ASCII** stands for American Standard Code for Information Interchange. 
+ 
+Computers can only understand numbers, so an **ASCII** code is the numerical representation of a character such as 'a' or '@' or an action of some sort. 
 
 |Dec|Hx|Oct|Html|Chr|
 |---|--|---|----|---|
 |97|61|141|\&\#97;|a|
-|98|62|Oct|&\#98;|b|
+|98|62|142|\&\#98;|b|
 
+* 'a' has the int value of 97
 [/slide]
 
 [slide]
