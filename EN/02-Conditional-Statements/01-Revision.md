@@ -47,10 +47,3 @@ a = b * 2;
 // Store the result back into another variable we call a
 ```
 [/slide]
-
-[slide]
-# Video
-
-[vimeo-video videoId="341539841" startTimeInSeconds="1050" endTimeInSeconds="1507" /]
-
-[/slide]

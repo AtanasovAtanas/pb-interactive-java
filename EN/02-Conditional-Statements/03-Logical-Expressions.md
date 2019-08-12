@@ -29,15 +29,19 @@ System.out.println(a > 100);      // false
 System.out.println(a <= 5);       // true
 System.out.println(b == 2 * a);   // true 
 ```
-You can also compare numeric expressions. The expressions you compare can themselves be complex expressions, as in the following example.
+
+You can also compare numeric expressions. 
+
+The expressions you compare can themselves be complex expressions, as in the following example.
 ```java
 x / 45 * (y +17) >= Math.sqrt(z) / (p - (x * 16))
 ```
+
 The preceding complex expression includes literals, variables, and function calls. 
 
 The expressions on both sides of the comparison operator are evaluated, and the resulting values are then compared using the >= comparison operator. 
 
-If the value of the expression on the left side is greater than or equal to the value of the expression on the right, the entire expression evaluates to True; otherwise,it evaluates to False.
+If the value of the expression on the left side is greater than or equal to the value of the expression on the right, the entire expression evaluates to `true`, otherwise, it evaluates to `false`.
 
 [/slide]
 
@@ -65,11 +69,4 @@ String a = "5";
 String b = "5";
 System.out.println(a.equals.(b));   // true 
 ```
-[/slide]
-
-[slide]
-# Video
-
-[vimeo-video videoId="341539841" startTimeInSeconds="1628" endTimeInSeconds="2292" /]
-
 [/slide]

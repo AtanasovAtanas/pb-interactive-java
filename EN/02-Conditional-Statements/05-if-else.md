@@ -388,10 +388,3 @@ Greater number: -60
 |8|
 
 [/slide]
-
-[slide]
-# Video
-
-[vimeo-video videoId="341539841" startTimeInSeconds="2681" endTimeInSeconds="3553" /]
-
-[/slide]

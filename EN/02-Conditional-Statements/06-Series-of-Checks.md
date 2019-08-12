@@ -203,10 +203,3 @@ four
 |10|Number too big|
 
 [/slide]
-
-[slide]
-# Video
-
-[vimeo-video videoId="341539841" startTimeInSeconds="3554" endTimeInSeconds="4003" /]
-
-[/slide]
