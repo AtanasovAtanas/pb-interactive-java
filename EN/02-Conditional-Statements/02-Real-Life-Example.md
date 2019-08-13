@@ -8,3 +8,10 @@
 
 [image src="https://github.com/AlenPaunov/pb-interactive-course/blob/02-js-conditional-statements/assets/water-plant.png"/]
 [/slide]
+
+[slide]
+# Video
+
+[vimeo-video videoId="341539841" startTimeInSeconds="1519" endTimeInSeconds="1627" /]
+
+[/slide]

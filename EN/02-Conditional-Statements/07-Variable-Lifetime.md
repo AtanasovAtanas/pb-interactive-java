@@ -15,3 +15,10 @@ if (currentDay.equals("Monday")) {
 System.out.println(salary); // Compile-time error!
 ```
 [/slide]
+
+[slide]
+# Video
+
+[vimeo-video videoId="341539841" startTimeInSeconds="4005" endTimeInSeconds="4209" /]
+
+[/slide]

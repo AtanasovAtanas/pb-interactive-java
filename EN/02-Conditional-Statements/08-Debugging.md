@@ -13,11 +13,18 @@ We can track line by line what happens in our program, what path it follows, wha
 
 [slide]
 # Debugging in IntelliJ Idea
-Pressing **Shift + F9** will start the program in debug mode
-* We can go to the next step with **F8**
-* We can create breakpoints with **Ctrl + F8**
-    * We can reach them directly with **Ctrl + F8**
+Pressing `[Shift + F9]` will start the program in debug mode
+* We can go to the next step with `[F8]`
+* We can create breakpoints with `[Ctrl + F8]`
+    * We can reach them directly with `[Ctrl + F8]`
 
 [image src="https://github.com/AlenPaunov/pb-interactive-course/blob/02-java-conditional-statements/assets/conditional-statements-2.jpg"/]
+
+[/slide]
+
+[slide]
+# Video
+
+[vimeo-video videoId="341539841" startTimeInSeconds="4211" endTimeInSeconds="4582" /]
 
 [/slide]
