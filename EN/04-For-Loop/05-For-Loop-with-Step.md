@@ -365,3 +365,10 @@ The exam has come
 ||1 days before the exam|
 ||The exam has come|
 [/slide]
+
+[slide]
+# Video
+
+[vimeo-video videoId="342471604" startTimeInSeconds="2906" endTimeInSeconds="3553" /]
+
+[/slide]

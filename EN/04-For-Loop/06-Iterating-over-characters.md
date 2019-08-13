@@ -170,3 +170,10 @@ a b c d e f g h i j k l m n o p q r s t u v
 |f|f g h i g k l|
 |j||
 [/slide]
+
+[slide]
+# Video
+
+[vimeo-video videoId="342471604" startTimeInSeconds="3555" endTimeInSeconds="4281" /]
+
+[/slide]

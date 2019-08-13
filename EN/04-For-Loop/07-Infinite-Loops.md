@@ -15,3 +15,10 @@ for ( ; ; )  {
 }
 ```
 [/slide]
+
+[slide]
+# Video
+
+[vimeo-video videoId="342471604" startTimeInSeconds="4288" endTimeInSeconds="4751" /]
+
+[/slide]
