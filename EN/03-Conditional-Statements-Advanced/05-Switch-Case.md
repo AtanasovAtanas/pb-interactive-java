@@ -30,11 +30,11 @@ switch (selector) {
 
 [slide]
 # The default case
-The default case specifies the switch section to execute if the match expression doesn't match any other case label
+The default case specifies the switch section to execute if the match expression doesn't match any other case label.
 
-If a default case is not present and the match expression doesn't match any other case label, program flow falls through the switch statement
+If a default case is not present and the match expression doesn't match any other case label, program flow falls through the switch statement.
 
-The default case can appear in any order in the switch statement, but regardless of its order in the source code, it's always evaluated last, after all case labels have been evaluated
+The default case can appear in any order in the switch statement, but regardless of its order in the source code, it's always evaluated last, after all case labels have been evaluated.
 
 # Example
 ```java
@@ -55,7 +55,7 @@ switch (choice) {
 
 [slide]
 # Multiple Labels
-We can use multiple case labels, when we need to execute identical logic for different cases
+We can use multiple case labels, when we need to execute identical logic for different cases:
 
 ```java
 switch (selector) {
@@ -68,7 +68,9 @@ switch (selector) {
     break;
 }
 ```
+
 # Example
+
 ```java
 String animal = scanner.nextLine();
 switch (animal) {

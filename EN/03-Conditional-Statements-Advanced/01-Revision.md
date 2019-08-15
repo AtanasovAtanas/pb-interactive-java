@@ -2,7 +2,7 @@
 # Revision
 
 # Comparison Operators
-Suitable for **numbers** and other **comparable data types**
+Suitable for **numbers** and other **comparable data types**:
 * Equal to (==)
 * Not equal to **(!=)**
 * Greater than **(>)**
@@ -11,7 +11,8 @@ Suitable for **numbers** and other **comparable data types**
 * Less than or equal to **(<=)**
 
 # Conditional Statements
-An if statement identifies which statement to run based on a boolean expression
+An if statement identifies which statement to run based on a boolean expression.
+
 ```java
 if (…) 
 {
@@ -30,6 +31,7 @@ else if (…)
   // Some code
 else
   // Some code
-// If one condition is true, the program will NOT check the rest of the conditions
 ```
+
+If one condition is true, the program will NOT check the rest of the conditions
 [/slide]
