@@ -732,3 +732,10 @@ Write a program to find the biggest among 5 numbers
 |-4||
 |-5||
 [/slide]
+
+[slide]
+# Video
+
+[vimeo-video videoId="341582556" startTimeInSeconds="7275" endTimeInSeconds="11375" /]
+
+[/slide]

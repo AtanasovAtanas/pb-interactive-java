@@ -84,3 +84,10 @@ switch (animal) {
 }
 ```
 [/slide]
+
+[slide]
+# Video
+
+[vimeo-video videoId="341582556" startTimeInSeconds="4110" endTimeInSeconds="4779" /]
+
+[/slide]

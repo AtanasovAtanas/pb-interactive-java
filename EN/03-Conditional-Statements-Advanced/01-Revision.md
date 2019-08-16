@@ -35,3 +35,10 @@ else
 
 If one condition is true, the program will NOT check the rest of the conditions
 [/slide]
+
+[slide]
+# Video
+
+[vimeo-video videoId="341582556" startTimeInSeconds="1027" endTimeInSeconds="1335" /]
+
+[/slide]
