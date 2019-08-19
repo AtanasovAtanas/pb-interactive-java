@@ -1,6 +1,15 @@
 [slide]
 # Nested While Loops
-```csharp
+
+A nested while loop is a **while statement inside** another **while statement**. 
+
+In a nested while loop, one iteration of the outer loop is first executed, after which the inner loop is executed. 
+
+The execution of the inner loop continues till the condition described in the inner loop is satisfied. 
+
+Once the condition of the inner loop is satisfied, the program moves to the next iteration of the outer loop.
+
+```java
 while (condition) {
   // Outer Loop 
 
