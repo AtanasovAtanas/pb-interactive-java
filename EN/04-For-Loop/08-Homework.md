@@ -692,5 +692,4 @@ The rollercoaster departures
 |10||
 |1||
 |15||
-
 [/slide]
