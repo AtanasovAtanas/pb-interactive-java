@@ -32,3 +32,10 @@ while (!command.equals("End")) {
 }
 ```
 [/slide]
+
+[slide]
+# Video
+
+[vimeo-video videoId="343678060" startTimeInSeconds="2951" endTimeInSeconds="3185" /]
+
+[/slide]
