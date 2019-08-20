@@ -565,3 +565,10 @@ Write a program, which:
 ||...|
 ||2 x 10 = 20|
 [/slide]
+
+[slide]
+# Video
+
+[vimeo-video videoId="342471604" startTimeInSeconds="2906" endTimeInSeconds="3553" /]
+
+[/slide]

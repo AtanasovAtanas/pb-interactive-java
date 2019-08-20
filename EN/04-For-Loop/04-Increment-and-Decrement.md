@@ -30,3 +30,10 @@ System.out.println(a);   // 0
 
 ```
 [/slide]
+
+[slide]
+# Video
+
+[vimeo-video videoId="342471604" startTimeInSeconds="1179" endTimeInSeconds="1461" /]
+
+[/slide]

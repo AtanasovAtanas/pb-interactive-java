@@ -693,3 +693,10 @@ The rollercoaster departures
 |1||
 |15||
 [/slide]
+
+[slide]
+# Video
+
+[vimeo-video videoId="342471604" startTimeInSeconds="7801" endTimeInSeconds="11468" /]
+
+[/slide]

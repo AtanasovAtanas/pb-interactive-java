@@ -337,5 +337,11 @@ Write a program, which:
 |10||
 |20||
 |30||
+[/slide]
+
+[slide]
+# Video
+
+[vimeo-video videoId="342471604" startTimeInSeconds="1464" endTimeInSeconds="2901" /]
 
 [/slide]
