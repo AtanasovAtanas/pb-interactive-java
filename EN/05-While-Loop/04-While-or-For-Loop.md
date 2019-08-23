@@ -250,3 +250,10 @@ END
 |Add||
 |End||
 [/slide]
+
+[slide]
+# Video
+
+[vimeo-video videoId="343678060" startTimeInSeconds="1958" endTimeInSeconds="2495" /]
+
+[/slide]
