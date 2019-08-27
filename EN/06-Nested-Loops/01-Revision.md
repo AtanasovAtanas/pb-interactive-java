@@ -40,3 +40,10 @@ Can only be executed from the **body**, during an **iteration of the loop**
 
 When ***break*** is executed the code in the loop's body after it **is skipped**
 [/slide]
+
+[slide]
+# Video
+
+[vimeo-video videoId="345011935" startTimeInSeconds="1007" endTimeInSeconds="1314" /]
+
+[/slide]

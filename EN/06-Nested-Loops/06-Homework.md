@@ -783,3 +783,10 @@ Write a program, which:
 |-----|------|
 |3|1212 1221 2112 2121|
 [/slide]
+
+[slide]
+# Video
+
+[vimeo-video videoId="345011935" startTimeInSeconds="7657" endTimeInSeconds="11030" /]
+
+[/slide]
