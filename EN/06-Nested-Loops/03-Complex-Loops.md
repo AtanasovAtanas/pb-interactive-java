@@ -456,3 +456,10 @@ Write a program, which:
 ||...|
 ||1024|
 [/slide]
+
+[slide]
+# Video
+
+[vimeo-video videoId="345011935" startTimeInSeconds="1315" endTimeInSeconds="2900" /]
+
+[/slide]
