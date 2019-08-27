@@ -152,6 +152,7 @@ Write a program, which:
 [/output]
 [/test]
 [/tests]
+[code-io/]
 [/code-task]
 
 ## Sample Input and Output
@@ -235,6 +236,7 @@ Write a program, which:
 [/output]
 [/test]
 [/tests]
+[code-io/]
 [/code-task]
 
 ## Sample Input and Output
