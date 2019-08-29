@@ -52,7 +52,6 @@ Time left: 96 - 12 - 24 = 60
 
 The time we have left is bigger or equal to the duration of the episode, so we print the suitable output. 
 [/task-description]
-[code-io /]
 [tests]
 [test]
 [input]
