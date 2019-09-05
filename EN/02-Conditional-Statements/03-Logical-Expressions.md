@@ -44,19 +44,19 @@ If the value of the expression on the left side is greater than or equal to the 
 
 [slide]
 # String Comparison
-Comparing text using the equality operator(`==`).
+Comparing text using the `equals()` method.
 
 Two string operands are equal when both of them are `null` or both string instances are of the same length and have identical characters in each character position:
 ```java live
 String a = "Examplе";
 String b = a;
-System.out.println(a == b); // true
+System.out.println(a.equals(b)); // true
 ```
 
 ```java
 String a = "hello";
 String b = "hello";
-System.out.println(a == b); // true
+System.out.println(a.equals(b)); // true
 System.out.println(a < b); // error
 ```
 A string is an object and every object has an instance, but this is a knowledge we will acquire later on throughout the course.
