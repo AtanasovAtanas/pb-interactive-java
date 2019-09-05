@@ -1,58 +1,91 @@
 [slide]
-# If...else Statement
-In an if-else statement, **`if`** condition evaluates to **`true`**, the then-statement runs. If condition is false, the else-statement runs
+# If-Else Conditions
+The `if` construction may also contain an `else` clause to give a specific action in case the Boolean expression (which is set at the beginning `if (bool expression)` ) returns a negative result (`false`). 
 
-Because condition can't be simultaneously true and false, the then-statement and the else-statement of an if-else statement can never both run
+Built this way, **the conditional statement** is called `if-else` and its behavior is as follows: 
+* if the result of the condition is positive (`true`) – we perform some actions
+* when it is negative (`false`) – others. 
 
-In an if statement that doesn't include an else statement, if condition is true, the then-statement runs. If condition is false, control is transferred to the next statement after the if statement.
+[image src="https://github.com/AtanasovAtanas/pb-interactive-javaharp/blob/master/assets/02-usecase-if-else-statement.png"/]
 
+The format of the construction is:
 ```java
 if (condition) {
-  // then-statement
-  // Commands to be executed if the condition is true
-} else {
-  // else-statement
-  // Commands to be executed if the condition is false
+  // condition body;
+}
+else {
+  // else construction body;
+}
+```
+
+If condition is `false`, the else-statement runs.
+
+Because a condition can’t be simultaneously `true` and `false`, the then-statement and the else-statement of an `if-else` statement can **never both run**. 
+
+After the then-statement or the `else`-statement runs, control is transferred to the next statement after the `if` statement.
+
+In an `if` statement that doesn’t include an else statement, if condition is `true`, the then-statement runs. 
+
+If condition is `false`, control is transferred to the next statement after the if statement.
+
+Both the then-statement and the else-statement can consist of a single statement or multiple statements that are enclosed in braces `{ }`. 
+
+For a single statement, the braces are optional but recommended.
+
+The statement or statements in the then-statement and the else-statement can be of any kind, including another if statement nested inside the original if statement.
+
+# Example: Weather
+This is an extended version of the example from the previous slide.
+
+As you can see now we have another case, which will be executed when the condition in the `if` statement turns out **false**.
+```java
+Scanner scanner = new Scanner(System.in);
+String weather = scanner.nextLine();
+
+if (weather.equals("rainy")) {
+    System.out.println("Take an umbrella!");
+}
+else {
+    System.out.println("Leave your umbrella at home!")
 }
 ```
 [/slide]
 
 [slide]
 # Block of Code
-The curly brackets ***\{\}*** introduce a **block** (a group of commands)
+When we have **only one command** in the body of the **if construction**, we can **skip the curly brackets**, indicating the conditional operator body. 
 
-In case the ***if*** statement does **not** have curly brackets, only the code on the **next line** will be executed
+When we want to execute **block of code** (group of commands), curly brackets are **required**. 
 
-```java
+In case we drop them, **only the first line** after the **if clause** will be executed.
+
+Here is an example where dropping curly braces leads to confusion:
+```java live
+String color = "red";
+if (color.equals("red")) 
+  System.out.println("tomato");
+else
+  System.out.println("banana");
+System.out.println("lemon"); 
+```
+
+With curly braces:
+```java live
 String color = "red";
 if (color.equals("red")) {
   System.out.println("tomato");
-}else{
-  System.out.println("banana");
-}
-System.out.println("lemon"); // Always executed
-```
-
-```java
-String color = "red";
-if (color.equals("red")) {    
-    //block of 2 commands
-  System.out.println("tomato");
   System.out.println("strawberry"); 
-} else {
-  //block of 3 commands
+}
+else {
   System.out.println("banana");
   System.out.println("lemon");
-  System.out.println("pear");
 }
-
 ```
-
 [/slide]
 
 [slide]
 # Problem: Even or Odd
-[code-task title="Even or Odd" executionStrategy="java-code" requiresInput]
+[code-task title="Even or Odd" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```java
 import java.util.Scanner;
@@ -65,30 +98,55 @@ public class Program {
 ```
 [/code-editor]
 [task-description]
+# Description
+Write a program, which checks if a number is **even** or **odd**
 
-Write a program, which: 
-* Checks whether a number is **even** or **odd**
-    * If it's even, it should print "**even**"
-    * If it's odd, it should print "**odd**"
-
+  * If it's even, print "**even**"
+  * If it's odd, print "**odd**"
+# Example
+## Input
+- 4
+## Output
+- even
+## Input
+- 7
+## Output
+- odd
 [/task-description]
-[code-io /]
+[tests]
+[test]
+[input]
+4
+[/input]
+[output]
+even
+[/output]
+[/test]
+[test]
+[input]
+7
+[/input]
+[output]
+odd
+[/output]
+[/test]
+[test]
+[input]
+0
+[/input]
+[output]
+even
+[/output]
+[/test]
+[/tests]
+[code-io/]
 [/code-task]
-
-
-
-## Sample Input and Output
-|Input|Output|
-|-----|------|
-|4|even|
-|7|odd|
 
 [/slide]
 
 [slide]
 # Solution: Even or Odd
-
-[code-task title="Even or Odd" executionStrategy="java-code" requiresInput]
+[code-task title="Even or Odd" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```java
 import java.util.Scanner;
@@ -107,29 +165,55 @@ public class Program {
 ```
 [/code-editor]
 [task-description]
+# Description
+Write a program, which checks if a number is **even** or **odd**
 
-Write a program, which: 
-* Checks whether a number is **even** or **odd**
-    * If it's even, it should print "**even**"
-    * If it's odd, it should print "**odd**"
-
+  * If it's even, print "**even**"
+  * If it's odd, print "**odd**"
+# Example
+## Input
+- 4
+## Output
+- even
+## Input
+- 7
+## Output
+- odd
 [/task-description]
-[code-io /]
+[tests]
+[test]
+[input]
+4
+[/input]
+[output]
+even
+[/output]
+[/test]
+[test]
+[input]
+7
+[/input]
+[output]
+odd
+[/output]
+[/test]
+[test]
+[input]
+0
+[/input]
+[output]
+even
+[/output]
+[/test]
+[/tests]
+[code-io/]
 [/code-task]
-
-
-
-## Sample Input and Output
-|Input|Output|
-|-----|------|
-|4|even|
-|7|odd|
 
 [/slide]
 
 [slide]
-# Problem: Greater Number
-[code-task title="Greater Number" executionStrategy="java-code" requiresInput]
+# Problem: Greater Numbers
+[code-task title="Greater Number" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```java
 import java.util.Scanner;
@@ -142,27 +226,58 @@ public class Program {
 ```
 [/code-editor]
 [task-description]
+# Description
+Write a program, which finds the greater of two numbers:
 
-Write a program, which:
-* Reads two **integers**
-* Finds the greater number
-* Prints "**Greater number:** " + the **greater** number
+  * Read two **integers**
+  * Find the greater number
+  * Print `"Greater number: "` + the **greater** number
+# Example
+## Input
+- 4
+- 8
+## Output
+- Greater number: 8
 
 [/task-description]
-[code-io /]
+[tests]
+[test]
+[input]
+4
+8
+[/input]
+[output]
+Greater number: 8
+[/output]
+[/test]
+[test]
+[input]
+7
+3
+[/input]
+[output]
+Greater number: 7
+[/output]
+[/test]
+[test]
+[input]
+1
+2
+[/input]
+[output]
+Greater number: 2
+[/output]
+[/test]
+[/tests]
+[code-io/]
 [/code-task]
-
-## Sample Input and Output
-|Input|Output|
-|-----|------|
-|5|Greater number: 8|
-|8|
 
 [/slide]
 
+
 [slide]
-# Solution: Greater Number
-[code-task title="Greater Number" executionStrategy="java-code" requiresInput]
+# Solution: Greater Numbers
+[code-task title="Greater Number" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```java
 import java.util.Scanner;
@@ -182,20 +297,49 @@ public class Program {
 ```
 [/code-editor]
 [task-description]
+# Description
+Write a program, which finds the greater of two numbers:
 
-Write a program, which:
-* Reads two **integers**
-* Finds the greater number
-* Prints "**Greater number:** " + the **greater** number
-
+  * Read two **integers**
+  * Find the greater number
+  * Print `"Greater number: "` + the **greater** number
+# Example
+## Input
+- 4
+- 8
+## Output
+- Greater number: 8
 [/task-description]
-[code-io /]
+[tests]
+[test]
+[input]
+4
+8
+[/input]
+[output]
+Greater number: 8
+[/output]
+[/test]
+[test]
+[input]
+7
+3
+[/input]
+[output]
+Greater number: 7
+[/output]
+[/test]
+[test]
+[input]
+1
+2
+[/input]
+[output]
+Greater number: 2
+[/output]
+[/test]
+[/tests]
+[code-io/]
 [/code-task]
-
-## Sample Input and Output
-|Input|Output|
-|-----|------|
-|5|Greater number: 8|
-|8|
 
 [/slide]
