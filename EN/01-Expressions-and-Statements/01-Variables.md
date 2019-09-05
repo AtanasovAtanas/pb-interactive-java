@@ -1,46 +1,40 @@
 [slide]
-# How Computing Works?
-Computers are machines that process data
-
-* Instructions and data are stored in the computer memory
-
-* Data is stored by using variables
-
-[image src="https://github.com/AlenPaunov/pb-interactive-course/blob/01-java-expressions-and-statements/assets/expressions-and-statements-1.png"/]
-
-[/slide]
-
-[slide]
 # Variables
-A **Variable** is a container of information
+In programming, each **variable** stores a certain value of a particular type. 
 
-* A named area of the computer memory 
-* The data can be read and changed at any time
+For example, data types can be: number, letter, text (string), date, color, image, list and others. Here are some examples of data types:
+* integer: 1, 2, 3, 4, 5, 20, …
+* float: 0.5, 3.14, -1.5, …
+* character (symbol): 'a', 'b', 'c', '@', 'X', …
+* text (string): "Hello", "Hi", "How are you?", …
+* day of week: Monday, Tuesday, …, Sunday
+* date and time: 14-June-1980 6:30:00, 25-Dec-2017 23:17:22
 
-**Variables** provide means for:
+You can also imagine that **variables** are containers for data or named areas in the memory and the data that they are storing can be read and changed at any time. 
 
-* **Storing** information
-* **Retrieving** stored info
-* **Modifying** stored info
+Basically **variables** provide means for:
+  * **Storing** data
+  * **Retrieving** stored data
+  * **Modifying** stored data
+  
+They are characterized by:
+  * name (identifier)
+  * type (of the information preserved)
+  * value (stored information)
 
-Variables are characterized by:
+Each of the variables in Java has a name, a type and a value. 
 
-* **name** (identifier)
-* **type** (of the information preserved)
-* **value** (stored information)
-
-Defining a variable
+Here is how we would declare a variable and assign it with a value at the same time:
 ```java
-int age = 25;
+String name = "Bob";
+boolean employed = true;
+int age = 35;
 ```
-**Variable** == named area of the computer memory
+If you think of the variables as boxes that hold information, this is how they would look like:
+[image src="https://github.com/AtanasovAtanas/pb-interactive-csharp/blob/master/assets/expressions-and-statements-boxes.png"/]
 
-* Stores a value from a particular data type
-* Is accessible in the program by its name
-
-Can be stored in the program's:
-* Operational memory
-    * In the **stack**
-* Dynamic memory
-    * In the **heap**
+Variables can be stored in the program's:
+  * Operational memory - in the execution **stack**
+  * Dynamic memory - in the **heap**
 [/slide]
+
