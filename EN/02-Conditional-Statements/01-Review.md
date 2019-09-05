@@ -8,7 +8,7 @@ In programming **data** is stored in **variables**
   * Variable read: retrieve the stored data
   * Variable write: modify the stored information
   
-Declaring, initializing, reading and changing a variable in C#:
+Declaring, initializing, reading and changing a variable in Java:
 ```java live
 int age = 5;
 age = age + 1;
