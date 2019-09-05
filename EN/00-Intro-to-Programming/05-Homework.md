@@ -23,6 +23,15 @@ Write a Java program, which:
 Prints "Hello Java" on the console
 [/task-description]
 [code-io /]
+[tests]
+[test]
+[input]
+[/input]
+[output]
+Hello Java
+[/output]
+[/test]
+[/tests]
 [/code-task]
 [/slide]
 
@@ -44,6 +53,15 @@ Write a Java program, which:
 Prints "Hello Java" on the console
 [/task-description]
 [code-io /]
+[tests]
+[test]
+[input]
+[/input]
+[output]
+Hello Java
+[/output]
+[/test]
+[/tests]
 [/code-task]
 [/slide]
 
@@ -67,6 +85,15 @@ Write a Java program, which:
 * Prints the result
 [/task-description]
 [code-io /]
+[tests]
+[test]
+[input]
+[/input]
+[output]
+25
+[/output]
+[/test]
+[/tests]
 [/code-task]
 [/slide]
 
@@ -106,17 +133,20 @@ public class Main {
 ```
 [/code-editor]
 [task-description]
-Write a program to print your name at the first line and calculate and print the expression 5 + 3 at the second line
+Write a program to print 'Catlyn' on the first line and calculate and print the result of the expression 5 + 3 on the second line
 [/task-description]
+[tests]
+[test]
+[input]
+[/input]
+[output]
+Catlyn
+8
+[/output]
+[/test]
+[/tests]
 [code-io /]
 [/code-task]
-# Sample Input and Output
-|Input|Output|
-|-----|------|
-||Maria|
-||8|
-||Peter|
-||8|
 [/slide]
 
 [slide]
@@ -166,6 +196,17 @@ Write a program, which calculates and prints the value of the following express
 * (2 + 5)  \*  (8 - 2) \/ 7
 [/task-description]
 [code-io /]
+[tests]
+[test]
+[input]
+[/input]
+[output]
+11
+20
+6
+[/output]
+[/test]
+[/tests]
 [/code-task]
 [/slide]
 
@@ -253,5 +294,20 @@ Prints a square of 7 * 7 stars like this:
 \* \* \* \* \* \* \*
 [/task-description]
 [code-io /]
+[tests]
+[test]
+[input]
+[/input]
+[output]
+\* \* \* \* \* \* \*
+\* \* \* \* \* \* \*
+\* \* \* \* \* \* \*
+\* \* \* \* \* \* \*
+\* \* \* \* \* \* \*
+\* \* \* \* \* \* \*
+\* \* \* \* \* \* \*
+[/output]
+[/test]
+[/tests]
 [/code-task]
 [/slide]
