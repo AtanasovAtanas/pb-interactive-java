@@ -1,17 +1,26 @@
 [slide]
-# Variable Lifetime
-Each variable has a range in which it exists, called variable scope
-  * The range specifies where a variable can be used and how long is its lifetime
+# Variable Scope
+Each variable has a range in which it exists, called **variable scope**. 
 
-In the **Java language**, the scope in which a variable exists, starts from the line in which we defined it and ends with the first closing curly bracket (of the method, the if statement, etc.).
+This range specifies where a variable can be used and how long is its **lifetime**. 
 
-In the example below, on the last line we are trying to print the variable salary that is defined in the if statement, we will get an error because we don't have access to it:
+In the Java language, the scope in which a variable exists, starts from the line in which we **defined it** and ends with the first closing curly bracket `}` (of the method, the **if statement**, etc.).
+
+Thus, it is important to know that **any variable defined inside the body of certain** `if` **statement will not be available outside of it**, unless we have defined it higher in the code.
+
+# Variable Scope – Example
+In the example below, on the last line we are trying to print the variable `salary` that is defined in the `if` statement, we will get an **error** because we don't have access to it.
+
 ```java
-String currentDay = "Monday"; 
-if (currentDay.equals("Monday")) {
-  //The variable salary exists only in the block of code of the if statement
-  double salary = Double.parseDouble(sc.nextLine());
+int myMoney = 500;
+int payDayDate = 10;
+if (todayDate >= payDayDate) {
+    int salary = 5000;
+    myMoney = myMoney + salary;
 }
-System.out.println(salary); // Compile-time error!
+System.out.println(myMoney); 
+System.out.println(salary); //Error
 ```
+
+The above code **will not compile**, because we are trying to access a variable **out of its scope**.
 [/slide]

@@ -1,19 +1,19 @@
 [slide]
 # Debugging
-The process of **tracking** the execution of the program
-* This allows us to find mistakes (**bugs**)
+So far, we wrote a lot of code, and there were some mistakes in it, right? Now we will show a tool that can help us find mistakes more easily: **the debugger**.
 
-[image src="https://github.com/AlenPaunov/pb-interactive-course/blob/02-java-conditional-statements/assets/conditional-statements-1.png"/]
+# What is "Debugging"?
+**Debugging** is the process of "**attaching**" to the program execution, which allows us to **track step by step the process**. 
 
-[/slide]
+We can track **line by line** what happens in our program, what path it follows, what are the values of defined variables at each step of debugging, and many other things that allow us to detect errors (**bugs**).
 
-[slide]
-# Debugging in IntelliJ Idea
-Pressing **[Shift + F9]** will start the program in debug mode
-* We can go to the next step with **[F8]**
-* We can create breakpoints with **[Ctrl + F8]**
-    * We can reach them directly with **[Ctrl + F8]**
+[image src="https://github.com/AtanasovAtanas/pb-interactive-java/blob/master/assets/conditional-statements-breakpoint.png"/]
+[image src="https://github.com/AtanasovAtanas/pb-interactive-java/blob/master/assets/conditional-statements-variables-watch.png"/]
 
-[image src="https://github.com/AlenPaunov/pb-interactive-course/blob/02-java-conditional-statements/assets/conditional-statements-2.jpg"/]
+# Debugging in IntelliJ IDEA 
+By pressing the `[Shift + F9]` button, we run the program in **debug mode**. We move to **the next line** with `[F7]`.
 
+[image src="https://github.com/AtanasovAtanas/pb-interactive-java/blob/master/assets/conditional-statements-debug.png"/]
+
+With `[Ctrl + F8]` we create the so-called breakpoints, that we can reach directly using `[Ctrl + F8]` when we start the program.
 [/slide]
