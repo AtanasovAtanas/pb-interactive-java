@@ -1,121 +1,57 @@
 [slide]
-# Sequence of Conditions
-Sometimes we need to do a sequence of conditions before we decide what actions our program will execute. In such cases, we can apply the construction if-else if ... -else in series. For this purpose, we use the following format:
+# Sequence of If-Else Conditions
+Sometimes we need to do a sequence of conditions before we decide what actions our program will execute. 
 
+In such cases, we can apply the construction `if-else if ... -else` **in series**.
+
+For this purpose, we use the following format:
 ```java
-//If one condition is true, the program will NOT check the rest of the conditions
-if (...) {
-// Execution code
-} else if (...) {
-// Execution code
-} else if (...) {
-// Execution code
+if (condition) {
+  // condition body;
+} else if (second condition) {
+  // condition body;
+} else if (third condition) {
+  // condition body;
+}
+…
+else {
+  // else construction body;
 }
 ```
 [/slide]
 
 [slide]
-# Series of Conditions - Example
-The program checks the first condition, finds that it is true and ends
+# Example: Digits in English
+Print the digits in the range of 1 to 9 (digits are read from the console) in English. 
 
+We can read the digit and then, through a **sequence of conditions** we print the relevant English word:
 ```java
-int a = 7;
-if (a > 4) 
-  System.out.println("Bigger than 4"); 
-else if (a > 5)
-  System.out.println("Bigger than 5"); 
-else 
-  System.out.println("Equal to 7"); 
+int num = Integer.ParseInt(scanner.nextLine());
 
-//The output is only "Bigger than 4" 
-```
-
-[/slide]
-
-[slide]
-# Problem: Number 1…9
-[code-task title="Problem: Number 1…9" executionStrategy="java-code" requiresInput]
-[code-editor language=java]
-```java
-import java.util.Scanner;
-
-public class Program {
-   public static void main(String[] args) {
-      // Write code here
-    }
+if (num == 1) {
+    System.out.println("one");
+} else if (num == 2) {
+    System.out.println("two");
+} else if (num == 3) {
+    System.out.println("three");
+} else if (num == 4) {
+    System.out.println("four");
+} else if (num == 5) {
+    System.out.println("five");
+} else if (num == 6) {
+    System.out.println("six");
+} else if (num == 7) {
+    System.out.println("seven");
+} else if (num == 8) {
+    System.out.println("eight");
+} else if (num == 9) {
+    System.out.println("nine");
+} else {
+    System.out.println("number too big");
 }
 ```
-[/code-editor]
-[task-description]
 
-Write a program, which: 
-* Reads an **integer** and checks its value [1, 9]
-* Prints the value in the form of text
-* If the number is **greater** than 9 prints "**Number too big**"
+The program logic from the above example **sequentially compares** the input number from the console with the digits from 1 to 9, when **each following comparison is being performed only in case the previous comparison is not true**. 
 
-[/task-description]
-[code-io /]
-[/code-task]
-
-## Sample Input and Output
-|Input|Output|
-|-----|------|
-|7|seven|
-|10|Number too big|
-
-[/slide]
-
-[slide]
-# Solution: Number 1…9
-[code-task title="Problem: Number 1…9" executionStrategy="java-code" requiresInput]
-[code-editor language=java]
-```java
-import java.util.Scanner;
-
-public class Program {
-    public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        int num = Integer.parseInt(scanner.nextLine());
-        if (num == 1) {
-            System.out.println("one");
-        } else if (num == 2) {
-            System.out.println("two");
-        } else if (num == 3) {
-            System.out.println("three");
-        } else if (num == 4) {
-            System.out.println("four");
-        } else if (num == 5) {
-            System.out.println("five");
-        } else if (num == 6) {
-            System.out.println("six");
-        } else if (num == 7) {
-            System.out.println("seven");
-        } else if (num == 8) {
-            System.out.println("eight");
-        } else if (num == 9) {
-            System.out.println("nine");
-        } else {
-            System.out.println("Number too big");
-        }
-    }
-}
-```
-[/code-editor]
-[task-description]
-
-Write a program, which: 
-* Reads an **integer** and checks its value [1, 9]
-* Prints the value in the form of text
-* If the number is **greater** than 9 prints "**Number too big**"
-
-[/task-description]
-[code-io /]
-[/code-task]
-
-## Sample Input and Output
-|Input|Output|
-|-----|------|
-|7|seven|
-|10|Number too big|
-
+Eventually, if none of the `if` statements are true, the last `else` **clause** is performed.
 [/slide]

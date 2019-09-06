@@ -44,8 +44,7 @@ String weather = scanner.nextLine();
 
 if (weather.equals("rainy")) {
     System.out.println("Take an umbrella!");
-}
-else {
+} else {
     System.out.println("Leave your umbrella at home!")
 }
 ```
@@ -75,8 +74,7 @@ String color = "red";
 if (color.equals("red")) {
   System.out.println("tomato");
   System.out.println("strawberry"); 
-}
-else {
+} else {
   System.out.println("banana");
   System.out.println("lemon");
 }
