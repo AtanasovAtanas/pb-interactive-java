@@ -45,7 +45,7 @@ Write a program to calculate the speed by time and distance:
 2.0
 [/input]
 [output]
-5
+5.0
 [/output]
 [/test]
 [test]
