@@ -1,13 +1,19 @@
 [slide]
 # Homework
-Now, it's your turn to practice what you have learned in the training session.
+Welcome to the homework. 
 
-We have prepared some simple problems for you to solve. If you struggle you can see the solution after each problem. 
+Now we are going to write a couple of console applications, by which we are going to make a few more steps into programming. 
+
+We have prepared some problems for you to solve.
+
+Let's solve a few problems to confirm what we have learned.
+
+[image src="https://github.com/AtanasovAtanas/pb-interactive-csharp/blob/master/assets/homeowrk.png"/]
 [/slide]
 
 [slide]
 # Problem: Fruit or Vegetable
-[code-task title="Fruit or Vegetable" executionStrategy="java-code" requiresInput]
+[code-task title="Fruit or Vegetable" taskId="p-01" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```
 import java.util.Scanner;
@@ -19,20 +25,44 @@ public class Main {
 ```
 [/code-editor]
 [task-description]
+# Description
 Write a program to check for fruit or vegetable:
 
 * Read a single input line: an item from the greengrocery
 * Fruits: banana, apple, kiwi, cherry, lemon, grapes
 * Vegetables: cucumber, pepper, carrot, onion
-* Print: "vegetable", "fruit" or "unknown"
+* Print: **"vegetable"**, **"fruit"** or **"unknown"**
+# Example
+## Input
+- lemon
+## Output
+- fruit
+## Input
+- carrot
+## Output
+- vegetable
 [/task-description]
-[code-io /]
+[tests]
+[test]
+[input]
+lemon
+[/input]
+[output]
+fruit
+[/output]
+[/test]
+[test]
+[input]
+carrot
+[/input]
+[output]
+vegetable
+[/output]
+[/test]
+[/tests]
+[code-io/]
 [/code-task]
-# Sample Input and Output
-|Input|Output|
-|-----|------|
-|lemon|fruit|
-|carrot|vegetable|
+
 [/slide]
 
 [slide]
@@ -88,7 +118,7 @@ Write a program to check for fruit or vegetable:
 
 [slide]
 # Problem: Day of Week
-[code-task title="Day of Week" executionStrategy="java-code" requiresInput]
+[code-task title="Day of Week" taskId="p-02" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```
 import java.util.Scanner;
@@ -100,20 +130,51 @@ public class Main {
 ```
 [/code-editor]
 [task-description]
+# Description
 Write a program to print the day of week as words:
 
-* Read and integer n: the day of the week in range [1..7]
-* Print the name of the day (as words, in English)
-* Print "Error" if the number is not in the given range
+* Read and integer **n**: the **day of the week** in range [1..7]
+* Print the **name of the day** (as words, in English)
+* Print **"Error"** if the number is not in the given range
+# Example
+## Input
+- 1
+## Output
+- Monday
+## Input
+- 8
+## Output
+- Error
 [/task-description]
-[code-io /]
+[tests]
+[test]
+[input]
+1
+[/input]
+[output]
+Monday
+[/output]
+[/test]
+[test]
+[input]
+8
+[/input]
+[output]
+Error
+[/output]
+[/test]
+[test]
+[input]
+7
+[/input]
+[output]
+Sunday
+[/output]
+[/test]
+[/tests]
+[code-io/]
 [/code-task]
-# Sample Input and Output
-|Input|Output|
-|-----|------|
-|1|Monday|
-|8|Error|
-|7|Sunday|
+
 [/slide]
 
 [slide]
@@ -177,7 +238,7 @@ Write a program to print the day of week as words:
 
 [slide]
 # Problem: Vowel or Consonant
-[code-task title="Vowel or Consonant" executionStrategy="java-code" requiresInput]
+[code-task title="Vowel or Consonant" taskId="p-03" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```
 import java.util.Scanner;
@@ -189,19 +250,50 @@ public class Main {
 ```
 [/code-editor]
 [task-description]
+# Description
 Write a program to check a letter for vowel or consonant:
 
-* Read a letter from the English alphabet
-* Print either "Vowel" or "Consonant"
+* Read a **letter** from the English alphabet
+* Print either **"Vowel"** or **"Consonant"**
+# Example
+## Input
+- a
+## Output
+- Vowel
+## Input
+- B
+## Output
+- Consonant
 [/task-description]
-[code-io /]
+[tests]
+[test]
+[input]
+a
+[/input]
+[output]
+Vowel
+[/output]
+[/test]
+[test]
+[input]
+E
+[/input]
+[output]
+Vowel
+[/output]
+[/test]
+[test]
+[input]
+b
+[/input]
+[output]
+Consonant
+[/output]
+[/test]
+[/tests]
+[code-io/]
 [/code-task]
-# Sample Input and Output
-|Input|Output|
-|-----|------|
-|a|Vowel|
-|E|Vowel|
-|b|Consonant|
+
 [/slide]
 
 [slide]
@@ -247,7 +339,7 @@ Write a program to check a letter for vowel or consonant:
 
 [slide]
 # Problem: Product of 3 Numbers
-[code-task title="Product of 3 Numbers" executionStrategy="java-code" requiresInput]
+[code-task title="Product of 3 Numbers" taskId="p-04" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```
 import java.util.Scanner;
@@ -259,25 +351,56 @@ public class Main {
 ```
 [/code-editor]
 [task-description]
+# Description
 Calculate the sign of the product of 3 numbers:
 
-* Read 3 floating-point numbers
-* Print the sign of the product of the entered 3 numbers: positive, negative or zero
+* Read **3 floating-point** numbers
+* Print the **sign** of the product of the entered 3 numbers: **positive**, **negative** or **zero**
 
-Try to do this without multiplying the 3 numbers
-
+Try to do this **without multiplying** the 3 numbers
+# Example
+## Input
+- 2
+- 3
+- -1
+## Output
+- negative
 [/task-description]
-[code-io /]
+[tests]
+[test]
+[input]
+-2
+3
+1
+[/input]
+[output]
+negative
+[/output]
+[/test]
+[test]
+[input]
+-3
+-4
+5
+[/input]
+[output]
+positive
+[/output]
+[/test]
+[test]
+[input]
+1
+2
+0
+[/input]
+[output]
+zero
+[/output]
+[/test]
+[/tests]
+[code-io/]
 [/code-task]
-# Sample Input and Output
-|Input|Output|
-|-----|------|
-|2|negative|
-|3||
-|-1||
-|-3|positive|
-|-4||
-|5||
+
 [/slide]
 
 [slide]
@@ -345,7 +468,7 @@ Try to do this without multiplying the 3 numbers
 
 [slide]
 # Problem: Sorted Numbers
-[code-task title="Sorted Numbers" executionStrategy="java-code" requiresInput]
+[code-task title="Sorted Numbers" taskId="p-05" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```
 import java.util.Scanner;
@@ -357,25 +480,62 @@ public class Main {
 ```
 [/code-editor]
 [task-description]
-Write a program, which checks for sorted 3 numbers:
+# Description
+Write a program, which checks for **sorted 3 numbers**:
 
 * Read 3 real numbers
-* Print "Ascending" if the numbers are in ascending order
-* Print "Descending" if the numbers are in descending order
-* Print "Not sorted" in any other case
-
+* Print **"Ascending"** if the numbers are in ascending order
+* Print **"Descending"** if the numbers are in descending order
+* Print **"Not sorted"** in any other case
+# Example
+## Input
+- 1
+- 2
+- 3
+## Output
+- Ascending
+## Input
+- 3
+- 5
+- 2
+## Output
+- Not sorted
 [/task-description]
-[code-io /]
+[tests]
+[test]
+[input]
+1
+2
+3
+[/input]
+[output]
+Ascending
+[/output]
+[/test]
+[test]
+[input]
+3
+1
+2
+[/input]
+[output]
+Not sorted
+[/output]
+[/test]
+[test]
+[input]
+3
+2
+1
+[/input]
+[output]
+Descending
+[/output]
+[/test]
+[/tests]
+[code-io/]
 [/code-task]
-# Sample Input and Output
-|Input|Output|
-|-----|------|
-|1|Ascending|
-|2||
-|3||
-|3|Not sorted|
-|1||
-|2||
+
 [/slide]
 
 [slide]
@@ -428,7 +588,7 @@ Write a program, which checks for sorted 3 numbers:
 
 [slide]
 # Problem: Vacation Expenses
-[code-task title="Vacation Expenses" executionStrategy="java-code" requiresInput]
+[code-task title="Vacation Expenses" taskId="p-06" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```
 import java.util.Scanner;
@@ -439,27 +599,41 @@ public class Main {
 }
 ```
 [/code-editor]
-[task-description]
+# Description
 Write a program, which calculates vacation expenses:
 
 * Read season, accommodation type and count of the days
 * Print the total expenses, based on the price table bellow,formatted to the 2nd * digit after the decimal point
 
-[/task-description]
-[code-io /]
-[/code-task]
 |Season|Hotel|Camping|Discount|
 |-----|------|-------|--------|
 |Spring|30|10|20%|
 |Summer|50|30|0%|
 |Autumn|20|15|30%|
 |Winter|40|10|10%|
-# Sample Input and Output
-|Input|Output|
-|-----|------|
-|Winter|180.00|
-|Hotel||
-|5||
+# Example
+## Input
+- Winter
+- Hotel
+- 5
+## Output
+- 180.00
+[/task-description]
+[tests]
+[test]
+[input]
+Winter
+Hotel
+5
+[/input]
+[output]
+180.00
+[/output]
+[/test]
+[/tests]
+[code-io/]
+[/code-task]
+
 [/slide]
 
 [slide]
@@ -534,7 +708,7 @@ Write a program, which calculates vacation expenses:
 
 [slide]
 # Problem: Cinema
-[code-task title="Cinema" executionStrategy="java-code" requiresInput]
+[code-task title="Cinema" taskId="p-07" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```
 import java.util.Scanner;
@@ -546,25 +720,41 @@ public class Main {
 ```
 [/code-editor]
 [task-description]
-Calculate the price for all the tickets for a cinema movie:
+# Description
+Calculate the **price** for all the tickets for a cinema movie:
 
-* Reads the type of the movie, the rows and the seats per row in the cinema
-* Prints the total price for all seats formatted to the 2nd digit after the decimal point
+* Reads the **type of the movie**, the **rows** and the **seats per row** in the cinema
+* Prints the **total price** for all seats **formatted** to the 2nd digit after the decimal point
 
-[/task-description]
-[code-io /]
-[/code-task]
 |Type|Price|
 |-----|----|
 |Premiere|12.00|
 |Normal|7.50|
 |Discount|5.00|
-# Sample Input and Output
-|Input|Output|
-|-----|------|
-|Normal|810.00|
-|12||
-|9||
+
+# Example
+## Input
+- Normal
+- 12
+- 9
+## Output
+- 810.00
+[/task-description]
+[tests]
+[test]
+[input]
+Normal
+12
+9
+[/input]
+[output]
+810.00
+[/output]
+[/test]
+[/tests]
+[code-io/]
+[/code-task]
+
 [/slide]
 
 [slide]
@@ -622,7 +812,7 @@ Calculate the price for all the tickets for a cinema movie:
 
 [slide]
 # Problem: Operations with Numbers
-[code-task title="Operations with Numbers" executionStrategy="java-code" requiresInput]
+[code-task title="Operations with Numbers" taskId="p-08" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```
 import java.util.Scanner;
@@ -634,21 +824,75 @@ public class Main {
 ```
 [/code-editor]
 [task-description]
+# Description
 Write a program to apply an operator for given two numbers:
 
-* Read two real numbers and math operator from the console
+* Read **two integers** and **math operator** from the console
 * The math operator could be: "+", "-", "/", "%" and "*"
-* The output should be in the following format: "\{N1\} \{operator\} \{N2\} = \{result\}"
-
+* The output should be in the following **format**: "\{N1\} \{operator\} \{N2\} = \{result\}"
+# Example
+## Input
+- 12
+- 10
+- \+
+## Output
+- 12 + 10 = 22
 [/task-description]
-[code-io /]
+[tests]
+[test]
+[input]
+10
+12
++
+[/input]
+[output]
+10 + 12 = 22
+[/output]
+[/test]
+[test]
+[input]
+12
+10
+\-
+[/input]
+[output]
+12 \- 10 = 2
+[/output]
+[/test]
+[test]
+[input]
+10
+12
+*
+[/input]
+[output]
+10 * 12 = 120
+[/output]
+[/test]
+[test]
+[input]
+6
+2
+/
+[/input]
+[output]
+6 / 2 = 3
+[/output]
+[/test]
+[test]
+[input]
+5
+2
+%
+[/input]
+[output]
+5 % 2 = 1
+[/output]
+[/test]
+[/tests]
+[code-io/]
 [/code-task]
-# Sample Input and Output
-|Input|Output|
-|-----|------|
-|10|10 + 12 = 22|
-|12||
-|+||
+
 [/slide]
 
 [slide]
@@ -704,7 +948,7 @@ Write a program to apply an operator for given two numbers:
 
 [slide]
 # Problem: ATM
-[code-task title="ATM" executionStrategy="java-code" requiresInput]
+[code-task title="ATM" taskId="p-09" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```
 import java.util.Scanner;
@@ -716,25 +960,44 @@ public class Main {
 ```
 [/code-editor]
 [task-description]
+# Description
 Write a program to simulate an ATM withdrawal:
 
-* Read: balance, withdraw and limit
-* Print "The withdraw was successful." if the balance is enough
-* Print "The daily limit was exceeded." if the limit is exceeded
-* Print "Insufficient availability." if the balance isn't enough
+* Read: **balance**, **withdraw** and **limit**
+* Print **"The withdraw was successful."** if the balance is enough
+* Print **"The daily limit was exceeded."** if the limit is exceeded
+* Print **"Insufficient availability."** if the balance isn't enough
 
+# Example
+## Input
+- 420
+- 20
+- 25
+## Output
+- The withdraw was successful.
+## Input
+- 10
+- 50
+- 20
+## Output
+- The daily limit was exceeded.
+- Insufficient availability.
 [/task-description]
-[code-io /]
+[tests]
+[test]
+[input]
+420
+20
+25
+[/input]
+[output]
+The withdraw was successful.
+[/output]
+[/test]
+[/tests]
+[code-io/]
 [/code-task]
-# Sample Input and Output
-|Input|Output|
-|-----|------|
-|420|The withdraw was successful.|
-|20||
-|25||
-|10|The daily limit was exceeded.|
-|50|Insufficient availability.|
-|20||
+
 [/slide]
 
 [slide]
@@ -786,7 +1049,7 @@ Write a program to simulate an ATM withdrawal:
 
 [slide]
 # Problem: Biggest of Five Numbers
-[code-task title="Biggest of Five Numbers" executionStrategy="java-code" requiresInput]
+[code-task title="Biggest of Five Numbers" taskId="p-10" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```
 import java.util.Scanner;
@@ -798,25 +1061,37 @@ public class Main {
 ```
 [/code-editor]
 [task-description]
+# Description
 Write a program to find the biggest among 5 numbers
-* Read 5 integers
-* Print the biggest number
+* Read **5 integers**
+* Print the **biggest** number
+# Example
+## Input
+- -1
+- -2
+- -3
+- -4
+- -5
+## Output
+- -1
 [/task-description]
-[code-io /]
+[tests]
+[test]
+[input]
+1
+2
+3
+4
+5
+[/input]
+[output]
+5
+[/output]
+[/test]
+[/tests]
+[code-io/]
 [/code-task]
-# Sample Input and Output
-|Input|Output|
-|-----|------|
-|1|5|
-|2||
-|3||
-|4||
-|5||
-|-1|-1|
-|-2||
-|-3||
-|-4||
-|-5||
+
 [/slide]
 
 [slide]
