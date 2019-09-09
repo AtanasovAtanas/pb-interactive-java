@@ -166,7 +166,7 @@ Write a program, which:
 
 * Reads **p – the power** and **n – the number**
 * Prints the result of n powered by p
-* Don't use Math.Pow()
+* Don't use Math.pow()
 # Example
 ## Input
 - 5
