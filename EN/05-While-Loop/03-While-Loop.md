@@ -100,6 +100,7 @@ import java.util.Scanner;
 
 public class Program {
    public static void main(String[] args) {
+      Scanner scanner = new Scanner(System.in);
       int number = scanner.nextInt();
       while (number >= 1) {
          System.out.println(number);
@@ -199,6 +200,7 @@ import java.util.Scanner;
 
 public class Program {
    public static void main(String[] args) {
+      Scanner scanner = new Scanner(System.in);
       int num = scanner.nextInt();
       while (num < 1 || num > 100) {
          num = scanner.nextInt();

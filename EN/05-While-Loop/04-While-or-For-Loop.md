@@ -224,12 +224,12 @@ public class Program {
       int number = Integer.parseInt(scanner.nextLine());
       String command = scanner.nextLine();
 
-      while (!command.equals("End")) {
+      while (!command.equals("END")) {
         switch (command) {
-          case "Inc": 
+          case "Add": 
             number++; 
             break;
-          case "Dec": 
+          case "Subtract": 
             number--; 
             break;
         }
