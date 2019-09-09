@@ -5,10 +5,9 @@ It is good to know that the **for loops** don't only work with numbers.
 We can also use **for loops** to iterate over **characters**.
 
 Here is an example of how a loop can pass sequentially through some **letters** in the English alphabet:
-```cs live
-for (char ch = 'a'; ch <= 'd'; ch++)
-{
-  Console.Write(ch + " ");
+```java live
+for (char ch = 'a'; ch <= 'd'; ch++) {
+  System.print(ch + " ");
 }
 ```
 

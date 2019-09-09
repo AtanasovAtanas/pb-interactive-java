@@ -10,8 +10,7 @@ Infinite `for` occurs when there is **no condition to end the loop**.
 
 Here is what a `for` loop with no end condition looks like:
 ```java live
-for ( ; ; ) 
-{
+for ( ; ; ) {
   System.out.println("Hello World");
 }
 ```

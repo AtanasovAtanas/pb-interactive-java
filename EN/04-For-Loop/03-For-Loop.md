@@ -6,8 +6,7 @@ In order to do that, the so-called **loops** are used.
 
 Let's examine an example of a `for` loop that passes sequentially through the numbers from 1 to 10 and prints them:
 ```java live
-for (int i = 1; i <= 10; i += 1)
-{
+for (int i = 1; i <= 10; i += 1) {
   System.out.println(i);
 }
 ```
@@ -126,6 +125,7 @@ public class Program {
         int n = Integer.parseInt(scanner.nextLine());
         int sum = 0;
         for (int i = 1; i <= n; i += 1) {
+            System.out.println(i);
             sum += i;
         }
         System.out.println(sum);
