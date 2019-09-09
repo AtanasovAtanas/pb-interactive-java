@@ -19,7 +19,7 @@ do {
     count++;
     num = num * 2;
 } while (num <= 10);
-System.out.println("2^%d = %d", count, num);
+System.out.printf("2^%d = %d%n", count, num);
 ```
 
 # While or For

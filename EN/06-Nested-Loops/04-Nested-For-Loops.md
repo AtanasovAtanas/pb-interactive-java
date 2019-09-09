@@ -24,7 +24,7 @@ int n = 5;
 for (int i = 1; i <= n; i += 3) {
     for (int j = 1; j <= n; j += 3) {
         for (int k = 1; k <= n; k += 3) {
-            System.out.printf("%d%d%d", i, j, k);
+            System.out.printf("%d%d%d%n", i, j, k);
         }
     }
 }
@@ -110,7 +110,7 @@ public class Main {
         int height = Integer.parseInt(scanner.nextLine());
         for (int i = 1; i <= height; i++) {
             for (int j = 1; j <= i; j++) {
-                System.out.println("*");
+                System.out.print("*");
             }
 
             System.out.println();
