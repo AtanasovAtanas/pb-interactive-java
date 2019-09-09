@@ -599,6 +599,7 @@ public class Main {
 }
 ```
 [/code-editor]
+[task-description]
 # Description
 Write a program, which calculates vacation expenses:
 

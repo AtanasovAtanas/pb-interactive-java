@@ -198,16 +198,7 @@ Weekend
 [/tests]
 [code-io/]
 [/code-task]
-# Sample Input and Output
-|Input|Output|
-|-----|------|
-|Kiwi|2.20|
-|Weekday||
 
-|Input|Output|
-|-----|------|
-|Banana|2.70|
-|Weekend||
 [/slide]
 
 [slide]

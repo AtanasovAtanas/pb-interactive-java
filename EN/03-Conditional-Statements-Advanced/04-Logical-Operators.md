@@ -436,7 +436,7 @@ For example, `75` and `220` are **invalid**, but `150` is **valid**.
 int num = 75;
 
 boolean inRange = (num >= 100 && num <= 200) || num == 0;
-if (inRange) {
+if (!inRange) {
     System.out.println("invalid");
 }
 ```

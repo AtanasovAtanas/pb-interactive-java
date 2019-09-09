@@ -3,7 +3,7 @@
 Let's revise what we learned in the last lesson:
 - Numbers can be **compared** by the `==`, `<`, `>`, `<=`, `>=` and `!=` operators:
 ```java live
-System.out.println(5 <= 10);  // True
+System.out.println(5 <= 10);  // true
 ```
 
 - Simple **if-conditions** check a condition and execute a code block if it is **true**:
