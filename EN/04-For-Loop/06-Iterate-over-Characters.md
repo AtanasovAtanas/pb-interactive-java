@@ -7,7 +7,7 @@ We can also use **for loops** to iterate over **characters**.
 Here is an example of how a loop can pass sequentially through some **letters** in the English alphabet:
 ```java live
 for (char ch = 'a'; ch <= 'd'; ch++) {
-  System.print(ch + " ");
+  System.out.print(ch + " ");
 }
 ```
 
