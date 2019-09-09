@@ -1,19 +1,50 @@
 [slide]
 # While or For Loop?
-The while and for loops both repeat a block of code
 
-Use for-loop when you preliminary know the number of iterations
+`while` and `for` loops both **repeat** a block of **code**.
 
-* E.g. repeat exactly n times
+But there are different situations when writing code that require either the first loop, or the other.
 
-Use while if you don't know when the exit condition will be met
+When you know **exactly how many times** you want to loop through a block of code, use the `for` loop.
+```java live
+for (int i = 0; i <= 5; i++) {
+    System.out.println(i);
+}
+```
 
-* E.g. repeat until stopped
+It is usually appropriate for loops in which the initialization and increment are single statements and logically related. 
+
+It is more compact than `while` and it keeps the loop control statements together in one place.
+
+But, there could be many **complex** problems where number of iterations depend upon a certain **condition** and can't be predicated beforehand. 
+
+That means we don't know in advance **how many times** to repeat a loop.
+
+In those situation it is better to use `while` loop.
+```java live
+Scanner scanner = new Scanner(System.in);
+String command = scanner.nextLine();
+int number = Integer.parseInt(scanner.nextLine());
+while (command != "End") {
+    switch (command) {
+        case "Add":
+            number += 1;
+            break;
+        case "Subtract":
+            number -= 1;
+            break;
+    }
+
+    command = scanner.nextLine();
+}
+
+System.out.println(number);
+```
 [/slide]
 
 [slide]
 # Problem: Odd Number
-[code-task title="Odd Number" executionStrategy="java-code" requiresInput]
+[code-task title="Odd Number" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```java
 import java.util.Scanner;
@@ -26,27 +57,41 @@ public class Program {
 ```
 [/code-editor]
 [task-description]
+# Description
+Write a program, which:
 
-Write a program to enter an odd number
-
-* Read numbers from the console until an odd number is entered
-
-* Print the odd number as output
+* Reads numbers from the console until it gets an **odd number**
+* Prints the **odd** number
+# Example
+## Input
+- 2
+- 4
+- 8
+- 3
+## Output
+- 3
 [/task-description]
-[code-io /]
+[tests]
+[test]
+[input]
+2
+4
+8
+5
+[/input]
+[output]
+5
+[/output]
+[/test]
+[/tests]
+[code-io/]
 [/code-task]
-## Sample Input and Output
-|Input|Output|
-|-----|------|
-|2|3|
-|4||
-|8||
-|3||
+
 [/slide]
 
 [slide]
 # Solution: Odd Number
-[code-task title="Odd Number" executionStrategy="java-code" requiresInput]
+[code-task title="Odd Number" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```java
 import java.util.Scanner;
@@ -65,27 +110,41 @@ public class Program {
 ```
 [/code-editor]
 [task-description]
+# Description
+Write a program, which:
 
-Write a program to enter an odd number
-
-* Read numbers from the console until an odd number is entered
-
-* Print the odd number as output
+* Reads numbers from the console until it gets an **odd number**
+* Prints the **odd** number
+# Example
+## Input
+- 2
+- 4
+- 8
+- 3
+## Output
+- 3
 [/task-description]
-[code-io /]
+[tests]
+[test]
+[input]
+2
+4
+8
+5
+[/input]
+[output]
+5
+[/output]
+[/test]
+[/tests]
+[code-io/]
 [/code-task]
-## Sample Input and Output
-|Input|Output|
-|-----|------|
-|2|3|
-|4||
-|8||
-|3||
+
 [/slide]
 
 [slide]
 # Problem: Number Processor
-[code-task title="Number Processor" executionStrategy="java-code" requiresInput]
+[code-task title="Number Processor" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```java
 import java.util.Scanner;
@@ -98,28 +157,64 @@ public class Program {
 ```
 [/code-editor]
 [task-description]
-Write a program to process a sequence of commands:
+# Description
+Write a program, which:
 
-* Read an initial number from the input
-* Read an execute a sequence of the following commands:
-
-  * Inc – add 1 to the number (increment)
-  * Dec – subtract 1 from the number (decrement)
-  * End – print the number and stop the program
+* Reads a number from the console
+* Reads the following commands:
+* **Add** - Аdds 1 to the number
+* **Subtract** - Subtracts 1 from the number
+* **END** -  Prints the number and stops the program
+# Example
+## Input
+- 5
+- Add
+- END
+## Output
+- 6
 [/task-description]
-[code-io /]
+[tests]
+[test]
+[input]
+4
+Add
+END
+[/input]
+[output]
+5
+[/output]
+[/test]
+[test]
+[input]
+4
+Subtract
+END
+[/input]
+[output]
+3
+[/output]
+[/test]
+[test]
+[input]
+4
+Add
+Add
+Subtract
+END
+[/input]
+[output]
+5
+[/output]
+[/test]
+[/tests]
+[code-io/]
 [/code-task]
-## Sample Input and Output
-|Input|Output|
-|-----|------|
-|5|6|
-|Inc||
-|End||
+
 [/slide]
 
 [slide]
 # Solution: Number Processor
-[code-task title="Number Processor" executionStrategy="java-code" requiresInput]
+[code-task title="Number Processor" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```java
 import java.util.Scanner;
@@ -148,21 +243,57 @@ public class Program {
 ```
 [/code-editor]
 [task-description]
-Write a program to process a sequence of commands:
+# Description
+Write a program, which:
 
-* Read an initial number from the input
-* Read an execute a sequence of the following commands:
-
-  * Inc – add 1 to the number (increment)
-  * Dec – subtract 1 from the number (decrement)
-  * End – print the number and stop the program
+* Reads a number from the console
+* Reads the following commands:
+* **Add** - Аdds 1 to the number
+* **Subtract** - Subtracts 1 from the number
+* **END** -  Prints the number and stops the program
+# Example
+## Input
+- 5
+- Add
+- END
+## Output
+- 6
 [/task-description]
-[code-io /]
+[tests]
+[test]
+[input]
+4
+Add
+END
+[/input]
+[output]
+5
+[/output]
+[/test]
+[test]
+[input]
+4
+Subtract
+END
+[/input]
+[output]
+3
+[/output]
+[/test]
+[test]
+[input]
+4
+Add
+Add
+Subtract
+END
+[/input]
+[output]
+5
+[/output]
+[/test]
+[/tests]
+[code-io/]
 [/code-task]
-## Sample Input and Output
-|Input|Output|
-|-----|------|
-|5|6|
-|Inc||
-|End||
+
 [/slide]
