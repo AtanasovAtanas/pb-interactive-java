@@ -1,9 +1,11 @@
 [slide]
-# Nested While Loops
-```csharp
+# Nested while Loops
+The use of nested `while` loops is very similar to the one of the `for`.
+
+Here is the syntax in Java:
+```java
 while (condition) {
   // Outer Loop 
-
   while (condition) {
     // Inner Loop
     
@@ -12,33 +14,27 @@ while (condition) {
 }
 ```
 
-# Nested While Loops - Example
+# Example
 
-```java
+```java live
 int i = 0;
-while (i < 2) {
-  System.out.printf($"Value of i: %d%n", i);
-  
+int n = 5;
+while (i < n) {
+  System.out.printf("Value of i: %d%n", i);
   int j = 1;
   i++;
 
-  while (j < 2) {
-    System.out.printf($"  Value of j: %d%n", j);
+  while (j < n) {
+    System.out.printf("  Value of j: %d%n", j);
     j++;
   }
 }
-
-// Output
-// Value of i: 0 
-//  Value of j: 1 
-//  Value of i: 1 
-//  Value of j: 1 
 ```
 [/slide]
 
 [slide]
 # Problem: Triangle of Stars with While
-[code-task title="Triangle of Stars with While" executionStrategy="java-code" requiresInput]
+[code-task title="Triangle of Stars with While" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```
 import java.util.Scanner;
@@ -51,26 +47,42 @@ public class Main {
 ```
 [/code-editor]
 [task-description]
+# Description
 Write a program, which:
 
 * Reads the **height** of a triangle from the console
 * Prints a **triangle of stars**
+# Example
+## Input
+- 5
+## Output
+- \*
+- \*\*
+- \*\*\*
+- \*\*\*\*
+- \*\*\*\*\*
 [/task-description]
-[code-io /]
+[tests]
+[test]
+[input]
+4
+[/input]
+[output]
+*
+**
+***
+****
+[/output]
+[/test]
+[/tests]
+[code-io/]
 [/code-task]
-# Sample Input and Output
-|Input|Output|
-|-----|------|
-|5|*|
-||**|
-||***|
-||****|
-||*****|
+
 [/slide]
 
 [slide]
 # Solution: Triangle of Stars with While
-[code-task title="Triangle of Stars with While" executionStrategy="java-code" requiresInput]
+[code-task title="Triangle of Stars with While" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```
 import java.util.Scanner;
@@ -97,19 +109,35 @@ public class Main {
 ```
 [/code-editor]
 [task-description]
+# Description
 Write a program, which:
 
 * Reads the **height** of a triangle from the console
 * Prints a **triangle of stars**
+# Example
+## Input
+- 5
+## Output
+- \*
+- \*\*
+- \*\*\*
+- \*\*\*\*
+- \*\*\*\*\*
 [/task-description]
-[code-io /]
+[tests]
+[test]
+[input]
+4
+[/input]
+[output]
+*
+**
+***
+****
+[/output]
+[/test]
+[/tests]
+[code-io/]
 [/code-task]
-# Sample Input and Output
-|Input|Output|
-|-----|------|
-|5|*|
-||**|
-||***|
-||****|
-||*****|
+
 [/slide]
