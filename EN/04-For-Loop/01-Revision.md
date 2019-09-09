@@ -1,40 +1,38 @@
 [slide]
-# Revision
+# Revision 
+Before proceeding ahead, let's remind ourselves about the program concepts and techniques that we have learned in the last session.
 
 # Nested Conditions
-An **if...else** statement can exist within another **if...else** statement
-
-Generally used when we have to test one condition followed by another
-
 ```java
-if (expression) {
-  if (nested expression)
-    // Code to be executed
-  else
-    // Code to be executed
+if (condition1) {
+    if (condition2)
+        // body; 
+    else
+        // body;
 }
 ```
 
-# Conditional Operators
-Logical operators are used to perform logical operation such as **AND**, **OR**
+# Complex Conditions with `&&,` `||`, `!` and `()`
+```java
+if ((x == left || x == right) && y >= top && y <= bottom) {
+    System.out.println(…);
+}
+```
 
-The logical operators are:
-* AND (**&&**)
-* OR (**\| \|**)
-* Logical negation (**!**)
-
-# Switch-case
-Used for choosing among a list of possibilities
-Alternative to an **if-else** statement
-
+# Switch-Case Conditions
 ```java
 switch (selector) {
-  case someCase:
-    statements;
-    break;
-  default:
-    statements;
-    break;
+    case value1:
+        construction;
+        break;
+    case value2:
+    case value3:
+        construction;
+        break;
+    …
+    default:
+        construction;
+        break;
 }
 ```
 [/slide]
