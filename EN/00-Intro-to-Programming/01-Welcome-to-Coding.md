@@ -72,12 +72,11 @@ Let's look at a simple program that reads from the user some amount of money in 
 
 This is a program of 3 consecutive commands:
 ```java
-using System;
+import java.util.Scanner;
 
-class Program
-{
-  public static void Main()
-  {
+public class Program {
+  public static void main(String[] args) {
+    
     Scanner scanner = new Scanner(System.in);
     int dollars = scanner.nextInt();
     double euro = dollars * 0.883795087;

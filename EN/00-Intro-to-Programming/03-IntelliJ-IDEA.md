@@ -111,4 +111,6 @@ Alternative IDE (online)
 * C#: https://dotnetfiddle.net
 * Python: https://repl.it
 * JavaScript: directly use the Web browser console (press \[F12\] key)
+
+[image src="https://github.com/AtanasovAtanas/pb-interactive-java/blob/master/assets/intro-to-programming-rplit.png"/]
 [/slide]

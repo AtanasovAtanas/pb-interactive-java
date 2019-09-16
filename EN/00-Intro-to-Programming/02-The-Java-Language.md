@@ -48,9 +48,6 @@ The process of **compilation** of the code before its execution is used only in 
 
 With **scripts and interpreted languages**, like JavaScript, Python and PHP, the source code gets executed step by step by an interpreter.
 
-[/slide]
-
-[slide]
 # JDK and JRE
 JDK – Java Development Toolkit
 

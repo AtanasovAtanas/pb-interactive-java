@@ -53,6 +53,9 @@ In the next two lines of the code uses the `print(…)` method, which prints wit
 
 ## Formatting
 In Java, when printing a text, numbers and other data on the console, **we can join them** by using templates `%s`, `%d`, `%f` etc. 
+* `%s` - **string** formatting
+* `%d` - **integer** formatting
+* `%f` - **floating-point numbers** formatting
 
 In programming, these templates are called **placeholders**. This is a simple example:
 ```java live
@@ -165,7 +168,7 @@ import java.util.Scanner;
 public class Program {
   public static void main(String[] args) {
       Scanner scanner = new Scanner(System.in);
-      // print code here
+      // write code here
   }
 }
 ```
