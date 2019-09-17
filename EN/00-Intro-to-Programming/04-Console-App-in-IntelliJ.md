@@ -63,3 +63,9 @@ Actually, the output from the program is the following text message:
 Hello Java
 ```
 [/slide]
+
+[slide]
+# Video
+[vimeo-video videoId="342593690" startTimeInSeconds="4657" endTimeInSeconds="5877" /]
+
+[/slide]

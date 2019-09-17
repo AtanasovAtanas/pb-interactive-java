@@ -114,3 +114,9 @@ Alternative IDE (online)
 
 [image src="https://github.com/AtanasovAtanas/pb-interactive-java/blob/master/assets/intro-to-programming-rplit.png"/]
 [/slide]
+
+[slide]
+# Video
+[vimeo-video videoId="342593690" startTimeInSeconds="4035" endTimeInSeconds="4655" /]
+
+[/slide]

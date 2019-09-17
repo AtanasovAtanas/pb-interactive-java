@@ -85,3 +85,9 @@ public class Program {
 }
 ```
 [/slide]
+
+[slide]
+# Video
+[vimeo-video videoId="342593690" startTimeInSeconds="1783" endTimeInSeconds="3110" /]
+
+[/slide]
