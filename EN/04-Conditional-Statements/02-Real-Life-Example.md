@@ -29,3 +29,9 @@ else
   Water the plants
 ```
 [/slide]
+
+[slide]
+# Video
+[vimeo-video videoId="341539841" startTimeInSeconds="1519" endTimeInSeconds="1627" /]
+
+[/slide]

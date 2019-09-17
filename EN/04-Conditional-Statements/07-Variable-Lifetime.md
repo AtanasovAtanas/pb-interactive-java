@@ -24,3 +24,9 @@ System.out.println(salary); //Error
 
 The above code **will not compile**, because we are trying to access a variable **out of its scope**.
 [/slide]
+
+[slide]
+# Video
+[vimeo-video videoId="341539841" startTimeInSeconds="4005" endTimeInSeconds="4209" /]
+
+[/slide]

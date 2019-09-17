@@ -17,3 +17,9 @@ By pressing the `[Shift + F9]` button, we run the program in **debug mode**. We 
 
 With `[Ctrl + F8]` we create the so-called breakpoints, that we can reach directly using `[Ctrl + F8]` when we start the program.
 [/slide]
+
+[slide]
+# Video
+[vimeo-video videoId="341539841" startTimeInSeconds="4211" endTimeInSeconds="4582" /]
+
+[/slide]

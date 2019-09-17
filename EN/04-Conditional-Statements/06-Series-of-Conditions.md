@@ -55,3 +55,9 @@ The program logic from the above example **sequentially compares** the input num
 
 Eventually, if none of the `if` statements are true, the last `else` **clause** is performed.
 [/slide]
+
+[slide]
+# Video
+[vimeo-video videoId="341539841" startTimeInSeconds="3554" endTimeInSeconds="4003" /]
+
+[/slide]
