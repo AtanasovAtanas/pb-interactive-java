@@ -57,3 +57,9 @@ int users_count;
 string first_name;
 ```
 [/slide]
+
+[slide]
+# Video
+[vimeo-video videoId="341522009" startTimeInSeconds="1778" endTimeInSeconds="2358" /]
+
+[/slide]

@@ -42,3 +42,9 @@ Common actions include:
   sum = a + b;
   ```
 [/slide]
+
+[slide]
+# Video
+[vimeo-video videoId="341522009" startTimeInSeconds="2360" endTimeInSeconds="2900" /]
+
+[/slide]
