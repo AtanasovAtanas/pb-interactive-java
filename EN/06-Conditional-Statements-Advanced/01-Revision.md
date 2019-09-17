@@ -36,3 +36,9 @@ if (a > 100) {
 }
 ```
 [/slide]
+
+[slide]
+# Video
+[vimeo-video videoId="341582556" startTimeInSeconds="1027" endTimeInSeconds="1335" /]
+
+[/slide]

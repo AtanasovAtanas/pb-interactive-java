@@ -27,3 +27,9 @@ If product is kiwi
   Otherwise the price is 3.00
 ``` 
 [/slide]
+
+[slide]
+# Video
+[vimeo-video videoId="341582556" startTimeInSeconds="1345" endTimeInSeconds="1458" /]
+
+[/slide]
