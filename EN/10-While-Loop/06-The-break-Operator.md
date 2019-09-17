@@ -19,3 +19,9 @@ while (true) {
 ```
 When it comes to using infinite loops intentionally, `break` will terminate the loop when a given condition is met.
 [/slide]
+
+[slide]
+# Video
+[vimeo-video videoId="343678060" startTimeInSeconds="2496" endTimeInSeconds="2948" /]
+
+[/slide]

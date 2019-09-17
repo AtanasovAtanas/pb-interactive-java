@@ -33,3 +33,9 @@ while (command != "End") {
 
 Here, the value of the variable `command` is changed at each iteration and the **infinite loop** is avoided. 
 [/slide]
+
+[slide]
+# Video
+[vimeo-video videoId="343678060" startTimeInSeconds="2951" endTimeInSeconds="3185" /]
+
+[/slide]
