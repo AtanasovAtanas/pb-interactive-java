@@ -135,3 +135,8 @@ f g h i j k l
 [/code-task]
 
 [/slide]
+[slide]
+# Video
+[vimeo-video videoId="342471604" startTimeInSeconds="3555" endTimeInSeconds="4281" /]
+
+[/slide]
