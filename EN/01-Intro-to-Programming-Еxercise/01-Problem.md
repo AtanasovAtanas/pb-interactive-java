@@ -1,6 +1,6 @@
 [slide]
 # Problem: Print "Hello Java"
-[code-task title="Print Hello Java" executionType="tests-execution" executionStrategy="java-code"]
+[code-task title="Print Hello SoftUni" executionType="tests-execution" executionStrategy="java-code"]
 [code-editor language=java]
 ```
 public class Main {
@@ -15,7 +15,7 @@ public class Main {
 
 Write a program, which:
 
-Prints "Hello Java" on the console
+Prints "Hello SoftUni" on the console
 [/task-description]
 [code-io /]
 [tests]
@@ -23,7 +23,7 @@ Prints "Hello Java" on the console
 [input]
 [/input]
 [output]
-Hello Java
+Hello SoftUni
 [/output]
 [/test]
 [/tests]
