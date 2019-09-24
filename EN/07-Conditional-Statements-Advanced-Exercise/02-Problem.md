@@ -1,6 +1,6 @@
 [slide]
-# Problem: Fruit or Vegetable
-[code-task title="Fruit or Vegetable" executionType="tests-execution" executionStrategy="java-code" requiresInput]
+# Problem: Fuel Tank
+[code-task title="Fuel Tank" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```
 import java.util.Scanner;
@@ -15,130 +15,113 @@ public class Main {
 [task-description]
 # Description
 
-Your task is to write a program that takes as input from the user **name of a product** and checks if the product is **fruit** or **vegetable**.
+Write a program that knows whether the tank of a vehicle needs refueling or not. 
 
-- The fruits "**fruit**" are **banana**, **apple**, **kiwi**, **cherry**, **lemon** and **grapes**
-- The vegetables "**vegetable**" are **tomato**, **cucumber**, **pepper** and **carrot**
-- Everything else is "**unknown**"
+# Input
+
+The input is consists of 2 lines:
+
+- First you have to read from the console the type of fuel - text with options: "Diesel", "Gasoline" or "Gas"
+
+- The second line of input reads the liters fuel in the tank
 
 # Output
 
-Print on the console "**fruit**", "**vegetable**" or "**unknown**" according to the product name.
+If the liters fuel are more than or equal to 25 print:
+- "You have enough \{type of fuel\}."
+
+Otherwise print:
+- "Fill your tank with \{fuel type\}!". 
+
+If a fuel other than the specified is introduced, "Invalid fuel!" shall be printed.
 
 # Example
 
-| **Input** | | **Output** |      
-| --- | --- | --- |                 
-| banana | | fruit |                   
+| **Input** | | **Output** |
+| --- | --- | --- |
+| Diesel | | Fill your tank with diesel! |
+| 10 | | |
 
-| **Input** | | **Output** |      
-| --- | --- | --- |                   
-| tomato | | vegetable | 
+| **Input** | | **Output** |
+| --- | --- | --- |
+| Gas | | You have enough gas. |
+| 25 | | |
 
-| **Input** | | **Output** |      
-| --- | --- | --- |                  
-| water | | unknown |
-
-\* **Hint**: use conditional **if** statement with logical "**or**" - operator "\|\|".
 [/task-description]
 [tests]
 [test]
 [input]
-banana
+Diesel
+10
 [/input]
 [output]
-fruit
+Fill your tank with diesel!
 [/output]
 [/test]
 [test]
 [input]
-apple
+Gasoline
+40
 [/input]
 [output]
-fruit
+You have enough gasoline.
 [/output]
 [/test]
 [test]
 [input]
-kiwi
+Gas
+25
 [/input]
 [output]
-fruit
+You have enough gas.
 [/output]
 [/test]
 [test]
 [input]
-cherry
+Kerosene
+200
 [/input]
 [output]
-fruit
+Invalid fuel!
 [/output]
 [/test]
 [test]
 [input]
-lemon
+Diesel
+25
 [/input]
 [output]
-fruit
+You have enough diesel.
 [/output]
 [/test]
 [test]
 [input]
-grapes
+Gasoline
+28
 [/input]
 [output]
-fruit
+You have enough gasoline.
 [/output]
 [/test]
 [test]
 [input]
-tomato
+Gas
+20
 [/input]
 [output]
-vegetable
+Fill your tank with gas!
 [/output]
 [/test]
 [test]
 [input]
-cucumber
+Kerosene
+20
 [/input]
 [output]
-vegetable
-[/output]
-[/test]
-[test]
-[input]
-pepper
-[/input]
-[output]
-vegetable
-[/output]
-[/test]
-[test]
-[input]
-carrot
-[/input]
-[output]
-vegetable
-[/output]
-[/test]
-[test]
-[input]
-water
-[/input]
-[output]
-unknown
-[/output]
-[/test]
-[test]
-[input]
-beer
-[/input]
-[output]
-unknown
+Invalid fuel!
 [/output]
 [/test]
 [/tests]
 [code-io /]
-[/code-task] 
+[/code-task]
 [/slide]
