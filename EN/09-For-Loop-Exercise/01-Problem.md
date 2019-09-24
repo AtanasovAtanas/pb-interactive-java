@@ -46,7 +46,7 @@ Print on the console a **single** line. The amount must be formatted to **two de
 
 ## Comments
 
-1800 -> even year 
+1800 -> even year
 
 - Josh spends **12000** dollars
 
