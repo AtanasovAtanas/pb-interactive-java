@@ -1,6 +1,6 @@
 [slide]
-# Problem: Clock - Part 2
-[code-task title="Clock - Part 2" executionType="tests-execution" executionStrategy="java-code" requiresInput]
+# Problem: Combinations
+[code-task title="Combinations" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```
 import java.util.Scanner;
@@ -15,79 +15,131 @@ public class Main {
 [task-description]
 # Description
 
-Write a program to print **the hours of the day** from given hour, minutes, seconds to 23:59:59 (**inclusive**), each on a separate line. 
+Write a program that calculates **how many solutions in natural numbers (including zero)** has the equation:
+
+**x1** \+ **x2** \+ **x3** \+ **x4** \+ **x5** = **n**
 
 # Input
 
-The input is entered from the console as **3** lines:
-
-- First line - **hours** - integer in range \[0...23\]
-
-- Second line - **minutes** - integer in range \[0...59\]
-
-- Third line - **seconds** - integer in range \[0...59\]
+The input consits a single number - n - integer
 
 # Output
 
-The output should be printed in the following format "\{hour\} : \{minutes\} : \{seconds\}".
+Print on the console the total number of solutions
 
 # Example
 
-| **Input** | | **Output** |
+| **Input** | **Output** | **Comments** | 
 | --- | --- | --- |
-| 21 | | 21 : 59 : 58 |
-| 59 | | 21 : 59 : 59 |
-| 58 | | 22 : 0 : 0 |
-| | | 22 : 0 : 1 |
-| | | ... |
-| | | 23 : 59 : 58 |
-| | | 23 : 59 : 59 |
-
+| 25 | 23751 | Generate all combinations of 5 digits, the first is: |
+| | | 0\+0\+0\+0\+0=0, but because it is not equal to 25,|
+| | | continuing 0\+0\+0\+0\+1=1 - again, it\'s not 25, etc. |
+| | | We come to the first valid combination: |
+| | | 0\+0\+0\+0\+25=25, expanding the number of valid |
+| | | combinations of 1, the second valid combination is:| 
+| | | 0\+0\+0\+1\+24=25|
+| | | The third: 0\+0\+0\+2\+23=25  etc.|
+| | | After generating all possible combinations,|
+| | | the number of valid combinations is 23751.|
 [/task-description]
 [tests]
 [test]
 [input]
-23
-59
-27
+25
 [/input]
 [output]
-23 : 59 : 27
-23 : 59 : 28
-23 : 59 : 29
-23 : 59 : 30
-23 : 59 : 31
-23 : 59 : 32
-23 : 59 : 33
-23 : 59 : 34
-23 : 59 : 35
-23 : 59 : 36
-23 : 59 : 37
-23 : 59 : 38
-23 : 59 : 39
-23 : 59 : 40
-23 : 59 : 41
-23 : 59 : 42
-23 : 59 : 43
-23 : 59 : 44
-23 : 59 : 45
-23 : 59 : 46
-23 : 59 : 47
-23 : 59 : 48
-23 : 59 : 49
-23 : 59 : 50
-23 : 59 : 51
-23 : 59 : 52
-23 : 59 : 53
-23 : 59 : 54
-23 : 59 : 55
-23 : 59 : 56
-23 : 59 : 57
-23 : 59 : 58
-23 : 59 : 59
+23751
+[/output]
+[/test]
+[test]
+[input]
+20
+[/input]
+[output]
+10626
+[/output]
+[/test]
+[test]
+[input]
+5
+[/input]
+[output]
+126
+[/output]
+[/test]
+[test]
+[input]
+0
+[/input]
+[output]
+1
+[/output]
+[/test]
+[test]
+[input]
+1
+[/input]
+[output]
+5
+[/output]
+[/test]
+[test]
+[input]
+2
+[/input]
+[output]
+15
+[/output]
+[/test]
+[test]
+[input]
+3
+[/input]
+[output]
+35
+[/output]
+[/test]
+[test]
+[input]
+4
+[/input]
+[output]
+70
+[/output]
+[/test]
+[test]
+[input]
+-1
+[/input]
+[output]
+0
+[/output]
+[/test]
+[test]
+[input]
+6
+[/input]
+[output]
+210
+[/output]
+[/test]
+[test]
+[input]
+10
+[/input]
+[output]
+1001
+[/output]
+[/test]
+[test]
+[input]
+13
+[/input]
+[output]
+2380
 [/output]
 [/test]
 [/tests]
-[code-io /]
+[code-io/]
 [/code-task]
 [/slide]
