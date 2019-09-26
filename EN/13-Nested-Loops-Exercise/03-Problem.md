@@ -50,7 +50,7 @@ The output should be printed in the following format "\{hour\} : \{minutes\} : \
 23
 59
 27
-[input]
+[/input]
 [output]
 23 : 59 : 27
 23 : 59 : 28
