@@ -39,7 +39,7 @@ The following should be printed on the console:
         - The result must be rounded to a lower integer
 
 - If the wine produced is more than necessary:
-    - "Good Harvest this year! Total Wine: \{Total Wine\} liters."
+    - "Good harvest this year! Total Wine: \{Total Wine\} liters."
         
         - The result must be rounded to a lower integer
 
