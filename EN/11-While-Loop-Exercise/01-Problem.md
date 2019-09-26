@@ -33,7 +33,7 @@ In case that the amount of detergent **was sufficient** for the washing of the v
 
 "\{Number of clean plates\} dishes and \{Number of clean pots\} pots were washed."
 
-"Leftover Detergent \{amount of detergent remaining\} ml." 
+"Leftover detergent \{amount of detergent remaining\} ml." 
     
 If the amount of detergent **was not sufficient** for the washing of the vessels, print the following line: 
 
