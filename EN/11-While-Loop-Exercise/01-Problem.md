@@ -27,15 +27,15 @@ On each **subsequent** line, until the command **"End"** or until **the amount o
 
 # Output
 
-In case that the amount of detergent **was sufficient** for the washing of the vessels, print three lines of output: 
+- In case that the amount of detergent **was sufficient** for the washing of the vessels, print three lines of output: 
 
-"Detergent was enough!"
+    - "Detergent was enough!"
 
-"\{Number of clean plates\} dishes and \{Number of clean pots\} pots were washed."
+    - "\{Number of clean plates\} dishes and \{number of clean pots\} pots were washed."
 
-"Leftover detergent \{amount of detergent remaining\} ml." 
+    - "Leftover detergent \{amount of detergent remaining\} ml." 
     
-If the amount of detergent **was not sufficient** for the washing of the vessels, print the following line: 
+- If the amount of detergent **was not sufficient** for the washing of the vessels, print the following line: 
 
 "Not enough detergent, \{quantity not reached detergent\} ml. more necesary!"
 

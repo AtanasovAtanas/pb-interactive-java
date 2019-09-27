@@ -15,7 +15,9 @@ public class Main {
 [task-description]
 # Description
 
-Gaby wants to start healthy life and shesets a goal to walk **10000 steps** a **day**. Write a program **that reads from the console how many steps** Gaby walks every time she is out and **when she reaches the set goal**, print a message "**Goal reached! Good job!**".
+Gaby wants to start healthy life and shesets a goal to walk **10000 steps** a **day**. Write a program **that reads from the console how many steps** Gaby walks every time she is out and **when she reaches the set goal**, print a message:
+
+"**Goal reached! Good job!**".
 
 In case she wants to go home **before** reaching the goal, she will enter "**Going home**" command and the **steps** she had **walked** while she was **going home**. After that, if she didn\'t manage to reach her goal, you have to print the following massage on the console: 
 
