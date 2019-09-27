@@ -38,7 +38,7 @@ Print on the console:
 
 - In case of successful transaction: "Product sold!" 
 
-- In case of unsuccessful transaction: "Error in Transaction!" 
+- In case of unsuccessful transaction: "Error in transaction!" 
 
 - If the sum of all purchased products **exceeds or reaches the expected amount**, the program must be completed and **two lines** are printed to the console: 
 
