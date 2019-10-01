@@ -501,3 +501,9 @@ Total: ‭165.73‬
 [/code-task]
 
 [/slide]
+
+[slide]
+# Video
+[vimeo-video videoId="343678060" startTimeInSeconds="3186" endTimeInSeconds="8624" /]
+
+[/slide]
