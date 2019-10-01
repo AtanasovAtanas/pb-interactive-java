@@ -453,3 +453,8 @@ Invalid Triangle
 
 [/slide]
 
+[slide]
+# Video
+[vimeo-video videoId="341539841" startTimeInSeconds="4583" endTimeInSeconds="9990" /]
+
+[/slide]
