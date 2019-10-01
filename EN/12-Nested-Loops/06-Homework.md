@@ -819,3 +819,9 @@ Write a program, which:
 [/code-task]
 
 [/slide]
+
+[slide]
+# Video
+[vimeo-video videoId="345011935" startTimeInSeconds="5768" endTimeInSeconds="11030" /]
+
+[/slide]
