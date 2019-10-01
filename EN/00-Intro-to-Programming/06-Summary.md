@@ -1,14 +1,6 @@
 [slide]
 # Summary
-What is Coding?
 
-* Commands and Programs
+[vimeo-video videoId="342593690" startTimeInSeconds="9772" endTimeInSeconds="9909" /]
 
-The **Java** Language
-
-The **IntelliJ IDEA IDE**
-
-* Installing IntelliJ IDEA Community
-
-* Writing **Java Console Apps**
 [/slide]

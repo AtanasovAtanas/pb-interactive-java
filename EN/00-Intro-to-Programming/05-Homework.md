@@ -175,3 +175,9 @@ Prints a square of 7 * 7 stars like this:
 [/tests]
 [/code-task]
 [/slide]
+
+[slide]
+# Video
+[vimeo-video videoId="342593690" startTimeInSeconds="9002" endTimeInSeconds="9772" /]
+
+[/slide]
