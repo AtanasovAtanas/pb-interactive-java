@@ -53,6 +53,13 @@ String b = a;
 System.out.println(a.equals(b)); // true
 ```
 
+```
+java live
+String a = "Examplе";
+String b = "Examplе";
+System.out.println(a == b);
+```
+
 ```java
 String a = "hello";
 String b = "hello";

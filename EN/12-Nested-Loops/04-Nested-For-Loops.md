@@ -35,12 +35,10 @@ Here is an example Java program:
 int a = 3;
 int b = 3;
 
-for (int i = 0; i < a; i++) 
-{
+for (int i = 0; i < a; i++) {
     System.out.printf("i = %d%n", i);
 
-    for (int j = 0; j < b; j++)
-    {
+    for (int j = 0; j < b; j++) {
         System.out.printf("  j = %d%n", j);
     }
 }

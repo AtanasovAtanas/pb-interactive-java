@@ -98,10 +98,11 @@ import java.util.Scanner;
 
 public class Program {
    public static void main(String[] args) {
-      int num = scanner.nextInt();
+      Scanner scanner = new Scanner(System.in);
+      int num = Integer.parseInt(scanner.nextLine());
 
       while (num % 2 == 0) {
-        num = scanner.nextInt();
+        num = Integer.parseInt(scanner.nextLine());
       }
 
       System.out.println(num);
@@ -221,6 +222,7 @@ import java.util.Scanner;
 
 public class Program {
    public static void main(String[] args) {
+      Scanner scanner = new Scanner(System.in); 
       int number = Integer.parseInt(scanner.nextLine());
       String command = scanner.nextLine();
 

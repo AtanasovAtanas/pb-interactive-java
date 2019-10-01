@@ -39,7 +39,7 @@ After reading the input data from the console, the following program logic shoul
 ```java
 Scanner scanner = new Scanner(System.in);
 int age = Integer.parseInt(scanner.nextLine());
-String char = scanner.nextLine();
+String gender = scanner.nextLine();
 
 if (age < 16) {
     if (gender == "m") {
