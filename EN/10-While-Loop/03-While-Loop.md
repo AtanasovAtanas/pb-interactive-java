@@ -1,3 +1,11 @@
+# While Loop
+
+[slide]
+# Video
+[vimeo-video videoId="343678060" startTimeInSeconds="1406" endTimeInSeconds="1957" /]
+
+[/slide]
+
 [slide]
 # While Loop
 In programming the `while` **loop** is used when we want to **repeat** the execution of a certain logic while a condition is in effect. 
@@ -240,11 +248,5 @@ Write a program, which:
 [/tests]
 [code-io/]
 [/code-task]
-
-[/slide]
-
-[slide]
-# Video
-[vimeo-video videoId="343678060" startTimeInSeconds="1406" endTimeInSeconds="1957" /]
 
 [/slide]

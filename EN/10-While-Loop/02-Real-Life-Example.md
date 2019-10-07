@@ -1,3 +1,11 @@
+# Real-Life Example
+
+[slide]
+# Video
+[vimeo-video videoId="343678060" startTimeInSeconds="1336" endTimeInSeconds="1405" /]
+
+[/slide]
+
 [slide]
 # Real-Life Example: Fill a Bucket
 The next type of loops that we will get familiar with are called `while` loops. 
@@ -15,10 +23,4 @@ You never know how many mugs of water you will use.
 You will stop when the bucket is full.
 
 In this exmaple, you work until satisfying a given condition.
-[/slide]
-
-[slide]
-# Video
-[vimeo-video videoId="343678060" startTimeInSeconds="1336" endTimeInSeconds="1405" /]
-
 [/slide]

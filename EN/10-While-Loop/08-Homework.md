@@ -1,3 +1,11 @@
+# Homework
+
+[slide]
+# Video
+[vimeo-video videoId="343678060" startTimeInSeconds="3186" endTimeInSeconds="8624" /]
+
+[/slide]
+
 [slide]
 # Homework
 Welcome to the homework. 
@@ -499,11 +507,4 @@ Total: ‭165.73‬
 [/tests]
 [code-io/]
 [/code-task]
-
-[/slide]
-
-[slide]
-# Video
-[vimeo-video videoId="343678060" startTimeInSeconds="3186" endTimeInSeconds="8624" /]
-
 [/slide]
