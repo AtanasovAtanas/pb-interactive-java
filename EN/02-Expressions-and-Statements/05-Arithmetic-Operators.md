@@ -1,3 +1,11 @@
+# Arithmetic Operations
+
+[slide]
+# Video
+[vimeo-video videoId="341522009" startTimeInSeconds="6282" endTimeInSeconds="7007" /]
+
+[/slide]
+
 [slide]
 # Arithmetic Operations
 Let's examine the basic **arithmetic operations** in programming. 
@@ -99,10 +107,4 @@ See the following example:
 System.out.println(3 % 2);
 System.out.println(4 % 2);
 ```
-[/slide]
-
-[slide]
-# Video
-[vimeo-video videoId="341522009" startTimeInSeconds="6282" endTimeInSeconds="7007" /]
-
 [/slide]

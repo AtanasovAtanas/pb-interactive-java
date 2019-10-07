@@ -1,3 +1,11 @@
+# Variables
+
+[slide]
+# Video
+[vimeo-video videoId="341522009" startTimeInSeconds="1040" endTimeInSeconds="1777" /]
+
+[/slide]
+
 [slide]
 # Variables
 In programming, each **variable** stores a certain value of a particular type. 
@@ -36,10 +44,4 @@ If you think of the variables as boxes that hold information, this is how they w
 Variables can be stored in the program's:
   * Operational memory - in the execution **stack**
   * Dynamic memory - in the **heap**
-[/slide]
-
-[slide]
-# Video
-[vimeo-video videoId="341522009" startTimeInSeconds="1040" endTimeInSeconds="1777" /]
-
 [/slide]

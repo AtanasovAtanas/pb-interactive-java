@@ -1,3 +1,11 @@
+# Statements
+
+[slide]
+# Video
+[vimeo-video videoId="341522009" startTimeInSeconds="2360" endTimeInSeconds="2900" /]
+
+[/slide]
+
 [slide]
 # Statements
 The **actions** that a program takes, are expressed as **statements**. 
@@ -41,10 +49,4 @@ Common actions include:
   ```java
   sum = a + b;
   ```
-[/slide]
-
-[slide]
-# Video
-[vimeo-video videoId="341522009" startTimeInSeconds="2360" endTimeInSeconds="2900" /]
-
 [/slide]
