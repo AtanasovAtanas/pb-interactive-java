@@ -1,3 +1,11 @@
+# The Switch-Case Statement
+
+[slide]
+# Video
+[vimeo-video videoId="341582556" startTimeInSeconds="4110" endTimeInSeconds="4779" /]
+
+[/slide]
+
 [slide]
 # The Switch-Case Statement
 The switch-case condition works as a sequence of **if-else** blocks. 
@@ -134,10 +142,4 @@ switch (animal) {
       break;
 }
 ```
-[/slide]
-
-[slide]
-# Video
-[vimeo-video videoId="341582556" startTimeInSeconds="4110" endTimeInSeconds="4779" /]
-
 [/slide]

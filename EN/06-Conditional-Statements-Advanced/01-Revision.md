@@ -1,3 +1,11 @@
+# Revision
+
+[slide]
+# Video
+[vimeo-video videoId="341582556" startTimeInSeconds="1027" endTimeInSeconds="1335" /]
+
+[/slide]
+
 [slide]
 # Revision
 Let's revise what we learned in the last lesson:
@@ -35,10 +43,4 @@ if (a > 100) {
     System.out.println("The number `a` is smaller or equal than 20");
 }
 ```
-[/slide]
-
-[slide]
-# Video
-[vimeo-video videoId="341582556" startTimeInSeconds="1027" endTimeInSeconds="1335" /]
-
 [/slide]

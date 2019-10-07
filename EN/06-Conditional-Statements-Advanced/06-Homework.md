@@ -1,3 +1,11 @@
+# Homework
+
+[slide]
+# Video
+[vimeo-video videoId="341582556" startTimeInSeconds="4780" endTimeInSeconds="11380" /]
+
+[/slide]
+
 [slide]
 # Homework
 Welcome to the homework. 
@@ -619,11 +627,5 @@ Write a program to find the biggest among 5 numbers
 [/tests]
 [code-io/]
 [/code-task]
-
-[/slide]
-
-[slide]
-# Video
-[vimeo-video videoId="341582556" startTimeInSeconds="4780" endTimeInSeconds="11380" /]
 
 [/slide]

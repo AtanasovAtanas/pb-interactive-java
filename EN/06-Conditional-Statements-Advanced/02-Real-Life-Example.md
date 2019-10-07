@@ -1,3 +1,11 @@
+# Real-Life Example
+
+[slide]
+# Video
+[vimeo-video videoId="341582556" startTimeInSeconds="1345" endTimeInSeconds="1458" /]
+
+[/slide]
+
 [slide]
 # Real Life Example: Marketplace
 A market offers different prices for certain products based on the day of the week
@@ -26,10 +34,4 @@ If product is kiwi
   If its a weekday the price is 2.20
   Otherwise the price is 3.00
 ``` 
-[/slide]
-
-[slide]
-# Video
-[vimeo-video videoId="341582556" startTimeInSeconds="1345" endTimeInSeconds="1458" /]
-
 [/slide]
