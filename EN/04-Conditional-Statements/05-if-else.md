@@ -1,3 +1,12 @@
+# If-Else Conditions
+
+[slide]
+# Video
+[vimeo-video videoId="341539841" startTimeInSeconds="2681" endTimeInSeconds="3553" /]
+
+[/slide]
+
+
 [slide]
 # If-Else Conditions
 The `if` construction may also contain an `else` clause to give a specific action in case the Boolean expression (which is set at the beginning `if (bool expression)` ) returns a negative result (`false`). 
@@ -339,11 +348,4 @@ Greater number: 2
 [/tests]
 [code-io/]
 [/code-task]
-
-[/slide]
-
-[slide]
-# Video
-[vimeo-video videoId="341539841" startTimeInSeconds="2681" endTimeInSeconds="3553" /]
-
 [/slide]

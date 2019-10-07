@@ -1,3 +1,12 @@
+# Logical Expressions
+
+[slide]
+# Video
+
+[vimeo-video videoId="341539841" startTimeInSeconds="1628" endTimeInSeconds="2292" /]
+
+[/slide]
+
 [slide]
 # Comparison Operators
 In programming, we can compare values using the following operators:
@@ -67,10 +76,4 @@ System.out.println(a.equals(b)); // true
 System.out.println(a < b); // error
 ```
 A string is an object and every object has an instance, but this is a knowledge we will acquire later on throughout the course.
-[/slide]
-
-[slide]
-# Video
-[vimeo-video videoId="341539841" startTimeInSeconds="1628" endTimeInSeconds="2292" /]
-
 [/slide]

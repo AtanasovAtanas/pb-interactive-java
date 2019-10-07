@@ -1,3 +1,11 @@
+# Debugging
+
+[slide]
+# Video
+[vimeo-video videoId="341539841" startTimeInSeconds="4211" endTimeInSeconds="4582" /]
+
+[/slide]
+
 [slide]
 # Debugging
 So far, we wrote a lot of code, and there were some mistakes in it, right? Now we will show a tool that can help us find mistakes more easily: **the debugger**.
@@ -16,10 +24,4 @@ By pressing the `[Shift + F9]` button, we run the program in **debug mode**. We 
 [image src="https://github.com/AtanasovAtanas/pb-interactive-java/blob/master/assets/conditional-statements-debug.png"/]
 
 With `[Ctrl + F8]` we create the so-called breakpoints, that we can reach directly using `[Ctrl + F8]` when we start the program.
-[/slide]
-
-[slide]
-# Video
-[vimeo-video videoId="341539841" startTimeInSeconds="4211" endTimeInSeconds="4582" /]
-
 [/slide]

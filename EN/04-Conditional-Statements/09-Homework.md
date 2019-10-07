@@ -1,3 +1,11 @@
+# Homework
+
+[slide]
+# Video
+[vimeo-video videoId="341539841" startTimeInSeconds="4583" endTimeInSeconds="9990" /]
+
+[/slide]
+
 [slide]
 # Homework
 Welcome to the homework. 
@@ -450,11 +458,4 @@ Invalid Triangle
 [/tests]
 [code-io/]
 [/code-task]
-
-[/slide]
-
-[slide]
-# Video
-[vimeo-video videoId="341539841" startTimeInSeconds="4583" endTimeInSeconds="9990" /]
-
 [/slide]
