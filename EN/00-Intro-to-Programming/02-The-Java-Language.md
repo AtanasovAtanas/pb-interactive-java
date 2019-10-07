@@ -1,3 +1,11 @@
+# Programming Languages
+
+[slide]
+# Video
+[vimeo-video videoId="342593690" startTimeInSeconds="3111" endTimeInSeconds="4030" /]
+
+[/slide]
+
 [slide]
 # Programming Languages
 A programming language is an artificial language (syntax for expression), meant for giving commands that we want the computer to **read**, **process** and **execute**.
@@ -60,10 +68,4 @@ JDK should not be confused for a runtime environment (JRE)
 * JRE allow to **run** Java programs, but can't **develop own programs**
 
 [image src="https://github.com/AtanasovAtanas/pb-interactive-csharp/blob/master/assets/intro-to-programming-java.png"/]
-[/slide]
-
-[slide]
-# Video
-[vimeo-video videoId="342593690" startTimeInSeconds="3111" endTimeInSeconds="4030" /]
-
 [/slide]

@@ -1,3 +1,12 @@
+# What is Coding?
+
+
+[slide]
+# Video
+[vimeo-video videoId="342593690" startTimeInSeconds="1783" endTimeInSeconds="3110" /]
+
+[/slide]
+
 [slide]
 # What is Coding?
 **To program** means to **give commands** to the computer, for example *"to play a sound"*, *"to print something on the screen"* or *"to multiply two numbers"*. 
@@ -84,10 +93,4 @@ public class Program {
   }
 }
 ```
-[/slide]
-
-[slide]
-# Video
-[vimeo-video videoId="342593690" startTimeInSeconds="1783" endTimeInSeconds="3110" /]
-
 [/slide]

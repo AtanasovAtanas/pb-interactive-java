@@ -1,3 +1,11 @@
+# Console App in IntelliJ IDEA
+
+[slide]
+# Video
+[vimeo-video videoId="342593690" startTimeInSeconds="4657" endTimeInSeconds="5877" /]
+
+[/slide]
+
 [slide]
 # Console App in IntelliJ IDEA
 We already have IntelliJ IDEA and we can start it.
@@ -62,10 +70,4 @@ Actually, the output from the program is the following text message:
 ```
 Hello Java
 ```
-[/slide]
-
-[slide]
-# Video
-[vimeo-video videoId="342593690" startTimeInSeconds="4657" endTimeInSeconds="5877" /]
-
 [/slide]

@@ -1,5 +1,13 @@
+# Integrated Development Environments
+
 [slide]
-# Development Environments (IDE)
+# Video
+[vimeo-video videoId="342593690" startTimeInSeconds="4035" endTimeInSeconds="4655" /]
+
+[/slide]
+
+[slide]
+# Integrated Development Environments (IDE)
 In order to program we need an **Integrated Development Environment** (IDE). 
 
 **An environment for development** (Integrated Development Environment – **IDE**) is a combination of traditional tools for development of software applications. 
@@ -113,10 +121,4 @@ Alternative IDE (online)
 * JavaScript: directly use the Web browser console (press \[F12\] key)
 
 [image src="https://github.com/AtanasovAtanas/pb-interactive-java/blob/master/assets/intro-to-programming-rplit.png"/]
-[/slide]
-
-[slide]
-# Video
-[vimeo-video videoId="342593690" startTimeInSeconds="4035" endTimeInSeconds="4655" /]
-
 [/slide]
