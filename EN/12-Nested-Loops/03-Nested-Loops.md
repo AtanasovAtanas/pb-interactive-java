@@ -1,3 +1,11 @@
+# Nested Loops
+
+[slide]
+# Video
+[vimeo-video videoId="345011935" startTimeInSeconds="1315" endTimeInSeconds="2900" /]
+
+[/slide]
+
 [slide]
 # Nested Loops
 A **nested loop** is a construction where **in the body of one loop** (outer one) **stays another loop** (inner one). 
@@ -55,10 +63,4 @@ After **the inner** loop **finishes** executing at the first iteration of the ou
 **After that**, the variable of **the first** loop will be **renewed** and the whole **second** loop will be executed again. 
 
 The inner loop will execute as many times as the body of the outer loop executes, in this case `n` times.
-[/slide]
-
-[slide]
-# Video
-[vimeo-video videoId="345011935" startTimeInSeconds="1315" endTimeInSeconds="2900" /]
-
 [/slide]

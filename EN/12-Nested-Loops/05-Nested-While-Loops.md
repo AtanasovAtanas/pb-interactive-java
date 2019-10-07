@@ -1,3 +1,11 @@
+# Nested while Loops
+
+[slide]
+# Video
+[vimeo-video videoId="345011935" startTimeInSeconds="4533" endTimeInSeconds="5149" /]
+
+[/slide]
+
 [slide]
 # Nested while Loops
 The use of nested `while` loops is very similar to the one of the `for`.
@@ -139,11 +147,5 @@ Write a program, which:
 [/tests]
 [code-io/]
 [/code-task]
-
-[/slide]
-
-[slide]
-# Video
-[vimeo-video videoId="345011935" startTimeInSeconds="4533" endTimeInSeconds="5149" /]
 
 [/slide]
