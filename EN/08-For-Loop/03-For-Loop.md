@@ -1,3 +1,11 @@
+# For Loop
+
+[slide]
+# Video
+[vimeo-video videoId="342471604" startTimeInSeconds="1464" endTimeInSeconds="2901" /]
+
+[/slide]
+
 [slide]
 # For Loop
 In programming it is often required to perform a block of commands multiple times. 
@@ -282,11 +290,4 @@ Write a program, which:
 [/tests]
 [code-io/]
 [/code-task]
-
-[/slide]
-
-[slide]
-# Video
-[vimeo-video videoId="342471604" startTimeInSeconds="1464" endTimeInSeconds="2901" /]
-
 [/slide]

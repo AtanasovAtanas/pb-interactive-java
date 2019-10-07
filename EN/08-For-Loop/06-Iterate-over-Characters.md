@@ -1,3 +1,11 @@
+# Iterating over Characters
+
+[slide]
+# Video
+[vimeo-video videoId="342471604" startTimeInSeconds="3555" endTimeInSeconds="4281" /]
+
+[/slide]
+
 [slide]
 # Iterating over Characters
 It is good to know that the **for loops** don't only work with numbers. 
@@ -133,10 +141,4 @@ f g h i j k l
 [/tests]
 [code-io/]
 [/code-task]
-
-[/slide]
-[slide]
-# Video
-[vimeo-video videoId="342471604" startTimeInSeconds="3555" endTimeInSeconds="4281" /]
-
 [/slide]

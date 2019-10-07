@@ -1,3 +1,11 @@
+# Increment and Decrement Operators
+
+[slide]
+# Video
+[vimeo-video videoId="342471604" startTimeInSeconds="1179" endTimeInSeconds="1461" /]
+
+[/slide]
+
 [slide]
 # Increment and Decrement Operators
 The unary increment operator `++` increments its operand by 1, while the unary decrement operator `--` decrements it by 1.
@@ -46,10 +54,4 @@ System.out.println(a);   // output: 1.5
 System.out.println(--a); // output: 0.5
 System.out.println(a);   // output: 0.5
 ```
-[/slide]
-
-[slide]
-# Video
-[vimeo-video videoId="342471604" startTimeInSeconds="1179" endTimeInSeconds="1461" /]
-
 [/slide]

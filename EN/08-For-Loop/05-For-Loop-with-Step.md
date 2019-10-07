@@ -1,3 +1,11 @@
+# For Loop with Step
+
+[slide]
+# Video
+[vimeo-video videoId="342471604" startTimeInSeconds="2906" endTimeInSeconds="3553" /]
+
+[/slide]
+
 [slide]
 # For Loop with Step
 In this section we will pay attention to a particular and very important part of the `for` loop, namely the **step**.
@@ -230,10 +238,4 @@ The exam has come
 [/tests]
 [code-io/]
 [/code-task]
-
-[/slide]
-[slide]
-# Video
-[vimeo-video videoId="342471604" startTimeInSeconds="2906" endTimeInSeconds="3553" /]
-
 [/slide]
