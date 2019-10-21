@@ -14,17 +14,17 @@ public class Main {
 [/code-editor]
 [task-description]
 # Description
+George decides to buy **tuna, scads** and **mussels**. 
 
-George decides to buy **tuna, scads** and **mussels**. From the console are read the prices **of mackerel and sprats**, the **quantity of tuna**, **scads and mussels** in **kilograms**. **How much money** will he need to pay his bill, if the **prices** at the Fishland are:
+Read from the console prices **of mackerel and sprats**, the **quantity of tuna**, **scads and mussels** in **kilograms**. 
 
+**Calculate how much money** will he need to pay his bill, if the **prices** at the Fishland are:
 - Tuna - **60% more expensive than the mackerel**
 - Scads - **80% more expensive than the sprats**
 - Mussels - **7.50 dollars per kilogram**
 
 # Input
-
 You have to read **5** numbers from the console:
-
 - **the price of the mackerel per kilogram** - floating-point number in range [0.00…40.00]
 - **the price of the sprats per kilogram** - floating-point number in range [0.00…30.00]
 - **kilograms of tuna** - floating-point number in range [0.00…50.00]
@@ -32,39 +32,25 @@ You have to read **5** numbers from the console:
 - **kilograms of mussels** - integer number in range [0...100]
 
 # Output
-
-Print on the console a **single** number with floating point: **the money** George will need to pay the bill, **formatted to the second decimal point** (1.2457 -> 1.25).
+Print on the console a **single** number with floating point: **the money** George will need to pay the bill, **formatted to the second decimal point**.
 
 # Example
-## Input
+| **Input** | | **Output** |
+| --- | --- | --- |
+| 6.90 | | 42.96 |
+| 4.20 | | |
+| 1.50 | | |
+| 2.50 | | |
+| 1 | | |
 
-The price of mackarel/kg - 6.90
+# Comments
+- The price of the tuna = 6.90 + 6.90 \* 0.60 = 11.04 $/kg
+- Total sum of tuna = 1.5 \* 11.04 = 16.56
+- The price of the scads = 4.20 + 4.20 \* 0.80 =  7.56$/kg
+- Total sum of scads = 2.5 \* 7.56 = 18.90
+- The total sum of mussels = 1 \* 7.50 = 7.50
+- Bill = 16.56 + 18.90 + 7.50 = 42.96
 
-The price of sprats/kg - 4.20
-
-Kilograms tuna - 1.5
-
-Kilograms scads - 2.5
-
-Kilograms mussels - 1
-
-## Output
-
-42.96
-
-## Comments
-
-The price of the tuna = 6.90 + 6.90 \* 0.60 = 11.04 $/kg
-
-Total sum of tuna = 1.5 \* 11.04 = 16.56
-
-The price of the scads = 4.20 + 4.20 \* 0.80 =  7.56$/kg
-
-Total sum of scads = 2.5 \* 7.56 = 18.90
-
-The total sum of mussels = 1 \* 7.50 = 7.50
-
-Bill = 16.56 + 18.90 + 7.50 = 42.96
 [/task-description]
 [tests]
 [test]

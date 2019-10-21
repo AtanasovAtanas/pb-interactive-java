@@ -14,20 +14,20 @@ public class Main {
 [/code-editor]
 [task-description]
 # Description
+Gardener is selling his harvest at the vegetable market. 
 
-Gardener is selling his harvest at the vegetable market. He sells **vegetables for N dollars per kilogram** and **fruits for M dollars per kilogram**. Write a program that **calculates the income** from the harvest in **euros** (**1 USD = 0.89 EUR**).
+He sells **vegetables for N dollars per kilogram** and **fruits for M dollars per kilogram**. 
+
+Write a program that **calculates the income** from the harvest in **euros** (**1 USD = 0.89 EUR**).
 
 # Input
-
 The input will be **4 numbers**, each on a single line:
-
 - **The price of kilogram vegetables** - floating-point number [0.00… 1000.00]
 - **The price of kilogram fruits** - floating-point number [0.00… 1000.00]
 - **The total kilograms of vegetables** - integer [0… 1000]
 - **The total kilograms of fruits** - integer [0… 1000]
 
 # Output
-
 Print on the console **a single number**: the income from **all** of the fruits and vegetables in **euro**.
 
 **The result should be formatted to the second decimal point.**

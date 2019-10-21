@@ -15,7 +15,11 @@ public class Main {
 [task-description]
 # Description
 
-Write a program that **calculates the expenses** for yard greening. The price **for one square meter is 7.61 dollars with VAT**. The company offers **18% discount from the total price**, because of the size of the yard.
+Write a program that **calculates the expenses** for yard greening. 
+
+The price **for one square meter is 7.61 dollars with VAT**. 
+
+The company offers **18% discount from the total price**.
 
 # Input
 
@@ -29,32 +33,18 @@ Print on the console **two lines**:
 - "The final price is: \{total price\} dollars"
 - "The discount is: \{discount\} dollars"
 
-**Both** prices should be formatted to the **second decimal point**.
+Prices should be **formatted to the second decimal point**.
 
 # Example
-## Input
+| **Input** | | **Output** |
+| --- | --- | --- |
+| 540 | | The final price is: 3369.71 dollars |
+|  | | The discount is: 739.69 dollars |
 
-Square meters - 540
-
-## Output
-
-The final price is: 3369.71 dollars
-
-The discount is: 739.69 dollars
-
-## Comments
-
-Calculate the price for greening the whole yard:
-
-540 \* 7.61 = 4109.40 $
-
-Calculate the discount:
-
-0.18 \* 4109.40 = 739.69 $
-
-Calculate the final price:
-
-4109.40 – 739.69 = 3369.71 $
+# Comments
+- Calculate the price for greening the whole yard: 540 \* 7.61 = 4109.40 $
+- Calculate the discount: 0.18 \* 4109.40 = 739.69 $
+- Calculate the final price: 4109.40 – 739.69 = 3369.71 $
 [/task-description]
 [tests]
 [test]

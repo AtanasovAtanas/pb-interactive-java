@@ -14,12 +14,9 @@ public class Main {
 [/code-editor]
 [task-description]
 # Description
-
-Write a program that reads **three** numbers **b1**, **b2** and **h** and calculates the **area** of trapezoid with **bases b1 and b2** and **height h**. 
+Write a program that calculates the **area** of trapezoid with bases `b1` and `b2` and height `h`. 
 
 The formula for calculating **area** of a trapezoid is **((b1 + b2) / 2) * h**.
-
-For example if we have a trapezoid with bases 8 and 13 and height 7, it will have area (8 + 13) \* 7 / 2 = 73.50
 
 # Input
 
@@ -28,8 +25,7 @@ Read **three** numbers from the console:
 - height - h - integer in range \[1...1000\]
 
 # Output
-
-Print on the console a single number - the **area** of the trapezoid, formatted to the **second** decimal point
+Print on the console a single number - the **area** of the trapezoid, formatted to the **second** decimal point.
 
 # Example
 | **Input** | | **Output** |

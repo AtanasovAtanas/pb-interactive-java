@@ -14,13 +14,12 @@ public class Main {
 [/code-editor]
 [task-description]
 # Description
+Write a program that calculates how many hours will be necessary to an architect to create projects of some construction objects. 
 
-Write a program that calculates how many hours will be necessary to an architect to create projects of some construction objects. Creating one project takes approximately 3 hours.
+Creating one project takes approximately 3 hours.
 
 # Input
-
 Read **two** lines from the console:
-
 - **Name of the architect - String**
 - **Number of projects** - integer in range \[0… 100\]
 
