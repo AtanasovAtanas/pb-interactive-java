@@ -23,7 +23,7 @@ For 1 liter of wine are needed **2.5 kg grapes**.
 The desired amount of wine for sale is **Z liters**. 
 
 Write a program that calculates how much wine can be produced and whether this quantity is enough. 
-    - If sufficient, the remainder is divided equally between the workers of the vineyard.
+- If sufficient, the remainder is divided equally between the workers of the vineyard.
 
 # Input
 The entrance is read from the console and consists of exactly 4 rows:
