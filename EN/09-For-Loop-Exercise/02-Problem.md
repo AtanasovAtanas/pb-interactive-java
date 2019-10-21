@@ -32,14 +32,14 @@ The input is read from the console:
 - For each month – the bill for electricity – a real number in range \[1.00... 1000.00\]
 
 # Output
-
 Print to the console **5** rows: 
-
 - "Electricity: \{electricity for all months\} $" 
 - "Water: \{water for all months\} $" 
 - "Internet: \{Internet for all months\} $" 
 - "Other: \{Other for all months\} $" 
 - "Average: \{Average all costs per month\} $ "
+
+All bills sohould be **formatted to the 2nd digit after the decimal point**.
 
 # Example
 
@@ -53,24 +53,18 @@ Print to the console **5** rows:
 | 63.22 | | |
 
 ## Comments
-
 For **5** months:
-
-**Electricity** -> 68.63 \+ 89.25 \+ 132.53 \+ 93.53 \+ 63.22 = **447.16**$
-
-**Water** -> 5 months \* 20$ = **100**$
-
-**Internet** -> 5 months \* 15$ = **75**$
-
-**Others**:
-68.63+20+15) + 20% = 124.356  
-(89.25+20+15) + 20% = 149.1
-(132.53+20+15) + 20% = 201.036
-(93.53+20+15) + 20% = 154.236
-(63.22+20+15) + 20% = 117.864
-**Total = 746.592$**
-
-**Average** bills per month = (447.16+100+75+746.592)/5 = **273.7504**$
+- **Electricity** -> 68.63 \+ 89.25 \+ 132.53 \+ 93.53 \+ 63.22 = **447.16**$
+- **Water** -> 5 months \* 20$ = **100**$
+- **Internet** -> 5 months \* 15$ = **75**$
+- **Others**:
+    - 68.63+20+15) + 20% = 124.356  
+    - (89.25+20+15) + 20% = 149.1
+    - (132.53+20+15) + 20% = 201.036
+    - (93.53+20+15) + 20% = 154.236
+    - (63.22+20+15) + 20% = 117.864
+- **Total = 746.592$**
+- **Average** bills per month = (447.16+100+75+746.592)/5 = **273.7504**$
 
 [/task-description]
 [tests]
