@@ -28,14 +28,16 @@ In the holidays the prices of all flowers **increase by 15%**. The market offers
 - If you buy **10 or more roses during the winter** - **10% of the price of the whole bouquet**
 - If you buy **more than 20 flowers in total during ALL seasons - 20% of the price of the whole bouquet**
 
-**The discounts are applied in the specified order above and can be superimposed! All of the discounts should be applied after the increasing of the prices in holidays!**
+**The discounts are applied in the specified order above and can be superimposed!**
 
-The price of the bouquet arrangement is **always** 2 dollars. Write a program to **calculate** the price of a bouquet.
+**All of the discounts should be applied after the increasing of the prices in holidays!**
+
+The price of the bouquet arrangement is **always** 2 dollars. 
+
+Write a program to **calculate** the price of a bouquet.
 
 # Input
-
 The input is read from the **console** and is exactly **5 lines**:
-
 - Count of the bought **lilias** - integer in range \[0 ... 200\]
 - Count of the bought **roses** - integer in range \[0 ... 200\]
 - Count of the bought **tulips** - integer in range \[0 ... 200\]
@@ -43,37 +45,24 @@ The input is read from the **console** and is exactly **5 lines**:
 - If the day is **holiday** - \[Y - yes / N - no\]
 
 # Output
-
 Print on the console a **single number** - the price of the flowers, **formatted to the second decimal point**.
 
 # Example
-## Input
-
-Count of lilias - 2
-
-Count of roses - 4
-
-Count of tulips - 8
-
-Season - Spring
-
-Is it holiday - Y
-
-## Output
-
-Total price - 46.14
+| **Input** | | **Output** 
+| --- | --- | --- |
+| 2 | | 46.14 |
+| 4 | | |
+| 8 | | |
+| Spring | | |
+| Y | | |
 
 ## Comments
+- **Price: 2\*2.00 + 4\*4.10 + 8\*2.50 = 40.40 $** 
+- **Holiday** 40.40 + **15%** = 46.46 $
+- **5% discount for more than 7 tulips during the spring** - 44.14
+- In total the flowers are 20 or less - there **isn't a discount**
+- **44.14 + 2 for arrangement = 46.14 $** 
 
-**Price: 2\*2.00 + 4\*4.10 + 8\*2.50 = 40.40 $** 
-
-**Holiday** 40.40 + **15%** = 46.46 $
-
-**5% discount for more than 7 tulips during the spring** - 44.14
-
-In total the flowers are 20 or less - there **isn't a discount**
-
-**44.14 + 2 for arrangement = 46.14 $** 
 [/task-description]
 [tests]
 [test]

@@ -34,55 +34,37 @@ The fishermen use another **5 % discount if they are even number** except when i
 Write a **program** to **calculate** whether the fishermen will gather **enough** money.
 
 # Input
-
 The input is consists of exactly **3 lines**:
-
 - The **budget** of the group - real number in range \[1…8000\]
 - **Season**  - String : "**Spring**", "**Summer**", "**Autumn**", "**Winter**"
 - **Number** of fishermen - integer in range \[4…18\]
 
 # Output
-
 Print on the console a **single** line:
-
-- If the budget **IS** enough:
-
-"Yes! You have \{money left\} dollars left."
-
-- If the budget **IS NOT** enough:
-
-"Not enough money! You need \{money needed\} dollars."
+- If the budget **IS** enough: "Yes! You have \{money left\} dollars left."
+- If the budget **IS NOT** enough: "Not enough money! You need \{money needed\} dollars."
 
 **The prices should be formatted to the second decimal point.**
 
 # Example
-## Input
-
-Budget of the group - 3000 $
-
-Season - Summer
-
-Number of fishermen - 11
-
-## Output
-
-Not enough money! You need 570.00 dollars.
+| **Input** | | **Output** 
+| --- | --- | --- |
+| 3000 | | Not enough money! You need 570.00 dollars. |
+| Summer | | |
+| 11 | | |
 
 ## Comments
+- In the summer fishing costs 4200$,
+- **11 fishermen take 15% discount** -> **4200 - 15% = 3570** $, their number is **odd** so they do **not** use **additional** discount.
+- 3000 <= 3570, hence they need 570.00 $ more
 
-In the summer fishing costs 4200$,
-
-**11 fishermen take 15% discount** -> **4200 - 15% = 3570** $,
-
-their number is **odd** so they do **not** use **additional** discount.
-
-3000 <= 3570, hence they need 570.00 $ more
-
+# Example
 | **Input** | | **Output** |
 | --- | --- | --- |
 | 2000 | | Yes! You have 50.00 dollars left. |
 | Winter | | |
 | 13 | | |
+
 [/task-description]
 [tests]
 [test]

@@ -16,21 +16,18 @@ public class Main {
 # Description
 
 Write a **console** program **that reads** age (floating-point number) and **gender**("**m**" or "**f**") and prints **address** among these:
-
-# Input
-
-Enter from the console:
-
-- age - floating-point number
-
-- gender - "**m**" or "**f**"
-
-# Output
-
 - "**Mr.**" - a man (gender "**m**") of age 16 or more
 - "**Master**" - a boy (gender "**m**") under 16 years old
 - "**Ms.**" - a woman (gender "**f**") of age 16 or more
 - "**Miss**" - a girl (gender "**f**") under 16 years old
+
+# Input
+Enter from the console:
+- age - floating-point number
+- gender - "**m**" or "**f**"
+
+# Output
+Print the expected address on a single line.
 
 # Example
 

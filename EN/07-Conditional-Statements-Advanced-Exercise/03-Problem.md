@@ -24,18 +24,14 @@ A company gives the following **commissions** to its businessmen according to th
 | \[1001-10000\]| | 8%| | 10%| | 12%|
 | s > 10000| | 12%| | 13%| | 14.5%|
 
-Write a **console** program **that reads as input the** name of a **city** (String) and the **amount of sales** (floating-point number) and calculates the value of the **trade commission**. You can help yourself using the table above. 
+Write a console program **that reads as input the** name of a **city** and the **amount of sales** and calculates the value of the **trade commission**. 
 
 # Input
-
 Read from the console two lines:
-
 - Name of a city - String
-
 - Amount of sales - floating-point number
 
 # Output
-
 Print on the console the calculated value of trade commission.
 
 The result should be **formatted to the second decimal point**. 
@@ -43,7 +39,6 @@ The result should be **formatted to the second decimal point**.
 If you receive **invalid** name of city **or** amount of sales (negative number), print "**error**".
 
 # Example
-
 | **Input** | | **Output** |  
 | --- | --- | --- |
 | London | | 120.00 | 

@@ -14,24 +14,19 @@ public class Main {
 [/code-editor]
 [task-description]
 # Description
-
 Write a program that knows whether the tank of a vehicle needs refueling or not. 
 
 # Input
-
 The input is consists of 2 lines:
-
 - First you have to read from the console the type of fuel - text with options: "Diesel", "Gasoline" or "Gas"
-
 - The second line of input reads the liters fuel in the tank
 
 # Output
-
 If the liters fuel are more than or equal to 25 print:
 - "You have enough \{type of fuel\}."
 
 Otherwise print:
-- "Fill your tank with \{fuel type\}!". 
+- "Fill your tank with \{type of fuel\}!". 
 
 If a fuel other than the specified is introduced, "Invalid fuel!" shall be printed.
 

@@ -14,6 +14,11 @@ public class Main {
 [/code-editor]
 [task-description]
 # Description
+It's summer with changeable weather and Victor needs your help. 
+
+Write a program that recommends Victor which clothes to choose **according to the part of day and degrees (Celsius)**. 
+
+Your friend has different plans for every part of the day with different outfits – check the **table** below.
 
 | **Part of Day / Degrees** | Morning | Afternoon | Evening |
 | --- | --- | --- | --- |
@@ -24,37 +29,21 @@ public class Main {
 | deg >= 25 | Outfit: T-Shirt | Outfit: Swim Suit | Outfit: Shirt |
 | | Shoes: Sandals | Shoes: Barefoot | Shoes: Moccasins |
 
-It's summer with changeable weather and Victor needs your help. Write a program that recommends Victor which clothes to choose **according to the part of day and degrees (Celsius)**. Your friend has different plans for every part of the day with different outfits – check the **table** above.
-
 # Input
-
 **Read two lines of input:**
-
 - **Degrees** - an integer in range \[10…42\]
 - **Part of day** - text - possibilities: "Morning", "Afternoon", "Evening"
 
 # Output
-
 - Print on the console a **single** line:
-
-  "It's \{degrees\} degrees, get your \{outfit\} and \{shoes\}."
+    - It's \{degrees\} degrees, get your \{outfit\} and \{shoes\}."
 
 # Example
-## Input
+| **Input** | | **Output** 
+| --- | --- | --- |
+| 16 | | It\'s 16 degrees, get your Sweatshirt and Sneakers. |
+| Morning | | |
 
-Degrees - 16
-
-Part of day - Morning
-
-## Output
-
-It\'s 16 degrees, get your Sweatshirt and Sneakers.
-
-## Comments
-
-In the morning when the degrees are 16,
-
-Victor takes a sweatshirt and sneakers.
 [/task-description]
 [tests]
 [test]
