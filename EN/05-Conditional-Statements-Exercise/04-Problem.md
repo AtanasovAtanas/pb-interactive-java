@@ -1,6 +1,6 @@
 [slide]
-# Problem: Time + 15 Minutes
-[code-task title="Time + 15 Minutes" executionType="tests-execution" executionStrategy="java-code" requiresInput]
+# Problem: Day of Week
+[code-task title="Day of Week" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```
 import java.util.Scanner;
@@ -15,151 +15,89 @@ public class Main {
 [task-description]
 # Description
 
-Write a program that reads from the console an **hour** and **minutes** from 24-hour day, and calculates what will be the time **after 15 minutes**. 
-
-# Input
-
-The input consists **two** lines:
-
-- The hours - integer in range \[0...23\]
-
-- The minutes - integer in range \[0...59\]
-
-# Output
-
-Print the result in the following format:   
-"\{hours\}:\{minutes\}"
-
-The hours are written with one or two digits, the minutes - always with two digits with **leading zero**, if it\'s necessary.
+Write a program that reads an integer from the console and prints **day of the week** (in English) in range \[1…7\] and "**Error**" if the number is **invalid**.
 
 # Example
 
-| **Input** | | **Output** |
+| **Input**  | | **Output** |
 | --- | --- | --- |
-| 11| | 11:23|
-| 08| | |
+| 2 | | Tuesday |
 
-| **Input** | | **Output** |
+| **Input**  | | **Output** |
 | --- | --- | --- |
-| 1 || 2:01 | 
-| 46 | | |
+| -1 | | Error |
 [/task-description]
 [tests]
 [test]
 [input]
 1
-46
 [/input]
 [output]
-2:01
+Monday
 [/output]
 [/test]
 [test]
 [input]
-0
-01
+1
 [/input]
 [output]
-0:16
+Monday
 [/output]
 [/test]
 [test]
 [input]
-23
-59
+2
 [/input]
 [output]
-0:14
+Tuesday
 [/output]
 [/test]
 [test]
 [input]
-11
-08
+3
 [/input]
 [output]
-11:23
+Wednesday
 [/output]
 [/test]
 [test]
 [input]
-12
-49
+4
 [/input]
 [output]
-13:04
+Thursday
 [/output]
 [/test]
 [test]
 [input]
-0
-0
+5
 [/input]
 [output]
-0:15
+Friday
 [/output]
 [/test]
 [test]
 [input]
-0
-44
+6
 [/input]
 [output]
-0:59
+Saturday
 [/output]
 [/test]
 [test]
 [input]
-0
-45
+7
 [/input]
 [output]
-1:00
-[/output]
-[/test]
-[test]
-[input]
-0
-48
-[/input]
-[output]
-1:03
-[/output]
-[/test]
-[test]
-[input]
-0
-59
-[/input]
-[output]
-1:14
+Sunday
 [/output]
 [/test]
 [test]
 [input]
 8
-30
 [/input]
 [output]
-8:45
-[/output]
-[/test]
-[test]
-[input]
-12
-35
-[/input]
-[output]
-12:50
-[/output]
-[/test]
-[test]
-[input]
-12
-45
-[/input]
-[output]
-13:00
+Error
 [/output]
 [/test]
 [/tests]

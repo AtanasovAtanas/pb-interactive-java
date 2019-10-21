@@ -1,6 +1,6 @@
 [slide]
-# Problem: 3 Equal Numbers
-[code-task title="Equal Numbers" executionType="tests-execution" executionStrategy="java-code" requiresInput]
+# Problem: Area of Figures
+[code-task title="Area of Figures" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```
 import java.util.Scanner;
@@ -15,171 +15,118 @@ public class Main {
 [task-description]
 # Description
 
-Read **3** numbers from the console and print if they are **equal** (**yes/no**).
+Write a program where user enters type and dimensions of a geometric figure and calculates its area. 
+
+Figures are four types: **square, rectangle, circle and triangle**. 
+
+On the first line of the input you will receive the type of the figure.
+- If it\'s **square**, on the next line you will be given a **number** representing **length** of his size. 
+- If the type is **rectangle**, on the next **two** lines you have to read its **dimensions**. 
+- If it\'s **circle** - on the next line you will receive a single number - the **radius**. 
+- If the figure is **triangle**, on the next **two** lines you will be given the **length** of its size and the **height** to it. 
+
+The result should be **formatted to the third decimal point**.
 
 # Example
 
 | **Input** | | **Output** |
 | --- | --- | --- | 
-| 1 | | yes | 
-| 1 | | |
-| 1 | | |
+| square | | 25.000 | 
+| 5 | | |
+| | | |
 
 | **Input** | | **Output** |
 | --- | --- | --- |
-| 1| | no|
-| 8| | |
-| 5| | |
+| rectangle | | 17.500|
+| 7| | |
+| 2.5| | |
+
+| **Input** | | **Output** |
+| --- | --- | --- |
+| circle| | 113.097|
+| 6| | |
+
+| **Input** | | **Output** |
+| --- | --- | --- |
+| triangle| | 45.000|
+| 4.5| | |
+| 20| | |
 [/task-description]
 [tests]
 [test]
 [input]
+square
 5
+[/input]
+[output]
+25.000
+[/output]
+[/test]
+[test]
+[input]
+rectangle
+7
+2.5
+[/input]
+[output]
+17.500
+[/output]
+[/test]
+[test]
+[input]
+circle
 6
-7
 [/input]
 [output]
-no
+113.097
 [/output]
 [/test]
 [test]
 [input]
-5
-5
-5
+triangle
+4.5
+20
 [/input]
 [output]
-yes
+45.000
 [/output]
 [/test]
 [test]
 [input]
-5
-5
-4
+square
+7.5
 [/input]
 [output]
-no
+56.250
 [/output]
 [/test]
 [test]
 [input]
-4
-5
-5
+rectangle
+17.2
+2.5
 [/input]
 [output]
-no
+43.000
 [/output]
 [/test]
 [test]
 [input]
-5
-4
-4
+circle
+8.55
 [/input]
 [output]
-no
+229.658
 [/output]
 [/test]
 [test]
 [input]
-3
-3
-3
+triangle
+4.5
+7.5
 [/input]
 [output]
-yes
-[/output]
-[/test]
-[test]
-[input]
-10
-10
-10
-[/input]
-[output]
-yes
-[/output]
-[/test]
-[test]
-[input]
--1
--1
--1
-[/input]
-[output]
-yes
-[/output]
-[/test]
-[test]
-[input]
-7
-8
-9
-[/input]
-[output]
-no
-[/output]
-[/test]
-[test]
-[input]
-1
-1
-2
-[/input]
-[output]
-no
-[/output]
-[/test]
-[test]
-[input]
-1
-2
-1
-[/input]
-[output]
-no
-[/output]
-[/test]
-[test]
-[input]
-2
-1
-1
-[/input]
-[output]
-no
-[/output]
-[/test]
-[test]
-[input]
-12345
-12346
-12345
-[/input]
-[output]
-no
-[/output]
-[/test]
-[test]
-[input]
-1
-1
--1
-[/input]
-[output]
-no
-[/output]
-[/test]
-[test]
-[input]
-22222
-22222
-22223
-[/input]
-[output]
-no
+16.875
 [/output]
 [/test]
 [/tests]
