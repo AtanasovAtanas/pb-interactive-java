@@ -13,28 +13,28 @@ public class Main {
 ```
 [/code-editor]
 [task-description]
-# description
+# Description
+Ani goes to her home town after being a long time abroad. 
 
-Ani goes to her home town after being a long time abroad. When she comes home, she sees her grandmother\'s library and remembers her favourite book. Help Ani writing a program in which Ani enters the name of the **book** she\'s searching for (**String**) and the **capacity** of the library (**integer**). **Until** Ani finds her favourite book **or** doesn\'t check all books in the library, the program have to reads every time the name of the next book on a separate line.
+When she comes home, she sees her grandmother\'s library and remembers her favourite book. 
+
+Help Ani writing a program in which Ani enters the name of the **book** she\'s searching for (**String**) and the **capacity** of the library (**integer**). 
+
+**Until** Ani finds her favourite book **or** doesn\'t check all books in the library, the program have to reads every time the name of the next book on a separate line.
 
 # Input
-
-- First line of input is the name of the book Ani's searching for - String
+- First line of input is the name of the book Ani's searching for - string
 - Second line is the capacity of the library - integer
-- On every nex line - name of book from library - String
+- On every nex line - name of book from library - string
 
 # Output
-
 - If Ani **does not** find the book, print **two** lines:
-
   - "The book you search is not here!"
   - "You checked \{count\} books."
-
 - If Ani **finds** the book, print a **single** line:
   - "You checked \{count\} books and found it."
 
 # Example
-
 | **Input** | | **Output** |
 | --- | --- | --- |
 | Troy | | You checked 2 books and found it. |
@@ -44,11 +44,10 @@ Ani goes to her home town after being a long time abroad. When she comes home, s
 | Troy | | |
 
 ## Comments
+- In that case the book Ani is searching for is "Troy", and the library\'s capacity is 8 books.
+- The first book is "Stronger", the second one is "Life Style", the third one is desired - "Troy" and the program ends.
 
-In that case the book Ani is searching for is "Troy", and the library\'s capacity is 8 books.
-
-The first book is "Stronger", the second one is "Life Style", the third one is desired - "Troy" and the program ends.
-
+# Example
 | **Input** | | **Output** |
 | --- | --- | --- |
 | The Spot | | The book you search is not here! |
@@ -59,12 +58,9 @@ The first book is "Stronger", the second one is "Life Style", the third one is d
 | Spotify | | | 
 
 ## Comments
-
-The book Ani is searching for is "The Spot". The library contains 4 books.
-
-The first book is "Hunger Games", the second - "Harry Potter", the third - "Torronto", the fourth - "Spotify"
-
-Since there aren\'t other books in the library, reading names is stopped. Ani didn\'t find the book.
+- The book Ani is searching for is "The Spot". The library contains 4 books.
+- The first book is "Hunger Games", the second - "Harry Potter", the third - "Torronto", the fourth - "Spotify"
+- Since there aren\'t other books in the library, reading names is stopped. Ani didn\'t find the book.
 [/task-description]
 [tests]
 [test]

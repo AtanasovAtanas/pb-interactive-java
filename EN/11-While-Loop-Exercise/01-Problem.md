@@ -14,30 +14,31 @@ public class Main {
 [/code-editor]
 [task-description]
 # Description
+John works in a restaurant and is responsible for loading the dishwasher at the end of the day. 
 
-John works in a restaurant and is responsible for loading the dishwasher at the end of the day. Your task is to write a program that calculates **whether** a purchased quantity of bottles of dishwasher detergent is **enough** to wash a certain amount of vessels. It is known that each bottle contains **750 ml.** detergent. For 1 **plate** 5 ml is needed, and for a **pots** 15 ml. Accept that on every **third** filling with vessels, the dishwasher is filled only with pots, and the other times with plates. Until you get the command **"END"** you will continue to receive the number of vessels that need to be washed.
+Your task is to write a program that calculates **whether** a purchased quantity of bottles of dishwasher detergent is **enough** to wash a certain amount of vessels. 
+
+It is known that each bottle contains **750 ml.** detergent. 
+
+For 1 **plate** 5 ml is needed, and for a **pots** 15 ml. 
+
+Accept that on every **third** filling with vessels, the dishwasher is filled only with pots, and the other times with plates. 
+
+Until you get the command **"END"** you will continue to receive the number of vessels that need to be washed.
 
 # Input
-
 Read from the console: 
-
 - **Number of bottles of detergent** that will be used for washing of plates - integer in range \[1...10\] 
 
 On each **subsequent** line, until the command **"End"** or until **the amount of detergent is not run out**, the **number of vessels** that need to be washed - integer in range \[1...100\]
 
 # Output
-
 - In case that the amount of detergent **was sufficient** for the washing of the vessels, print three lines of output: 
-
     - "Detergent was enough!"
-
     - "\{Number of clean plates\} dishes and \{number of clean pots\} pots were washed."
-
     - "Leftover detergent \{amount of detergent remaining\} ml." 
-    
 - If the amount of detergent **was not sufficient** for the washing of the vessels, print the following line: 
-
-"Not enough detergent, \{quantity not reached detergent\} ml. more necesary!"
+    - "Not enough detergent, \{quantity not reached detergent\} ml. more necesary!"
 
 # Example
 
@@ -50,17 +51,11 @@ On each **subsequent** line, until the command **"End"** or until **the amount o
 | End | | |
 
 ## Comments
-
-Detergent quantity = 2 \* 750 = 1500 ml.
-
-53 plates are loaded = > 53 \* 5 = 265 ml.  1500 \- 265 = 1235 ml. (residue)
-
-65 plates = > 65 \* 5 = 325 ml 1235 \- 325 = 910 ml. (residue)
-
-55 pots = > 55 \* 15 = 825 ml 910\- 825 = 85 ml. (residue)
-
-We receive the command "End", therefore the quantity is reached and the corresponding message is printed: number of plates = 53 \+ 65 = 118. Number of pots = 55
-
+- Detergent quantity = 2 \* 750 = 1500 ml.
+- 53 plates are loaded = > 53 \* 5 = 265 ml.  1500 \- 265 = 1235 ml. (residue)
+- 65 plates = > 65 \* 5 = 325 ml 1235 \- 325 = 910 ml. (residue)
+- 55 pots = > 55 \* 15 = 825 ml 910\- 825 = 85 ml. (residue)
+- We receive the command "End", therefore the quantity is reached and the corresponding message is printed: number of plates = 53 \+ 65 = 118. Number of pots = 55
 [/task-description]
 [tests]
 [test]

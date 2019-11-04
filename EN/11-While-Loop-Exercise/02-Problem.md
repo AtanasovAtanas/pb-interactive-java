@@ -14,42 +14,29 @@ public class Main {
 [/code-editor]
 [task-description]
 # Description
-
-At a charity event, payments for the purchased products are always **alternated**: **cash payment and card payment**. The following payment rules have been established:
-
+At a charity event, payments for the purchased products are always **alternated**: **cash payment and card payment**. 
+The following payment rules have been established:
 - If the product **exceeds 100 dollars**, it **cannot be paid in cash**
-
 - If the product is priced **under 10 dollars**, it **cannot be paid by credit card**
 
 The program ends either after we receive the command **"End"**, or after the **funds are collected**.
 
 # Input
-
 Read from the console:
-
 - The amount **expected to be collected** from sales - integer in range \[1...10000\] 
 
 On each subsequent line, until the **"End"** command is received or until **the necessary funds are collected**: 
-- **The prices of items** to be purchased - integer in range \[1...500\]
+    - **The prices of items** to be purchased - integer in range \[1...500\]
 
 # Output
-
 Print on the console:
-
 - In case of successful transaction: "Product sold!" 
-
 - In case of unsuccessful transaction: "Error in transaction!" 
-
 - If the sum of all purchased products **exceeds or reaches the expected amount**, the program must be completed and **two lines** are printed to the console: 
-
     - "Average CS: \{average payment in person's cash\}" 
-    
     - "Average CC: \{average card payment per person\}"
-    
     Payments must be **formatted to the second digit after the decimal point**.
-
 - When the **"End"** command is received, **one line** is written:
-
     - "Failed to collect required money for charity."
 
 # Example
@@ -66,28 +53,17 @@ Print on the console:
 | | | Average CC: 286.50|
 
 ## Comments
-
-The condition is rotated first in **cash payment**, then through **credit card**
-
-120 >= 100 transaction is rejected 
-
-8 <= 10 transaction is rejected 
-
-63 <= 100 => the transaction was successful
-
-256 >= 10 => the transaction was successful 
-
-78 <= 100 => the transaction was successful 
-
-317 >= 10 => the transaction was successful 
-
-Total amount collected: 63 + 256 + 78 + 317 = 714 
-
-714 >= 500
-
-Total Cash: 63 + 78 = 141;  Average cash: 141/2 = 70.50 
-
-Total credit cards: 256 \+ 317 = 573; Average credit cards: 573/2 = 286.50
+- The condition is rotated first in **cash payment**, then through **credit card**
+- 120 >= 100 transaction is rejected 
+- 8 <= 10 transaction is rejected 
+- 63 <= 100 => the transaction was successful
+- 256 >= 10 => the transaction was successful 
+- 78 <= 100 => the transaction was successful 
+- 317 >= 10 => the transaction was successful 
+- Total amount collected: 63 + 256 + 78 + 317 = 714 
+- 714 >= 500
+- Total Cash: 63 + 78 = 141;  Average cash: 141/2 = 70.50 
+- Total credit cards: 256 \+ 317 = 573; Average credit cards: 573/2 = 286.50
 
 [/task-description]
 [tests]

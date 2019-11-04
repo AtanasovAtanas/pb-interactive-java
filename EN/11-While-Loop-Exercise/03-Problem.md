@@ -18,14 +18,12 @@ public class Main {
 Write a program that calculates the **average grade** of a student from his entire education. 
 
 # Input
-
-On the first line you will receive **the name of the student**, and on each following line his annual grades. The student passes to upper class, if his **annual grade is 4.00 or greater**. If his grade is less than 4.00, he has to **repeat** the class.
+- On the first line you will receive **the name of the student**, and on each following line his annual grades. - The student passes to upper class, if his **annual grade is 4.00 or greater**. 
+- If his grade is less than 4.00, he has to **repeat** the class.
 
 # Output
-
-If the student graduates **12th** class, you have to print:
-
-"\{student name\} graduated. Average grade: \{average grade from his entire education\}"
+- If the student graduates **12th** class, you have to print:
+    - "\{student name\} graduated. Average grade: \{average grade from his entire education\}"
 
 **The grade should be formatted to the second decimal point.**
 
