@@ -26,7 +26,7 @@ System.out.println("I am coding");
 Computer programs represent **a sequence of commands** that are written in certain **programming language**, like C#, Java, JavaScript, Python, C++, PHP, C, Ruby, Swift, Go or another.
 
 Example of **computer program** in Java:
-```java
+```java live no-template
 public class Main {
   public static void main(String[] args) {
     int size = 5;
