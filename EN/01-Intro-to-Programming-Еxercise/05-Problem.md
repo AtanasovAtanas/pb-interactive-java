@@ -3,6 +3,8 @@
 [code-task title="Triangle of Stars" executionType="tests-execution" executionStrategy="java-code"]
 [code-editor language=java]
 ```
+import java.util.Scanner;
+
 public class Main {
   public static void main(String[] args) {
       // Write code here
