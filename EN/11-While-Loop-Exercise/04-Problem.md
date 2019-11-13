@@ -14,24 +14,24 @@ public class Main {
 [/code-editor]
 [task-description]
 # Description
-Ani goes to her home town after being a long time abroad. 
+Andreea goes to her home town after being a long time abroad. 
 
 When she comes home, she sees her grandmother\'s library and remembers her favourite book. 
 
-Help Ani writing a program in which Ani enters the name of the **book** she\'s searching for (**String**) and the **capacity** of the library (**integer**). 
+Help Andreea writing a program in which Andreea enters the name of the **book** she\'s searching for (**String**) and the **capacity** of the library (**integer**). 
 
-**Until** Ani finds her favourite book **or** doesn\'t check all books in the library, the program have to reads every time the name of the next book on a separate line.
+**Until** Andreea finds her favourite book **or** doesn\'t check all books in the library, the program have to reads every time the name of the next book on a separate line.
 
 # Input
-- First line of input is the name of the book Ani's searching for - string
+- First line of input is the name of the book Andreea's searching for - string
 - Second line is the capacity of the library - integer
 - On every nex line - name of book from library - string
 
 # Output
-- If Ani **does not** find the book, print **two** lines:
+- If Andreea **does not** find the book, print **two** lines:
   - "The book you search is not here!"
   - "You checked \{count\} books."
-- If Ani **finds** the book, print a **single** line:
+- If Andreea **finds** the book, print a **single** line:
   - "You checked \{count\} books and found it."
 
 # Example
@@ -44,7 +44,7 @@ Help Ani writing a program in which Ani enters the name of the **book** she\'s s
 | Troy | | |
 
 ## Comments
-- In that case the book Ani is searching for is "Troy", and the library\'s capacity is 8 books.
+- Andreea is searching for a book with name "Troy", and the library\'s capacity is 8 books.
 - The first book is "Stronger", the second one is "Life Style", the third one is desired - "Troy" and the program ends.
 
 # Example
@@ -58,9 +58,9 @@ Help Ani writing a program in which Ani enters the name of the **book** she\'s s
 | Spotify | | | 
 
 ## Comments
-- The book Ani is searching for is "The Spot". The library contains 4 books.
+- Andreea is searching for a book with name "The Spot". The library contains 4 books.
 - The first book is "Hunger Games", the second - "Harry Potter", the third - "Torronto", the fourth - "Spotify"
-- Since there aren\'t other books in the library, reading names is stopped. Ani didn\'t find the book.
+- Since there aren\'t other books in the library, reading names is stopped. Andreea didn\'t find the book.
 [/task-description]
 [tests]
 [test]

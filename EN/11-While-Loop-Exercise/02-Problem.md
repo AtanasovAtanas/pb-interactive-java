@@ -14,7 +14,8 @@ public class Main {
 [/code-editor]
 [task-description]
 # Description
-At a charity event, payments for the purchased products are always **alternated**: **cash payment and card payment**. 
+At a charity event, payments for the purchased products are always **alternated**: **cash payment and card payment**. **Always first payment method is cash**.
+
 The following payment rules have been established:
 - If the product **exceeds 100 dollars**, it **cannot be paid in cash**
 - If the product is priced **under 10 dollars**, it **cannot be paid by credit card**
@@ -54,15 +55,15 @@ Print on the console:
 
 ## Comments
 - The condition is rotated first in **cash payment**, then through **credit card**
-- 120 >= 100 transaction is rejected 
-- 8 <= 10 transaction is rejected 
+- 120 > 100 transaction is rejected 
+- 8 < 10 transaction is rejected 
 - 63 <= 100 => the transaction was successful
 - 256 >= 10 => the transaction was successful 
 - 78 <= 100 => the transaction was successful 
 - 317 >= 10 => the transaction was successful 
 - Total amount collected: 63 + 256 + 78 + 317 = 714 
 - 714 >= 500
-- Total Cash: 63 + 78 = 141;  Average cash: 141/2 = 70.50 
+- Total cash: 63 + 78 = 141;  Average cash: 141/2 = 70.50 
 - Total credit cards: 256 \+ 317 = 573; Average credit cards: 573/2 = 286.50
 
 [/task-description]

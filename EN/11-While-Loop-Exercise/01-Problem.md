@@ -38,7 +38,7 @@ On each **subsequent** line, until the command **"End"** or until **the amount o
     - "\{Number of clean plates\} dishes and \{number of clean pots\} pots were washed."
     - "Leftover detergent \{amount of detergent remaining\} ml." 
 - If the amount of detergent **was not sufficient** for the washing of the vessels, print the following line: 
-    - "Not enough detergent, \{quantity not reached detergent\} ml. more necesary!"
+    - "Not enough detergent, \{quantity not reached detergent\} ml. more necessary!"
 
 # Example
 
