@@ -19,10 +19,10 @@ Write a program that knows whether the tank of a vehicle needs refueling or not.
 # Input
 The input is consists of 2 lines:
 - First you have to read from the console the type of fuel - text with options: "Diesel", "Gasoline" or "Gas"
-- The second line of input reads the liters fuel in the tank
+- The second line of input reads the fuel in the tank in liters
 
 # Output
-If the liters fuel are more than or equal to 25 print:
+If the fuel in the tank is more than or equal to 25 liters print:
 - "You have enough \{type of fuel\}."
 
 Otherwise print:
