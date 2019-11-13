@@ -14,7 +14,7 @@ int age = 5;
 age = age + 1;
 System.out.println(age);
 ```
-# Data Types in C#
+# Data Types in Java
 * Integer number – **int** (e.g. 5, 0, 120, -250)
 
 * Floating-point number – **double** (e.g. 3.14159, 0.5)

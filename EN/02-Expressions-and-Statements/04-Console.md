@@ -67,7 +67,7 @@ In Java, when printing a text, numbers and other data on the console, **we can j
 
 In programming, these templates are called **placeholders**. This is a simple example:
 ```java live
-System.out.println("%d + %d = %d", 3, 5, 3 + 5);
+System.out.printf("%d + %d = %d", 3, 5, 3 + 5);
 ```
 
 The placeholders `%d` is replaced by the expressions, given after the text.
@@ -92,7 +92,7 @@ Let's write a program that asks the user for their home town and prints the text
 ```java
 Scanner scanner = new Scanner(System.in);
 String homeTown = scanner.nextLine();
-System.out.println("I am from %s!", homeTown);
+System.out.printf("I am from %s!", homeTown);
 ```
 
 In this case the `%s` expression is replaced with the value of the variable `homeTown`. 

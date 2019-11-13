@@ -21,8 +21,7 @@ The format of the construction is:
 ```java
 if (condition) {
   // condition body;
-}
-else {
+} else {
   // else construction body;
 }
 ```

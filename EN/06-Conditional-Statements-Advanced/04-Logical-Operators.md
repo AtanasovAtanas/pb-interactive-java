@@ -32,7 +32,7 @@ if ((animal == "horse" || animal == "donkey") && (speed > 40)) {
 }
 ```
 
-We shall explain the logical **AND** (`||`), the logical **OR** (`||`), and the logical **NOT** (`!`) in the next few sections, along with examples and exercises.
+We shall explain the logical **AND** (`&&`), the logical **OR** (`||`), and the logical **NOT** (`!`) in the next few sections, along with examples and exercises.
 [/slide]
 
 [slide]

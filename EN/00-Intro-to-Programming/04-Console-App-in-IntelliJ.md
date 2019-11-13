@@ -66,6 +66,10 @@ The result will appear in the console (terminal window):
 
 [image src="https://github.com/AtanasovAtanas/pb-interactive-java/blob/master/assets/intro-to-programming-console.png"/]
 
+Another way to start your program is by clicking the right mouse button and selecting **Run 'Main'**
+
+[image src="https://github.com/AtanasovAtanas/pb-interactive-java/blob/master/assets/run-intellij-right-click.png"/]
+
 Actually, the output from the program is the following text message:
 ```
 Hello Java
