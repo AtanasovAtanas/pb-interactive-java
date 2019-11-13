@@ -31,7 +31,7 @@ Write a program that shows the condition of the pool **at the moment the worker 
 
 # Output
 Print on the console **one of both possibilities**:
-- How far the pool has been filledand which pipe how much contributed in percentage
+- How far the pool has been filled and which pipe how much contributed in percentage
   - "The pool is \{occupancy of the pool in percent\}% full. Pipe 1: \{percent water from the first pipe\}%. Pipe 2: \{percent water from the second pipe\}%."
 - If the pool is overflowing – how many liters are overflowed for the given time
   - "For \{hours pipes are filling the pool\} hours the pool overflows with \{liters water overflow\} liters."
