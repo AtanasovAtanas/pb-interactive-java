@@ -1,4 +1,4 @@
-# Nested Loops
+# Bucle imbricate
 
 [slide]
 # Video

@@ -1,4 +1,4 @@
-# The break Statement
+# Declarația de pauză
 
 [slide]
 # Video

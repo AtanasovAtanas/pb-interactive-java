@@ -1,4 +1,4 @@
-# Programming Languages
+# Limbaje de programare
 
 [slide]
 # Video

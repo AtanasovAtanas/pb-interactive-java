@@ -1,4 +1,4 @@
-# While or For Loop?
+# Bucla While sau bucla For?
 
 [slide]
 # Video

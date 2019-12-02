@@ -1,4 +1,4 @@
-# Real-Life Example
+# Exemple din viața reală
 
 [slide]
 # Video

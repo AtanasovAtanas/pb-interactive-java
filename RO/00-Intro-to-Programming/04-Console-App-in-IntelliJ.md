@@ -1,4 +1,4 @@
-# Console App in IntelliJ IDEA
+# Aplicație consola în IntelliJ IDEA
 
 [slide]
 # Video

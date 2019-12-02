@@ -1,4 +1,4 @@
-# Infinite While Loop
+# Bucle infinite
 
 [slide]
 # Video

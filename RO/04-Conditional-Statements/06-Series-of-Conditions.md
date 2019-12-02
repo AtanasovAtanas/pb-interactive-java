@@ -1,4 +1,4 @@
-# Sequence of If-Else Conditions
+# Secvențe de condiții If-Else
 
 [slide]
 # Video

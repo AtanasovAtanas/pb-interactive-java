@@ -1,4 +1,4 @@
-# Iterating over Characters
+# Iterarea peste caractere
 
 [slide]
 # Video

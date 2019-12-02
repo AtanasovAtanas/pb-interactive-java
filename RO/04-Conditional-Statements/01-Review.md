@@ -1,5 +1,5 @@
 [slide]
-# Revision 
+# Recapitulare 
 
 # Variables
 In programming **data** is stored in **variables**

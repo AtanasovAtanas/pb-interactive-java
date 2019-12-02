@@ -1,4 +1,4 @@
-# Nested while Loops
+# Bucle While imbricate
 
 [slide]
 # Video

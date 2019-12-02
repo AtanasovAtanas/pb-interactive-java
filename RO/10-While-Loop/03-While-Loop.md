@@ -1,4 +1,4 @@
-# While Loop
+# Bucla While
 
 [slide]
 # Video

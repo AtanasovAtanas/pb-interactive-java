@@ -1,4 +1,4 @@
-# Variable Scope
+# Domeniu de vizibilitate al variabilei
 
 [slide]
 # Video

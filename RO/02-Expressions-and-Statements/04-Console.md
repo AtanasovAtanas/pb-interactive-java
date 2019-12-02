@@ -1,4 +1,4 @@
-# Console (Terminal)
+# Consolă ( Terminal
 
 [slide]
 # Video

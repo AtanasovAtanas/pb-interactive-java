@@ -1,4 +1,4 @@
-# Integrated Development Environments
+# Medii integrate de dezvoltare (IDE)
 
 [slide]
 # Video

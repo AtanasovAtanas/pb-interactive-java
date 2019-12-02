@@ -1,4 +1,4 @@
-# Debugging
+# Depanare
 
 [slide]
 # Video

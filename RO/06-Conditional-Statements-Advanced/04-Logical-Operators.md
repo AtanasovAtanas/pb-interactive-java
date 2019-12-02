@@ -1,4 +1,4 @@
-# More Complex Conditions
+# Logical Operators
 
 [slide]
 # Video

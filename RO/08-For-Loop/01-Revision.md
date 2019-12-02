@@ -1,4 +1,4 @@
-# Revision
+# Recapitulare
 
 [slide]
 # Video
