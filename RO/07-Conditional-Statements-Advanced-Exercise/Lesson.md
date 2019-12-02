@@ -1,1 +1,1 @@
-# Condiții avansate  - Exercițiu
+# Condiții Avansate  - Exercițiu

@@ -1,1 +1,1 @@
-# Expresii și declarații - Exercițiu
+# Expresii și Declarații - Exercițiu

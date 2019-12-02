@@ -1,1 +1,1 @@
-# Introducere în programare - Exercițiu
+# Introducere în Programare - Exercițiu

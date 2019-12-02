@@ -1,1 +1,1 @@
-# Pregătire pentru examen
+# Pregătire Pentru Examen
