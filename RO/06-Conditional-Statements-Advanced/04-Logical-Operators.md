@@ -1,4 +1,4 @@
-# Logical Operators
+# Operatori Logici
 
 [slide]
 # Video
